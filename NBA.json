@@ -1,0 +1,20 @@
+[
+  {
+    "type": "NBA",
+    "match_name": "Team1 vs Team2",
+    "bet_list": [
+      { "name": "Team1 Winner", "odds": 1.9 },
+      { "name": "Team2 Winner", "odds": 1.9 }
+    ]
+  },
+  {
+    "type": "NBA",
+    "match_name": "Team1 vs Team2",
+    "bet_list": [
+      { "name": "Team1 Winner", "odds": 1.9 },
+      { "name": "Team2 Winner", "odds": 1.9 },
+      { "name": "Team2 +3.5", "odds": 1.9 },
+      { "name": "Team2 -3.5", "odds": 1.9 }
+    ]
+  }
+]

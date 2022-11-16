@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huat Ah</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">My Logo</div>
+    </header>
+    <main>
+      <div class="bet-container">
+        <div class="bet">
+          <div class="main-bet">
+            <img src="https://source.unsplash.com/w--VLXKbUFw" />
+            <div class="match-name">
+              <h2>Team1 vs Team2</h2>
+            </div>
+            <button class="expand">See more</button>
+          </div>
+          <div class="detail-bet | hidden">
+            <button>
+              <span class="bet-name">Team1 Winner</span>
+              1.80
+            </button>
+          </div>
+        </div>
+        <div class="bet">
+          <div class="main-bet">
+            <img src="https://source.unsplash.com/w--VLXKbUFw" />
+            <div class="match-name">
+              <h2>Team1 vs Team2</h2>
+            </div>
+            <button class="expand">See more</button>
+          </div>
+          <div class="detail-bet">
+            <button>
+              <span class="bet-name">Team1 Winner</span>
+              1.80
+            </button>
+          </div>
+        </div>
+        <% results.forEach((result) => { %>
+        <div class="bet">
+          <div class="main-bet">
+            <img src="https://source.unsplash.com/w--VLXKbUFw" />
+            <div class="match-name">
+              <h2><%= result.match_name %></h2>
+            </div>
+            <button class="expand">See more</button>
+          </div>
+          <div class="detail-bet">
+            <% result.bet_list.forEach((el) => { %>
+            <button>
+              <span class="bet-name"><%= el.name %></span>
+              1.80
+            </button>
+            <% }) %>
+          </div>
+        </div>
+        <% }) %>
+      </div>
+      <div class="right">
+        <form action="/" method="POST" class="form">
+          <input type="text" name="firstName" value="" />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
