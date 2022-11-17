@@ -6,6 +6,8 @@ app.set("view engine", "ejs");
 
 app.use(express.static("public"));
 
+const port = process.env.PORT || 5000;
+
 app.get("/Dota2", (req, res) => {
   res.render("index");
 });
@@ -40,6 +42,6 @@ app.get("/Soccer", (req, res) => {
   res.send("hello Soccer");
 });
 
-app.listen(3000, () => {
-  console.log("Running on port 3000");
+app.listen(port, () => {
+  console.log("Running on port 5000");
 });
