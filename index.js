@@ -11,11 +11,21 @@ app.get("/Dota2", (req, res) => {
 });
 
 app.get("/CS:GO", (req, res) => {
-  res.send("hello CS:GO");
+  fs.readFile(`${__dirname}/CSGO.json`, (err, data) => {
+    if (err) {
+      return res.render("index", { results: "There is some error here" });
+    }
+    let results = JSON.parse(data);
+    res.render("index", { results });
+  });
 });
 
 app.get("/Valorant", (req, res) => {
-  res.send("hello Valorant");
+  fs.readFile(`${__dirname}/Valorant.json`, (err, data) => {
+    if (err) throw err;
+    let results = JSON.parse(data);
+    res.render("index", { results });
+  });
 });
 
 app.get("/NBA", (req, res) => {
