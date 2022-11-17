@@ -9,7 +9,13 @@ app.use(express.static("public"));
 const port = process.env.PORT || 5000;
 
 app.get("/Dota2", (req, res) => {
-  res.render("index");
+  fs.readFile(`${__dirname}/Dota2.json`, (err, data) => {
+    if (err) {
+      return res.render("index", { results: "There is some error here" });
+    }
+    let results = JSON.parse(data);
+    res.render("index", { results });
+  });
 });
 
 app.get("/CS:GO", (req, res) => {
