@@ -22,14 +22,6 @@ app.get("/NBA", (req, res) => {
   fs.readFile(`${__dirname}/NBA.json`, (err, data) => {
     if (err) throw err;
     let results = JSON.parse(data);
-    let empty = [];
-
-    const betLists = results.map((result) => result.bet_list);
-    [...betLists].map((bet) => {
-      bet.map((el) => {
-        console.log(el.name);
-      });
-    });
     res.render("index", { results });
   });
 });
