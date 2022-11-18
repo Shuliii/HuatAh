@@ -45,7 +45,11 @@ app.get("/NBA", (req, res) => {
 });
 
 app.get("/Soccer", (req, res) => {
-  res.send("hello Soccer");
+  fs.readFile(`${__dirname}/Soccer.json`, (err, data) => {
+    if (err) throw err;
+    let results = JSON.parse(data);
+    res.render("index", { results });
+  });
 });
 
 app.listen(port, () => {
