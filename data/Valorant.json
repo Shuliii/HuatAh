@@ -1,6 +1,6 @@
 [
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "type": "Valorant",
+    "type": "valorant_logo",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
