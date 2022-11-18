@@ -2,7 +2,7 @@ const logoImg = document.querySelector(".logo");
 const cards = document.querySelectorAll(".card");
 const expands = document.querySelectorAll(".expand");
 const confirmBets = document.querySelectorAll(".confirm-bet");
-const cancels = document.querySelectorAll('.cancel')
+const right = document.querySelector(".right");
 
 logoImg.addEventListener("click", () => {
   location.href = "/";
@@ -39,7 +39,6 @@ logoImg.addEventListener("click", () => {
 
 confirmBets.forEach((confirm) => {
   confirm.addEventListener("click", () => {
-    const right = document.querySelector(".right");
     const betName =
       confirm.parentElement.previousElementSibling.children[1].innerHTML;
     const betTitle = confirm.querySelector(".bet-name").innerHTML;
@@ -58,17 +57,14 @@ confirmBets.forEach((confirm) => {
     </form>
   </div>`;
     right.insertAdjacentHTML("beforeend", toBeInserted);
-
-    console.log(betName);
   });
 });
 
-//TO REMOVE ELEMENT WHEN PRESS CANCEL
+//TO REMOVE ELEMENT WHEN PRESS CANCEL (USING EVENT DELEGATION)
 
-cancels.forEach(cancel => {
-  cancel.addEventListener('click', () => {
-    const elementToRemove = cancel.closest('.final-step')
-    console.log(elementToRemove)
-    elementToRemove.remove();
-  })
+right.addEventListener('click', (e) => {
+  if (e.target.classList.contains('cancel')) {
+    const toBeRemove = e.target.closest('.final-step')
+    toBeRemove.remove();
+  }
 })
