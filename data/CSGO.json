@@ -1,5 +1,5 @@
 [ {
-    "type": "NBA",
+    "type": "csgo",
     "time": "2022-11-06 18:00:00",
     "match_name": "Team1 vs Team2(18)",
     "bet_list": [
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "type": "NBA",
+    "type": "csgo",
     "time": "2022-11-06 18:05:00",
     "match_name": "Team1 vs Team2(1805)",
     "bet_list": [
