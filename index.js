@@ -9,7 +9,7 @@ app.use(express.static("public"));
 const port = process.env.PORT || 5000;
 
 app.get("/Dota2", (req, res) => {
-  fs.readFile(`${__dirname}/Dota2.json`, (err, data) => {
+  fs.readFile(`${__dirname}/data/Dota.json`, (err, data) => {
     if (err) {
       return res.render("index", { results: "There is some error here" });
     }
@@ -19,7 +19,7 @@ app.get("/Dota2", (req, res) => {
 });
 
 app.get("/CS:GO", (req, res) => {
-  fs.readFile(`${__dirname}/CSGO.json`, (err, data) => {
+  fs.readFile(`${__dirname}/data/CSGO.json`, (err, data) => {
     if (err) {
       return res.render("index", { results: "There is some error here" });
     }
@@ -29,7 +29,7 @@ app.get("/CS:GO", (req, res) => {
 });
 
 app.get("/Valorant", (req, res) => {
-  fs.readFile(`${__dirname}/Valorant.json`, (err, data) => {
+  fs.readFile(`${__dirname}/data/Valorant.json`, (err, data) => {
     if (err) throw err;
     let results = JSON.parse(data);
     res.render("index", { results });
@@ -37,7 +37,7 @@ app.get("/Valorant", (req, res) => {
 });
 
 app.get("/NBA", (req, res) => {
-  fs.readFile(`${__dirname}/NBA.json`, (err, data) => {
+  fs.readFile(`${__dirname}/data/NBA.json`, (err, data) => {
     if (err) throw err;
     let results = JSON.parse(data);
     res.render("index", { results });
@@ -45,7 +45,7 @@ app.get("/NBA", (req, res) => {
 });
 
 app.get("/Soccer", (req, res) => {
-  fs.readFile(`${__dirname}/Soccer.json`, (err, data) => {
+  fs.readFile(`${__dirname}/data/Soccer.json`, (err, data) => {
     if (err) throw err;
     let results = JSON.parse(data);
     res.render("index", { results });
