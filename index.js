@@ -6,7 +6,7 @@ app.set("view engine", "ejs");
 
 app.use(express.static("public"));
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.get("/Dota2", (req, res) => {
   fs.readFile(`${__dirname}/data/Dota.json`, (err, data) => {
@@ -55,6 +55,6 @@ app.get("/Soccer", (req, res) => {
   });
 });
 
-app.listen(port, () => {
+app.listen(5000, () => {
   console.log("Running on port 5000");
 });
