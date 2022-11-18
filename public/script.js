@@ -2,10 +2,13 @@ const logoImg = document.querySelector(".logo");
 const cards = document.querySelectorAll(".card");
 const expands = document.querySelectorAll(".expand");
 const confirmBets = document.querySelectorAll(".confirm-bet");
+const cancels = document.querySelectorAll('.cancel')
 
 logoImg.addEventListener("click", () => {
   location.href = "/";
 });
+
+//TO REDIRECT USER TO THE RESPECTIVE BET
 
 [...cards].forEach((card) => {
   card.addEventListener("click", () => {
@@ -13,6 +16,8 @@ logoImg.addEventListener("click", () => {
     location.href = `/${description}`;
   });
 });
+
+// TO EXPAND LIST OF BETS
 
 [...expands].forEach((expand) => {
   expand.addEventListener("click", (e) => {
@@ -27,22 +32,10 @@ logoImg.addEventListener("click", () => {
         detail.classList.remove("hidden");
       });
     }
-
-    // const detail = expand.parentElement.nextElementSibling;
-    // detail.classList.toggle("hidden");
-    // const allDetail = document.querySelectorAll(".detail-bet");
-
-    // allDetail.forEach((el) => {
-    //   if (el !== e.target.parentElement.nextElementSibling) {
-    //     !el.classList.contains('hidden') && el.classList.contains('hidden')
-    //   }
-    //   el.classList.add("hidden");
-    // });
   });
 });
-const right = document.querySelector(".right");
-const test = document.createElement("div");
-right.appendChild(test);
+
+//TO DISPLAY POP UP TO CONFIRM BET
 
 confirmBets.forEach((confirm) => {
   confirm.addEventListener("click", () => {
@@ -69,3 +62,13 @@ confirmBets.forEach((confirm) => {
     console.log(betName);
   });
 });
+
+//TO REMOVE ELEMENT WHEN PRESS CANCEL
+
+cancels.forEach(cancel => {
+  cancel.addEventListener('click', () => {
+    const elementToRemove = cancel.closest('.final-step')
+    console.log(elementToRemove)
+    elementToRemove.remove();
+  })
+})
