@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const connection = require("./db");
 const router = express.Router();
 
 router.get("/", (req, res) => {
@@ -19,8 +20,14 @@ router.get("/", (req, res) => {
 });
 
 router.post("/submit", (req, res) => {
-  console.log(req.originalUrl);
-  console.log(req.body);
+  let newbetamount = Number(req.body.betamount);
+  let newoddsamount = Number(req.body.odds);
+  const queryString = `INSERT INTO BETLIST values (NULL, '${req.body.username}','${req.body.matchName}', '${req.body.betName}', ${newbetamount}, ${newoddsamount})`;
+  console.log(queryString);
+  connection.query(queryString, (err, result) => {
+    err ? console.log(err) : console.log("successful");
+  });
+
   res.redirect("/Valorant");
 });
 
