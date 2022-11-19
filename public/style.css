@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   /* background: linear-gradient(to bottom right, #0d4c92, #cff5e7); */
@@ -88,8 +92,11 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
   cursor: pointer;
+  opacity: 0.7;
   transition: transform 400ms ease-in-out;
 }
 
@@ -106,7 +113,7 @@ main {
 }
 
 .card:hover {
-  transform: scale(1.1)
+  opacity: 1;
 }
 
 .right {
@@ -155,36 +162,17 @@ main {
   top: 0;
 }
 
-/* .bet {
-  background: lightblue;
-  min-height: 150px;
-  display: flex;
-  flex-direction: column;
-  padding-inline: 50px;
-}
+@media (max-width: 700px) {
+  .card-container {
+    grid-template-rows: repeat(auto-fill, 135px);
+    gap: 30px;
+  }
 
-@media (max-width: 500px) {
-  .bet {
-    padding-inline: 25px;
+  .card {
+    width: 150px;
+    height: 150px;
   }
 }
-
-.main-bet {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-.main-bet > img {
-  width: 75px;
-  height: 75px;
-  border-radius: 100%;
-}
-
-.hidden {
-  display: none;
-} */
 
 .bet {
   display: flex;
@@ -195,6 +183,12 @@ main {
   padding-left: 1.5rem;
   outline: none;
   padding-block: 3%;
+  opacity: 0.7;
+  transition: all 400ms ease-in-out;
+}
+
+.bet:hover {
+  opacity: 1;
 }
 
 .main-bet {
@@ -242,6 +236,7 @@ main {
   grid-row-gap: 8px;
   place-items: center;
   font-size: 16px;
+  padding-right: 1.5rem;
 }
 
 .odds {
@@ -251,16 +246,17 @@ main {
 .confirm-bet {
   width: 200px;
   border-radius: 10px;
-  border: 2px solid #0b486b;
-  background: none;
+  background: #0b486b;
+  border: 2px solid white;
+  color: white;
   font-weight: 700;
 }
 
 .confirm-bet:hover {
-  color: white;
-  background: #0b486b;
+  color: #0b486b;
+  background: white;
   outline: none;
-  border: none;
+  border: 2px solid #0b486b;
 }
 
 @media (max-width: 780px) {
@@ -284,6 +280,7 @@ main {
 
   .detail-bet {
     font-size: 10px;
+    padding-right: 1rem;
   }
   .confirm-bet {
     width: 150px;
@@ -298,6 +295,10 @@ main {
     width: 35px;
     height: 35px;
   }
+  .detail-bet {
+    padding-right: 0.5rem;
+  }
+
   .expand {
     padding-inline: 6px;
     border-radius: 6px;
@@ -319,8 +320,28 @@ main {
   border-radius: 5px;
 }
 
-.final-bet h1 {
+.final-bet > input:first-of-type {
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.final-bet > h1 {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+.final-bet > h1:first-of-type {
+  font-weight: 700;
+}
+
+.final-bet > h1 > input {
+  font-weight: 700;
+  color: orangered;
+  display: inline;
+  border: 0;
   text-align: center;
 }
 
@@ -335,4 +356,13 @@ main {
 .final-bet button {
   margin-top: 5px;
   display: inline-block;
+}
+
+@media (max-width: 780px) {
+  .final-step {
+    font-size: 10px;
+  }
+  .final-bet > h1 {
+    margin-bottom: 5px;
+  }
 }

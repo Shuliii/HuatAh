@@ -39,13 +39,19 @@ logoImg.addEventListener("click", () => {
 
 confirmBets.forEach((confirm) => {
   confirm.addEventListener("click", () => {
+    document.querySelector(".final-step") &&
+      document.querySelector(".final-step").remove();
+    const currentUrl = window.location.href;
     const betName =
-      confirm.parentElement.previousElementSibling.children[1].innerHTML;
+      confirm.parentElement.previousElementSibling.children[1].children[0]
+        .textContent;
     const betTitle = confirm.querySelector(".bet-name").innerHTML;
+    const odds = confirm.querySelector(".odds").innerHTML;
     const toBeInserted = `<div class="final-step">
-    <form action="/" method="POST" class="final-bet">
-      <h1>${betName}</h1>
-      <h1>You're betting on ${betTitle}</h1>
+    <form action="${currentUrl}/submit" method="POST" class="final-bet">
+      <input type="text" name="betName" readonly="readonly" value="${betName}">
+      <h1>You're betting on <input type="text" name="betTitle" readonly="readonly" value="${betTitle}"></h1>
+      <h1>Odds: <input type="text" name="odds" readonly="readonly" value="${odds}"></h1>
       <label>Username</label>
       <input type="text" name="username" value="" />
       <label>Bet Amount</label>
@@ -57,14 +63,36 @@ confirmBets.forEach((confirm) => {
     </form>
   </div>`;
     right.insertAdjacentHTML("beforeend", toBeInserted);
+    right.scrollIntoView(true);
   });
 });
 
 //TO REMOVE ELEMENT WHEN PRESS CANCEL (USING EVENT DELEGATION)
 
-right.addEventListener('click', (e) => {
-  if (e.target.classList.contains('cancel')) {
-    const toBeRemove = e.target.closest('.final-step')
+right.addEventListener("click", (e) => {
+  if (e.target.classList.contains("cancel")) {
+    const toBeRemove = e.target.closest(".final-step");
     toBeRemove.remove();
   }
-})
+});
+
+// right.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   if (e.target.classList.contains("final-bet")) {
+//     const name = e.target.querySelector("h1").textContent;
+//     const betName = e.target.querySelector(".betName").textContent;
+//     const odds = e.target.querySelector(".oddValue").textContent;
+//     console.log(name, betName, odds);
+
+//     fetch("http://127.0.0.1:3000/submit", {
+//       method: "POST",
+//       headers: {
+//         Accept: "application/json",
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({ name, betName, odds }),
+//     });
+//   } else {
+//     console.log(e);
+//   }
+// });
