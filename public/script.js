@@ -42,15 +42,15 @@ confirmBets.forEach((confirm) => {
     document.querySelector(".final-step") &&
       document.querySelector(".final-step").remove();
     const currentUrl = window.location.href;
-    const betName =
+    const matchName =
       confirm.parentElement.previousElementSibling.children[1].children[0]
         .textContent;
-    const betTitle = confirm.querySelector(".bet-name").innerHTML;
+    const betName = confirm.querySelector(".bet-name").innerHTML;
     const odds = confirm.querySelector(".odds").innerHTML;
     const toBeInserted = `<div class="final-step">
     <form action="${currentUrl}/submit" method="POST" class="final-bet">
-      <input type="text" name="betName" readonly="readonly" value="${betName}">
-      <h1>You're betting on <input type="text" name="betTitle" readonly="readonly" value="${betTitle}"></h1>
+      <input type="text" name="matchName" readonly="readonly" value="${matchName}">
+      <h1>You're betting on <input type="text" name="betName" readonly="readonly" value="${betName}"></h1>
       <h1>Odds: <input type="text" name="odds" readonly="readonly" value="${odds}"></h1>
       <label>Username</label>
       <input type="text" name="username" value="" />

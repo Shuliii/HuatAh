@@ -1,6 +1,7 @@
-[ {
+[
+  {
     "type": "csgo",
-    "time": "2022-11-18 17:00:00+0800",
+    "time": "2022-11-19 17:00:00+0800",
     "match_name": "Team1 vs Team2(18)",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -19,7 +20,7 @@
   },
   {
     "type": "csgo",
-    "time": "2022-11-18 18:30:00+0800",
+    "time": "2022-11-19 17:00:00+0800",
     "match_name": "Team1 vs Team2(1830)",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -38,7 +39,7 @@
   },
   {
     "type": "csgo",
-    "time": "2022-11-18 18:30:00+0800",
+    "time": "2022-11-19 17:00:00+0800",
     "match_name": "Team1 vs Team2(1830)",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -57,7 +58,7 @@
   },
   {
     "type": "csgo",
-    "time": "2022-11-18 19:30:00+0800",
+    "time": "2022-11-19 17:00:00+0800",
     "match_name": "Team1 vs Team2(1930)",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -76,7 +77,7 @@
   },
   {
     "type": "csgo",
-    "time": "2022-11-18 20:30:00+0800",
+    "time": "2022-11-19 17:00:00+0800",
     "match_name": "Team1 vs Team2(2030)",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
@@ -95,7 +96,7 @@
   },
   {
     "type": "csgo",
-    "time": "2022-11-18 21:30:00",
+    "time": "2022-11-19 17:00:00+0800",
     "match_name": "Team1 vs Team2(2130)",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },

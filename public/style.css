@@ -172,6 +172,11 @@ main {
     width: 150px;
     height: 150px;
   }
+
+  .card > img {
+    width: 134px;
+    height: 75px;
+  }
 }
 
 .bet {

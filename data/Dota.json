@@ -1,6 +1,7 @@
 [
   {
     "type": "dota_logo",
+    "time": "2022-11-19 17:00:00+0800",
     "match_name": "Team1 vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },

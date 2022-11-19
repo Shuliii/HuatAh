@@ -11,6 +11,9 @@ router.get("/", (req, res) => {
       console.log(err);
     }
     let results = JSON.parse(data);
+    results = results.filter((object) => {
+      return Date.parse(object.time) - new Date().getTime() >= 0;
+    });
     res.render("index", { results });
   });
 });
