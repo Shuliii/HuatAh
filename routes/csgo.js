@@ -6,7 +6,6 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   const sthElse = path.join(__dirname, "/../data/CSGO.json");
-  console.log(sthElse);
   fs.readFile(`${sthElse}`, (err, data) => {
     if (err) {
       console.log(err);

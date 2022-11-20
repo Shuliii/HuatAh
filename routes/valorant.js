@@ -6,7 +6,6 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   const sthElse = path.join(__dirname, "/../data/Valorant.json");
-  console.log(sthElse);
   fs.readFile(`${sthElse}`, (err, data) => {
     if (err) {
       console.log(err);
@@ -27,7 +26,6 @@ router.post("/submit", (req, res) => {
   connection.query(queryString, (err, result) => {
     err ? console.log(err) : console.log("successful");
   });
-
   res.redirect("/Valorant");
 });
 

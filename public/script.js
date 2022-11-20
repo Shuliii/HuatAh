@@ -53,9 +53,9 @@ confirmBets.forEach((confirm) => {
       <h1>You're betting on <input type="text" name="betName" readonly="readonly" value="${betName}"></h1>
       <h1>Odds: <input type="text" name="odds" readonly="readonly" value="${odds}"></h1>
       <label>Username</label>
-      <input type="text" name="username" value="" />
+      <input type="text" name="username" value="" required/>
       <label>Bet Amount</label>
-      <input type="number" name="betamount" value="" />
+      <input type="number" name="betamount" value="" min="1" required/>
       <div class="button-container">
         <button type="reset" class="cancel">Cancel</button>
         <button type="Submit" class="submit">Submit</button>

@@ -1,13 +1,11 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-const url = require("url");
 const connection = require("./db");
 const router = express.Router();
 
 router.get("/", (req, res) => {
   const sthElse = path.join(__dirname, "/../data/Dota.json");
-  console.log(sthElse);
   fs.readFile(`${sthElse}`, (err, data) => {
     if (err) {
       console.log(err);
