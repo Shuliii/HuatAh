@@ -12,3 +12,16 @@ const connection = mysql.createPool({
 // });
 
 module.exports = connection;
+
+// CREATE TABLE betlist (
+//   ID INT NOT NULL AUTO_INCREMENT,
+//   Username varchar(255) NOT NULL,
+//   Match_Name varchar(255) NOT NULL,
+//   Bet_Name varchar(255) NOT NULL,
+//   Amount INT NOT NULL,
+//   Odds DOUBLE NOT NULL,
+//   Match_Result varchar(20),
+//   Bet_Result varchar(20),
+//   Balance DOUBLE,
+//   PRIMARY KEY (ID)
+// );
