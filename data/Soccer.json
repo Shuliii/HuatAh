@@ -1,11 +1,12 @@
 [
   {
     "type": "Soccer_ball",
-    "time": "2022-11-20 00:00:00+0800",
+    "time": "2022-11-21 00:00:00+0800",
     "match_name": "Qatar vs Ecuador",
     "bet_list": [
-      { "name": "Team1 Winner", "odds": 3.21 },
-      { "name": "Team2 Winner", "odds": 2.12 },
+      { "name": "Team1 Winner", "odds": 2.95 },
+      { "name": "Team2 Winner", "odds": 2.27 },
+      { "name": "Draw", "odds": 2.96 },
       { "name": "Team1 +0.25", "odds": 1.96 },
       { "name": "Team2 -0.25", "odds": 1.94 },
       { "name": "Team1 +0.5", "odds": 1.75 },
