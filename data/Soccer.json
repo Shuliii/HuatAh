@@ -1,7 +1,7 @@
 [
   {
     "type": "Soccer_ball",
-    "time": "2022-11-21 00:00:00+0800",
+    "time": "2022-11-20 00:00:00+0800",
     "match_name": "Qatar vs Ecuador",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 3.21 },

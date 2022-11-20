@@ -23,13 +23,18 @@ app.use("/Soccer", soccerRouter);
 
 app.post("/find", (req, res) => {
   const queryString = `SELECT * FROM BETLIST where Username = '${req.body.firstName}'`;
-  connection.query(queryString, (err, result) => {
-    err ? console.log(err) : console.log(result);
-    console.log(result.length);
+  connection.query(queryString, (err, data) => {
+    err ? console.log(err) : console.log(data);
+    res.render("index", { data });
   });
-  res.send("hello");
 });
 
 app.listen(port, () => {
   console.log("Running on port 3000");
 });
+
+// <% data.forEach((el) => { %>
+//   <div class="data">
+//     <h1><%= el.Match_Name %></h1>
+//   </div>
+//   <% }) %>
