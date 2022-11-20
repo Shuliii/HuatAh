@@ -58,8 +58,42 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2022-11-20 15:00:00+0800",
+    "time": "2022-11-20 15:30:00+0800",
     "match_name": "Team Heretics vs Paper Rex Map3",
+    "bet_list": [
+      { "name": "Team Heretics Winner", "odds": 2.29 },
+      { "name": "Paper Rex Winner", "odds": 1.57 },
+      { "name": "Team Heretics +2.5", "odds": 1.79 },
+      { "name": "Paper Rex -2.5", "odds": 1.95 },
+      { "name": "Over 21.5", "odds": 1.99 },
+      { "name": "Under 21.5", "odds": 1.75 },
+      { "name": "Odd", "odds": 1.98 },
+      { "name": "Even", "odds": 1.76 },
+      { "name": "Team Heretics Pistol Winner", "odds": 1.95 },
+      { "name": "Paper Rex Pistol Winner", "odds": 1.79 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2022-11-20 16:00:00+0800",
+    "match_name": "Team Heretics vs Paper Rex Map4",
+    "bet_list": [
+      { "name": "Team Heretics Winner", "odds": 2.29 },
+      { "name": "Paper Rex Winner", "odds": 1.57 },
+      { "name": "Team Heretics +2.5", "odds": 1.79 },
+      { "name": "Paper Rex -2.5", "odds": 1.95 },
+      { "name": "Over 21.5", "odds": 1.99 },
+      { "name": "Under 21.5", "odds": 1.75 },
+      { "name": "Odd", "odds": 1.98 },
+      { "name": "Even", "odds": 1.76 },
+      { "name": "Team Heretics Pistol Winner", "odds": 1.95 },
+      { "name": "Paper Rex Pistol Winner", "odds": 1.79 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2022-11-20 16:30:00+0800",
+    "match_name": "Team Heretics vs Paper Rex Map5",
     "bet_list": [
       { "name": "Team Heretics Winner", "odds": 2.29 },
       { "name": "Paper Rex Winner", "odds": 1.57 },

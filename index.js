@@ -1,4 +1,5 @@
 const express = require("express");
+const connection = require("./routes/db");
 const app = express();
 
 app.set("view engine", "ejs");
@@ -19,6 +20,15 @@ app.use("/CS:GO", csgoRouter);
 app.use("/Valorant", valorantRouter);
 app.use("/NBA", nbaRouter);
 app.use("/Soccer", soccerRouter);
+
+app.post("/find", (req, res) => {
+  const queryString = `SELECT * FROM BETLIST where Username = '${req.body.firstName}'`;
+  connection.query(queryString, (err, result) => {
+    err ? console.log(err) : console.log(result);
+    console.log(result.length);
+  });
+  res.send("hello");
+});
 
 app.listen(port, () => {
   console.log("Running on port 3000");
