@@ -4,13 +4,13 @@
     "time": "2022-11-21 00:00:00+0800",
     "match_name": "Qatar vs Ecuador",
     "bet_list": [
-      { "name": "Team1 Winner", "odds": 2.95 },
-      { "name": "Team2 Winner", "odds": 2.27 },
+      { "name": "Qatar Winner", "odds": 2.95 },
+      { "name": "Ecuador Winner", "odds": 2.27 },
       { "name": "Draw", "odds": 2.96 },
-      { "name": "Team1 +0.25", "odds": 1.96 },
-      { "name": "Team2 -0.25", "odds": 1.94 },
-      { "name": "Team1 +0.5", "odds": 1.75 },
-      { "name": "Team2 -0.5", "odds": 2.25 },
+      { "name": "Qatar +0.25", "odds": 1.96 },
+      { "name": "Ecuador -0.25", "odds": 1.94 },
+      { "name": "Qatar +0.5", "odds": 1.75 },
+      { "name": "Ecuador -0.5", "odds": 2.25 },
       { "name": "Over 1.75", "odds": 1.75 },
       { "name": "Under 1.75", "odds": 2.14 },
       { "name": "Over 2", "odds": 2.0 },
@@ -22,7 +22,7 @@
   {
     "type": "Soccer_ball",
     "time": "2022-11-19 17:00:00+0800",
-    "match_name": "Team1 vs Team2",
+    "match_name": "Qatar vs Team2",
     "bet_list": [
       { "name": "Team1 Winner", "odds": 1.9 },
       { "name": "Team2 Winner", "odds": 1.9 },
