@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const connection = require("./db");
 const router = express.Router();
 
 router.get("/", (req, res) => {
