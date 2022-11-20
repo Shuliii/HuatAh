@@ -1,40 +1,54 @@
 [
   {
     "type": "csgo",
-    "time": "2022-11-19 17:00:00+0800",
-    "match_name": "Team1 vs Team2(18)",
+    "time": "2022-11-20 22:30:00+0800",
+    "match_name": "Young Ninjas vs Navi Junior Match",
     "bet_list": [
-      { "name": "Team1 Winner", "odds": 1.9 },
-      { "name": "Team2 Winner", "odds": 1.9 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 },
-      { "name": "Team1 Winner", "odds": 1.8 },
-      { "name": "Team2 Winner", "odds": 1.75 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 },
-      { "name": "Team1 Winner", "odds": 1.9 },
-      { "name": "Team2 Winner", "odds": 1.6 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 }
+      { "name": "Young Ninjas Winner", "odds": 1.29 },
+      { "name": "Navi Junior Winner", "odds": 3.22 },
+      { "name": "Young Ninjas -1.5", "odds": 2.12 },
+      { "name": "Navi Junior +1.5", "odds": 1.67 },
+      { "name": "Over 2.5", "odds": 2.13 },
+      { "name": "Under 2.5", "odds": 1.66 }
     ]
   },
   {
     "type": "csgo",
-    "time": "2022-11-19 17:00:00+0800",
-    "match_name": "Team1 vs Team2(1830)",
+    "time": "2022-11-20 22:30:00+0800",
+    "match_name": "Young Ninjas vs Navi Junior Map1",
     "bet_list": [
-      { "name": "Team1 Winner", "odds": 1.9 },
-      { "name": "Team2 Winner", "odds": 1.9 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 },
-      { "name": "Team1 Winner", "odds": 1.8 },
-      { "name": "Team2 Winner", "odds": 1.75 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 },
-      { "name": "Team1 Winner", "odds": 1.9 },
-      { "name": "Team2 Winner", "odds": 1.6 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 }
+      { "name": "Young Ninjas Winner", "odds": 1.45 },
+      { "name": "Navi Junior Winner", "odds": 2.58 },
+      { "name": "Young Ninjas -3.5", "odds": 1.91 },
+      { "name": "Navi Junior +3.5", "odds": 1.83 },
+      { "name": "Over 26.5", "odds": 1.93 },
+      { "name": "Under 26.5", "odds": 1.81 }
+    ]
+  },
+  {
+    "type": "csgo",
+    "time": "2022-11-20 23:00:00+0800",
+    "match_name": "Young Ninjas vs Navi Junior Map2",
+    "bet_list": [
+      { "name": "Young Ninjas Winner", "odds": 1.45 },
+      { "name": "Navi Junior Winner", "odds": 2.58 },
+      { "name": "Young Ninjas -3.5", "odds": 1.91 },
+      { "name": "Navi Junior +3.5", "odds": 1.83 },
+      { "name": "Over 26.5", "odds": 1.93 },
+      { "name": "Under 26.5", "odds": 1.81 }
+    ]
+  },
+  {
+    "type": "csgo",
+    "time": "2022-11-20 23:30:00+0800",
+    "match_name": "Young Ninjas vs Navi Junior Map3",
+    "bet_list": [
+      { "name": "Young Ninjas Winner", "odds": 1.45 },
+      { "name": "Navi Junior Winner", "odds": 2.58 },
+      { "name": "Young Ninjas -3.5", "odds": 1.91 },
+      { "name": "Navi Junior +3.5", "odds": 1.83 },
+      { "name": "Over 26.5", "odds": 1.93 },
+      { "name": "Under 26.5", "odds": 1.81 }
     ]
   },
   {
