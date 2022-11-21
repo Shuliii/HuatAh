@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins&display=swap");
 
+:root {
+  --yellow: #ffd83b;
+  --brown: #763a12;
+  --darkblue: #0b486b;
+}
+
 *,
 *::after,
 *::before {
@@ -16,16 +22,19 @@ html {
 body {
   min-height: 100vh;
   /* background: linear-gradient(to bottom right, #0d4c92, #cff5e7); */
-  background: #0b486b;
+  background: white;
   font-family: Poppins;
 }
 
 .header {
   width: 100%;
   padding: 1.5rem 3rem;
-  font-size: 50px;
+  font-size: 36px;
   position: relative;
-  color: white;
+  color: #1d1d27;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .header::after {
@@ -34,8 +43,65 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: #1d1d27;
   height: 2px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.logo > img {
+  display: block;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+  position: relative;
+  opacity: 0.7;
+}
+
+.nav > ul > li > a:link,
+.nav > ul > li > a:visited,
+.nav > ul > li > a:focus {
+  color: #1d1d27;
+  background: none;
+}
+
+.nav > ul > li > a:hover {
+  opacity: 1;
+}
+
+.nav > ul > li > a::after {
+  content: "";
+  background: #1d1d27;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  transform: scaleX(0%);
+  opacity: 0.7;
+  transition: all 400ms ease-in-out;
+}
+
+.nav > ul > li > a:hover::after {
+  transform: scaleX(100%);
+  opacity: 1;
 }
 
 main {
@@ -48,11 +114,22 @@ main {
 
 @media (max-width: 780px) {
   .header {
-    font-size: 32px;
+    font-size: 24px;
+  }
+
+  .nav > ul {
+    gap: 0.5rem;
   }
 
   main {
     grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav > ul > li:first-of-type,
+  .nav > ul > li:last-of-type {
+    display: none;
   }
 }
 
@@ -79,12 +156,13 @@ main {
   position: absolute;
   right: 0;
   width: 2px;
-  background: white;
+  background: #1d1d27;
   height: 100%;
 }
 
 .card {
-  background: white;
+  background: #1d1d27;
+  color: white;
   width: 200px;
   height: 200px;
   border-radius: 0.5rem;
@@ -98,6 +176,7 @@ main {
   cursor: pointer;
   opacity: 0.7;
   transition: transform 400ms ease-in-out;
+  border: 2px solid yellow;
 }
 
 .card > img {
@@ -116,28 +195,46 @@ main {
   opacity: 1;
 }
 
-.right {
+.main {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding-right: 0.55rem;
+  gap: 20px;
 }
 
 .form {
   display: flex;
-
   padding-top: 0.75rem;
   gap: 0.1rem;
+  width: 75%;
+  height: 75px;
+  margin-inline: 10%;
+  position: relative;
 }
 
 .form > input {
-  width: 100%;
+  flex-grow: 1;
   margin: 0 auto;
+  border-radius: 35px;
+  border: 2px solid var(--brown);
+  outline: none;
+  padding-inline: 50px;
 }
 
 .form > button {
-  font-size: 10px;
-  padding: 0.2em 0.5em;
+  position: absolute;
+  top: 43%;
+  left: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .bet-container {
@@ -147,7 +244,7 @@ main {
   flex-direction: column;
   gap: 10px;
   position: relative;
-  color: #0b486b;
+  color: var(--brown);
   font-weight: 700;
   font-size: 24px;
 }
@@ -157,7 +254,7 @@ main {
   position: absolute;
   right: 0;
   width: 2px;
-  background: white;
+  background: #1d1d27;
   height: 100%;
   top: 0;
 }
@@ -182,8 +279,8 @@ main {
 .bet {
   display: flex;
   flex-direction: column;
-  background: white;
-  border: 2px solid #0b486b;
+  background: #ffd83b;
+  border: 2px solid var(--brown);
   border-radius: 10px;
   padding-left: 1.5rem;
   outline: none;
@@ -215,7 +312,7 @@ main {
   padding-block: -3%;
   padding-inline: 10px;
   outline: none;
-  border: 1px solid #0b486b;
+  border: 1px solid var(--brown);
   border-radius: 10px;
   cursor: pointer;
   background: none;
@@ -224,8 +321,8 @@ main {
 
 .expand:focus,
 .expand:hover {
-  color: white;
-  background: #0b486b;
+  color: #ffd83b;
+  background: var(--brown);
   outline: none;
   border: none;
 }
@@ -251,17 +348,17 @@ main {
 .confirm-bet {
   width: 200px;
   border-radius: 10px;
-  background: #0b486b;
-  border: 2px solid white;
-  color: white;
+  background: var(--brown);
+  border: 2px solid #ffd83b;
+  color: #ffd83b;
   font-weight: 700;
 }
 
 .confirm-bet:hover {
-  color: #0b486b;
-  background: white;
+  color: var(--brown);
+  background: #ffd83b;
   outline: none;
-  border: 2px solid #0b486b;
+  border: 2px solid var(--brown);
 }
 
 @media (max-width: 780px) {
@@ -318,7 +415,8 @@ main {
 }
 
 .final-step {
-  background: white;
+  background: var(--brown);
+  color: black;
   display: flex;
   flex-direction: column;
   padding: 8px;
@@ -331,6 +429,9 @@ main {
   outline: none;
   padding: 0;
   margin: 0;
+  background: none;
+  color: black;
+  font-weight: 700;
 }
 
 .final-bet > h1 {
@@ -344,10 +445,11 @@ main {
 
 .final-bet > h1 > input {
   font-weight: 700;
-  color: orangered;
+  color: white;
   display: inline;
   border: 0;
   text-align: center;
+  background: none;
 }
 
 .final-bet label {

@@ -29,6 +29,10 @@ app.post("/find", (req, res) => {
   });
 });
 
+app.get("/search", (req, res) => {
+  res.render("search");
+});
+
 app.listen(port, () => {
   console.log("Running on port 3000");
 });

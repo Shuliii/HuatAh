@@ -13,11 +13,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <header class="header">
-      <div class="logo">My Logo</div>
+      <div class="logo"><img src="./img/logo.png" /></div>
+      <div class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/search">Search</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <div class="card-container">
@@ -43,12 +51,12 @@
         </div>
       </div>
       <div class="right">
-        <form action="/find" method="POST" class="form">
+        <!-- <form action="/find" method="POST" class="form">
           <input type="text" name="firstName" value="" />
           <button type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-        </form>
+        </form> -->
       </div>
     </main>
   </body>
