@@ -24,7 +24,7 @@ app.use("/Soccer", soccerRouter);
 app.post("/search", (req, res) => {
   const queryString = `SELECT * FROM BETLIST where Username = '${req.body.firstName}' and Match_Result is NULL`;
   connection.query(queryString, (err, results) => {
-    err && console.log(err)
+    err && console.log(err);
     res.render("searchResult.ejs", { results });
   });
 });
@@ -43,7 +43,7 @@ app.listen(port, () => {
 //   </div>
 //   <% }) %>
 
-{/* <div class="search-content">
+/* <div class="search-content">
         <!-- <div class="search-balance">
           test1
         </div>
@@ -96,4 +96,4 @@ app.listen(port, () => {
             </div>
           </div>
         </div> -->
-      </div> */}
+      </div> */
