@@ -90,8 +90,8 @@
     "bet_list": [
       { "name": "Timberwolves -8.5", "odds": 1.89 },
       { "name": "Grizzlies +8.5", "odds": 1.85 },
-      { "name": "Over 218.5", "odds": 1.72 },
-      { "name": "Under 218.5", "odds": 1.92 }
+      { "name": "Over 216.5", "odds": 1.72 },
+      { "name": "Under 216.5", "odds": 1.92 }
     ]
   },
   {
