@@ -1,22 +1,18 @@
 [
   {
     "type": "Soccer_ball",
-    "time": "2022-11-22 18:00:00+0800",
+    "time": "2022-11-22 19:31:00+0800",
     "match_name": "Argentina vs Saudi Arabia",
     "bet_list": [
-      { "name": "Argentina Winner", "odds": 1.08 },
-      { "name": "Saudi Arabia Winner", "odds": 15.7 },
-      { "name": "Draw", "odds": 6.88 },
-      { "name": "Argentina -2", "odds": 1.77 },
-      { "name": "Saudi Arabia +2", "odds": 2.14 },
-      { "name": "Argentina -2.25", "odds": 2.02 },
-      { "name": "Saudi Arabia +2.25", "odds": 1.88 },
-      { "name": "Over 2.75", "odds": 1.76 },
-      { "name": "Under 2.75", "odds": 2.13 },
-      { "name": "Over 3", "odds": 1.99 },
-      { "name": "Under 3", "odds": 1.89 },
-      { "name": "Odd", "odds": 1.94 },
-      { "name": "Even", "odds": 1.94 }
+      { "name": "Argentina Winner", "odds": 2.61 },
+      { "name": "Saudi Arabia Winner", "odds": 3.93 },
+      { "name": "Draw", "odds": 2.75 },
+      { "name": "Argentina -0.25", "odds": 2.12 },
+      { "name": "Saudi Arabia +0.25", "odds": 1.79 },
+      { "name": "Over 4.5", "odds": 2.25 },
+      { "name": "Under 4.5", "odds": 1.68 },
+      { "name": "Over 4.25", "odds": 1.85 },
+      { "name": "Under 4.25", "odds": 2.03 }
     ]
   },
   {
