@@ -1,6 +1,449 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins&display=swap");
 
 :root {
+  --red: rgba(237, 23, 3, 100%);
+  --yellow: #ffd83b;
+  --brown: #763a12;
+  --darkblue: #0b486b;
+  --black: #1d1d27;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: white;
+  font-family: Poppins;
+}
+/* HEADER */
+.header {
+  width: 100%;
+  padding: 1.5rem 3rem;
+  font-size: clamp(24px, 2.5vw, 36px);
+  position: relative;
+  color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--black);
+  height: 2px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+.logo > img {
+  display: block;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-right: clamp(24px, 2.5vw, 36px);
+}
+
+.nav > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+  position: relative;
+  opacity: 1;
+}
+
+.nav > ul > li > a:link,
+.nav > ul > li > a:visited,
+.nav > ul > li > a:focus {
+  color: var(--black);
+  background: none;
+}
+
+.nav > ul > li > a::after {
+  content: "";
+  background: var(--black);
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  transform: scaleX(0%);
+  opacity: 1;
+  transition: all 400ms ease-in-out;
+}
+
+.nav > ul > li > a:hover::after {
+  transform: scaleX(100%);
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .nav > ul > li:first-of-type,
+  .nav > ul > li:last-of-type {
+    display: none;
+  }
+
+  .nav {
+    margin-right: clamp(0px, 2.5vw, 24px);
+  }
+}
+
+@media (max-width: 480px) {
+
+}
+
+/* MAIN */
+
+main {
+  
+}
+
+/* card-container on INDEX.HTML */
+
+.card-container {
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, 225px);
+  width: 75%;
+  margin: 0 auto;
+
+
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  background: var(--black);
+  color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  cursor: pointer;
+  /* opacity: 0.7; */
+  transition: transform 400ms ease-in-out;
+  border: 2px solid var(--red);
+}
+
+.card > img {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+/* bet-container */
+
+.main-index {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 0.75rem;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.bet-container {
+  padding-block: 1rem;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  font-weight: 700;
+  font-size: clamp(16px, 1.67vw, 24px);
+  color: white;
+}
+
+.bet-container::after {
+  content: "";
+  position: absolute;
+  right: calc(-12.5% - 3rem);
+  width: 2px;
+  background: var(--black);
+  height: 100%;
+  top: 0;
+}
+
+.bet {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: var(--black);
+  border: 2px solid var(--red);
+  border-radius: 10px;
+  padding-left: 1.5rem;
+  outline: none;
+  padding-block: 3%;
+  transition: all 400ms ease-in-out;
+}
+
+.bet:hover {
+  opacity: 1;
+}
+
+.main-bet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.main-bet > img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+.match-name {
+  text-align: center;
+  margin-inline: 0.5rem;
+}
+
+.expand {
+  background: var(--red);
+  color: white;
+  border: none;
+  outline: none;
+  transition: all 500ms ease-in-out;
+}
+
+.expand:hover,
+.expand:focus {
+  background: white;
+  color: var(--red);
+}
+
+.detail-bet {
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 8px;
+  place-items: center;
+  font-size: clamp(10px, 1.11vw, 16px);
+  font-weight: 700;
+  padding-right: 1.5rem;
+}
+
+.confirm-bet {
+  width: clamp(125px, 13.9vw, 200px);
+  border-radius: 16px;
+  background: white;
+  border: 2px solid var(--red);
+  color: var(--red);
+  transition: all 500ms ease-in-out;
+}
+
+.confirm-bet:hover {
+  color: white;
+  background: var(--red);
+  outline: none;
+  border: 2px solid white;
+}
+
+.odds {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+@media(max-width: 1440px) {
+  .bet-container::after {
+    right: calc(-12.5% - 2.5rem);
+  }
+}
+
+@media (max-width: 1200px) {
+  .bet-container::after {
+    right: calc(-12.5% - 2rem);
+  }
+}
+
+@media (max-width: 1024px){
+  .bet-container::after {
+    right: calc(-12.5% - 1.5rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .bet-container {
+    font-size: clamp(10px, 2.08vw, 16px);
+  }
+  .main-index {
+    grid-template-columns: 2fr 1fr;
+  }
+  .bet {
+    padding-left: 0.75rem;
+  }
+  .main-bet > img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .detail-bet {
+    font-size: clamp(6.4px, 1.3vw, 10px);
+    padding-right: 0.75rem;
+    grid-row-gap: 4px;
+    grid-column-gap: 4px;
+  }
+
+  .confirm-bet {
+    width: clamp(75px, 16.3vw, 125px);
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .bet-container::after {
+    right: calc(-12.5% - 1rem);
+  }
+}
+
+/* RIGHT SIDE */
+
+.right {
+  padding-block: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.final-step {
+  background: var(--black);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: clamp(10px, 2.08vw, 16px);
+  font-weight: 700;
+}
+
+.final-bet > input:first-of-type {
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: white;
+}
+
+.final-bet > h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.final-bet > h1 > input {
+  color: var(--red);
+  display: inline;
+  border: 0;
+  text-align: center;
+  background: none;
+}
+
+.final-bet label {
+  display: inline-block;
+}
+
+.final-bet input {
+  width: 100%;
+  outline: none;
+}
+
+.final-bet button {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  border-radius: 10px;
+  background: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.final-bet .cancel {
+  border: none;
+  color: var(--red);
+}
+
+.final-bet .submit {
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+
+.final-bet button:hover {
+  background: var(--red);
+  color: white;
+}
+
+@media (max-width: 1240px) {
+  .final-step {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .final-step {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 880px) {
+  .final-step {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 760px) {
+  .final-step {
+    font-size: clamp(6.4px, 1.56vw, 14px);
+  }
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins&display=swap");
+
+:root {
   --yellow: #ffd83b;
   --brown: #763a12;
   --darkblue: #0b486b;
@@ -21,7 +464,6 @@ html {
 
 body {
   min-height: 100vh;
-  /* background: linear-gradient(to bottom right, #0d4c92, #cff5e7); */
   background: white;
   font-family: Poppins;
 }
@@ -31,7 +473,7 @@ body {
   padding: 1.5rem 3rem;
   font-size: 36px;
   position: relative;
-  color: #1d1d27;
+  color: var(--black);
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -43,7 +485,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #1d1d27;
+  background: var(--black);
   height: 2px;
 }
 
@@ -78,7 +520,7 @@ body {
 .nav > ul > li > a:link,
 .nav > ul > li > a:visited,
 .nav > ul > li > a:focus {
-  color: #1d1d27;
+  color: var(--black);
   background: none;
 }
 
@@ -88,7 +530,7 @@ body {
 
 .nav > ul > li > a::after {
   content: "";
-  background: #1d1d27;
+  background: var(--black);
   width: 100%;
   height: 3px;
   position: absolute;
@@ -156,12 +598,12 @@ main {
   position: absolute;
   right: 0;
   width: 2px;
-  background: #1d1d27;
+  background: var(--black);
   height: 100%;
 }
 
 .card {
-  background: #1d1d27;
+  background: var(--black);
   color: white;
   width: 200px;
   height: 200px;
@@ -254,7 +696,7 @@ main {
   position: absolute;
   right: 0;
   width: 2px;
-  background: #1d1d27;
+  background: var(--black);
   height: 100%;
   top: 0;
 }
@@ -329,10 +771,6 @@ main {
 
 .detail-bet {
   margin-top: 3%;
-  /* display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 8px;
@@ -472,4 +910,4 @@ main {
   .final-bet > h1 {
     margin-bottom: 5px;
   }
-}
+} */

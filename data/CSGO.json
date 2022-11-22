@@ -1,7 +1,7 @@
 [
   {
-    "type": "csgo",
-    "time": "2022-11-21 18:00:00+0800",
+    "type": "csgo_logo",
+    "time": "2022-11-22 18:00:00+0800",
     "match_name": "Monte vs 9 Pandas Match",
     "bet_list": [
       { "name": "Monte Winner", "odds": 1.4 },
@@ -13,8 +13,8 @@
     ]
   },
   {
-    "type": "csgo",
-    "time": "2022-11-20 22:30:00+0800",
+    "type": "csgo_logo",
+    "time": "2022-11-22 22:30:00+0800",
     "match_name": "Nexus vs BB Match",
     "bet_list": [
       { "name": "Nexus Winner", "odds": 1.99 },
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "type": "csgo",
+    "type": "csgo_logo",
     "time": "2022-11-20 23:00:00+0800",
     "match_name": "Young Ninjas vs Navi Junior Map2",
     "bet_list": [
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "type": "csgo",
+    "type": "csgo_logo",
     "time": "2022-11-20 23:30:00+0800",
     "match_name": "Young Ninjas vs Navi Junior Map3",
     "bet_list": [
