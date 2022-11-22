@@ -34,6 +34,27 @@
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
+      <div class="search-content">
+        <div class="search-balance">
+          test1
+        </div>
+        <div class="search-active-bets">
+          <h1>Active Bets</h1>
+          <% results.forEach((result) => { %>
+            <div class="active-bets">
+              <h2><%= result.Match_Name %></h2>
+              <div class="active-bets-details">
+                <h3>Betting on: <span><%= result.Bet_Name %></span></h3>
+                <h3>Amount: <span><%= result.Amount %></span></h3>
+                <h3>Odds: <span><%= result.Odds %></span></h3>
+              </div>
+              <div class="potential">
+                <h3>Potential Winnings: <span><%= (result.Amount * (result.Odds - 1)).toFixed(2) %></span></h3>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </div>
     </main>
   </body>
 </html>
