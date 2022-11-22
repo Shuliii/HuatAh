@@ -31,12 +31,12 @@
       <div class="bet-container">
         <% results.forEach((result) => { %>
         <div class="bet">
-          <div class="main-bet">
+          <div class="expand main-bet">
             <img src="/img/<%= result.type %>.jpg" />
             <div class="match-name">
               <h2><%=result.match_name%></h2>
             </div>
-            <button class="expand">&darr;</button>
+            <!-- <button class="expand">&darr;</button> -->
           </div>
           <div class="detail-bet hidden">
             <% result.bet_list.forEach((el) => { %>

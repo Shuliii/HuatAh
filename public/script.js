@@ -21,7 +21,7 @@ logoImg.addEventListener("click", () => {
 
 [...expands].forEach((expand) => {
   expand.addEventListener("click", (e) => {
-    const detail = expand.parentElement.nextElementSibling;
+    const detail = expand.nextElementSibling;
     const allDetail = document.querySelectorAll(".detail-bet");
 
     if (!detail.classList.contains("hidden")) {
@@ -39,8 +39,8 @@ logoImg.addEventListener("click", () => {
 
 confirmBets.forEach((confirm) => {
   confirm.addEventListener("click", () => {
-    document.querySelector(".final-step") &&
-      document.querySelector(".final-step").remove();
+    // document.querySelector(".final-step") &&
+    //   document.querySelector(".final-step").remove();
     const currentUrl = window.location.href;
     const matchName =
       confirm.parentElement.previousElementSibling.children[1].children[0]
