@@ -1,11 +1,13 @@
-const logoImg = document.querySelector(".logo");
+const logoImg = document.querySelectorAll(".logo");
 const cards = document.querySelectorAll(".card");
 const expands = document.querySelectorAll(".expand");
 const confirmBets = document.querySelectorAll(".confirm-bet");
 const right = document.querySelector(".right");
 
-logoImg.addEventListener("click", () => {
-  location.href = "/";
+logoImg.forEach((logo) => {
+  logo.addEventListener("click", () => {
+    location.href = "/";
+  });
 });
 
 //TO REDIRECT USER TO THE RESPECTIVE BET
