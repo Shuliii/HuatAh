@@ -1,75 +1,79 @@
 [
   {
     "type": "Soccer_ball",
-    "time": "2022-11-22 19:31:00+0800",
-    "match_name": "Argentina vs Saudi Arabia",
+    "time": "2022-11-23 18:00:00+0800",
+    "match_name": "Croatia vs Morocco",
     "bet_list": [
-      { "name": "Argentina Winner", "odds": 2.61 },
-      { "name": "Saudi Arabia Winner", "odds": 3.93 },
-      { "name": "Draw", "odds": 2.75 },
-      { "name": "Argentina -0.25", "odds": 2.12 },
-      { "name": "Saudi Arabia +0.25", "odds": 1.79 },
-      { "name": "Over 4.5", "odds": 2.25 },
-      { "name": "Under 4.5", "odds": 1.68 },
-      { "name": "Over 4.25", "odds": 1.85 },
-      { "name": "Under 4.25", "odds": 2.03 }
-    ]
-  },
-  {
-    "type": "Soccer_ball",
-    "time": "2022-11-22 21:00:00+0800",
-    "match_name": "Denmark vs Tunisia",
-    "bet_list": [
-      { "name": "Denmark Winner", "odds": 1.59 },
-      { "name": "Tunisia Winner", "odds": 4.74 },
-      { "name": "Draw", "odds": 3.56 },
-      { "name": "Denmark -0.75", "odds": 1.86 },
-      { "name": "Tunisia +0.75", "odds": 2.04 },
-      { "name": "Denmark -1", "odds": 2.09 },
-      { "name": "Tunisia +1", "odds": 1.81 },
-      { "name": "Over 2", "odds": 1.79 },
-      { "name": "Under 2", "odds": 2.09 },
-      { "name": "Over 2.25", "odds": 2.02 },
-      { "name": "Under 2.25", "odds": 1.86 },
-      { "name": "Odd", "odds": 1.96 },
-      { "name": "Even", "odds": 1.92 }
-    ]
-  },
-  {
-    "type": "Soccer_ball",
-    "time": "2022-11-23 00:00:00+0800",
-    "match_name": "Poland vs Mexico",
-    "bet_list": [
-      { "name": "Poland Winner", "odds": 2.75 },
-      { "name": "Mexico Winner", "odds": 2.49 },
-      { "name": "Draw", "odds": 2.85 },
-      { "name": "Poland +0.25", "odds": 1.77 },
-      { "name": "Mexico -0.25", "odds": 2.14 },
-      { "name": "Over 2", "odds": 1.84 },
-      { "name": "Under 2", "odds": 2.04 },
+      { "name": "Croatia Winner", "odds": 2.05 },
+      { "name": "Morocco Winner", "odds": 3.53 },
+      { "name": "Draw", "odds": 3.04 },
+      { "name": "Croatia -0.25", "odds": 1.82 },
+      { "name": "Morocco +0.25", "odds": 2.11 },
+      { "name": "Croatia -0.5", "odds": 2.11 },
+      { "name": "Morocco +0.5", "odds": 1.82 },
       { "name": "Over 2.25", "odds": 2.07 },
-      { "name": "Under 2.25", "odds": 1.81 },
-      { "name": "Odd", "odds": 1.98 },
-      { "name": "Even", "odds": 1.9 }
+      { "name": "Under 2.25", "odds": 1.83 },
+      { "name": "Over 2", "odds": 1.75 },
+      { "name": "Under 2", "odds": 2.17 }
     ]
   },
   {
     "type": "Soccer_ball",
-    "time": "2022-11-23 03:00:00+0800",
-    "match_name": "France vs Australia",
+    "time": "2022-11-23 21:00:00+0800",
+    "match_name": "Germany vs Japan",
     "bet_list": [
-      { "name": "France Winner", "odds": 1.23 },
-      { "name": "Australia Winner", "odds": 8.75 },
-      { "name": "Draw", "odds": 5 },
-      { "name": "France -1.5", "odds": 1.76 },
-      { "name": "Australia +1.5", "odds": 2.16 },
-      { "name": "France -1.75", "odds": 1.99 },
-      { "name": "Australia +1.75", "odds": 1.91 },
-      { "name": "Over 2.5", "odds": 1.7 },
-      { "name": "Under 2.5", "odds": 2.21 },
-      { "name": "Over 2.75", "odds": 1.93 },
-      { "name": "Under 2.75", "odds": 2.75 },
-      { "name": "Odd", "odds": 1.95 },
+      { "name": "Germany Winner", "odds": 1.40 },
+      { "name": "Japan Winner", "odds": 5.58 },
+      { "name": "Draw", "odds": 4.84 },
+      { "name": "Germany -1", "odds": 1.72 },
+      { "name": "Japan +1", "odds": 2.25 },
+      { "name": "Germany -1.25", "odds": 1.95 },
+      { "name": "Japan +1.25", "odds": 1.97 },
+      { "name": "Over 2.75", "odds": 1.8 },
+      { "name": "Under 2.75", "odds": 2.11 },
+      { "name": "Over 3", "odds": 2.03 },
+      { "name": "Under 3", "odds": 1.87 },
+      { "name": "Odd", "odds": 1.96 },
+      { "name": "Even", "odds": 1.94 }
+    ]
+  },
+  {
+    "type": "Soccer_ball",
+    "time": "2022-11-24 00:00:00+0800",
+    "match_name": "Spain vs Costa Rica",
+    "bet_list": [
+      { "name": "Spain Winner", "odds": 1.13 },
+      { "name": "Costa Rica Winner", "odds": 12.9 },
+      { "name": "Draw", "odds": 7.25 },
+      { "name": "Spain -2.25", "odds": 2.17 },
+      { "name": "Costa Rica +2.25", "odds": 1.77 },
+      { "name": "Spain -2", "odds": 1.92 },
+      { "name": "Costa Rica +2", "odds": 2 },
+      { "name": "Over 3", "odds": 2.12 },
+      { "name": "Under 3", "odds": 1.79 },
+      { "name": "Over 2.75", "odds": 1.88 },
+      { "name": "Under 2.75", "odds": 2.02 },
+      { "name": "Odd", "odds": 1.97 },
+      { "name": "Even", "odds": 1.93 }
+    ]
+  },
+  {
+    "type": "Soccer_ball",
+    "time": "2022-11-24 03:00:00+0800",
+    "match_name": "Belgium vs Canada",
+    "bet_list": [
+      { "name": "Belgium Winner", "odds": 1.51 },
+      { "name": "Canada Winner", "odds": 5.27 },
+      { "name": "Draw", "odds": 4.03 },
+      { "name": "Belgium -1", "odds": 1.95 },
+      { "name": "Canada +1", "odds": 2.00 },
+      { "name": "Belgium -1.25", "odds": 2.17 },
+      { "name": "Canada +1.25", "odds": 1.77 },
+      { "name": "Over 2.75", "odds": 1.89 },
+      { "name": "Under 2.75", "odds": 2.01 },
+      { "name": "Over 3", "odds": 2.13 },
+      { "name": "Under 3", "odds": 1.78 },
+      { "name": "Odd", "odds": 1.97 },
       { "name": "Even", "odds": 1.93 }
     ]
   }
