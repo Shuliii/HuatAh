@@ -64,23 +64,13 @@
   },
   {
     "type": "NBA",
-    "time": "2022-11-23 11:00:00+0800",
+    "time": "2022-11-23 12:07:00+0800",
     "match_name": "Suns vs Lakers",
     "bet_list": [
-      { "name": "Suns Winner", "odds": 1.31 },
-      { "name": "Lakers Winner", "odds": 3.32 },
-      { "name": "Suns -6", "odds": 1.85 },
-      { "name": "Lakers +6", "odds": 2.03 },
-      { "name": "Suns -6.5", "odds": 1.92 },
-      { "name": "Lakers +6.5", "odds": 1.96 },
-      { "name": "Suns -7", "odds": 1.99 },
-      { "name": "Lakers +7", "odds": 1.89 },
-      { "name": "Over 214.5", "odds": 1.81 },
-      { "name": "Under 214.5", "odds": 2.05 },
-      { "name": "Over 215.5", "odds": 1.93 },
-      { "name": "Under 215.5", "odds": 1.93 },
-      { "name": "Over 216.5", "odds": 2.05 },
-      { "name": "Under 216.5", "odds": 1.81 }
+      { "name": "Suns -3.5", "odds": 1.9 },
+      { "name": "Lakers +3.5", "odds": 1.9 },
+      { "name": "Over 223.5", "odds": 1.9 },
+      { "name": "Under 223.5", "odds": 1.9 }
     ]
   },
   {
@@ -147,7 +137,7 @@
   },
   {
     "type": "NBA",
-    "time": "2022-11-21 10:30:00+0800",
+    "time": "2022-11-21 11:10:00+0800",
     "match_name": "Lakers vs Spurs",
     "bet_list": [
       { "name": "Lakers Winner", "odds": 1.34 },
