@@ -456,9 +456,63 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-top: 30px;
 }
 
 /* form */
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 55%;
+  margin: 0 auto;
+  color: var(--black);
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.form > input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid var(--black);
+  border-radius: 100%;
+  outline: none;
+  background: none;
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  transition: all 500ms ease-in-out;
+}
+
+.fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 500ms ease-in-out;
+}
+
+.form:hover input {
+  width: 100%;
+  border-radius: 20px;
+  padding-inline: 50px;
+}
+
+.form:hover .fa {
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 /* search-content */
 
@@ -468,9 +522,34 @@ body {
   gap: 30px;
 }
 
+/* search-balance */
+
 .search-balance {
-  border: 1px solid var(--red);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
+
+.search-balance > h1 {
+  color: var(--black);
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+.balance-summary,
+.past-bet {
+  width: 100%;
+  padding: 10px;
+  background: var(--black);
+  border: 2px solid var(--red);
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+}
+
+/* search-active-bets */
 
 .search-active-bets {
   display: flex;

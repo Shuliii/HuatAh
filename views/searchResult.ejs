@@ -29,14 +29,31 @@
     </header>
     <main class="main-search">
       <form action="/search" method="POST" class="form">
-        <input type="text" name="firstName" value="" />
-        <button type="submit">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
+        <input autocomplete="off" type="search" name="firstName" value=""  required/>
+        <i class="fa fa-search"></i>
       </form>
       <div class="search-content">
         <div class="search-balance">
-          test1
+          <h1>Balance Summary</h1>
+          <div class="balance-summary">
+            <h3>Username: <span>test</span></h3>
+            <h3>Balance: <span>100000</span></h3>
+          </div>
+          <h1>Last few bets</h1>
+          <div class="past-bet">
+              <h2>Match Name</h2>
+              <h3>Bet on: <span>Team1</span></h3>
+              <h3>Amount: <span>100</span></h3>
+              <h3>Odds: 2.00</h3>
+              <h3>Result: 100</h3>
+          </div>
+          <div class="past-bet">
+              <h2>Match Name</h2>
+              <h3>Bet on: <span>Team1</span></h3>
+              <h3>Amount: <span>100</span></h3>
+              <h3>Odds: 2.00</h3>
+              <h3>Result: 100</h3>
+          </div>
         </div>
         <div class="search-active-bets">
           <h1>Active Bets</h1>
