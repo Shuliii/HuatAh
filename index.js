@@ -42,7 +42,6 @@ app.post("/search", (req, res) => {
       },
     ],
     function (err, results) {
-      // console.log(results);
       res.render("searchResult.ejs", { results });
     }
   );

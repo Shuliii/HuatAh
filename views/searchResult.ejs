@@ -43,7 +43,11 @@
           <h1>Balance Summary</h1>
           <div class="balance-summary">
             <h3>
-              Balance: <span> <%= results[0][0].balance.toFixed(2) %> </span>
+              Balance: <% if(results[0][0].balance === null) { %>
+              <span>0.00</span>
+              <% } else { %>
+              <span> <%= results[0][0].balance.toFixed(2) %></span>
+              <% } %>
             </h3>
           </div>
           <h1>Last few bets</h1>
