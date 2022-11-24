@@ -1,38 +1,72 @@
 [
   {
     "type": "valorant_logo",
-    "time": "2022-11-23 16:05:00+0800",
-    "match_name": "MITH vs Velocity Match",
+    "time": "2022-11-24 16:00:00+0800",
+    "match_name": "MITH vs Bleed Match",
     "bet_list": [
-      { "name": "MITH Winner", "odds": 1.35 },
-      { "name": "Velocity Winner", "odds": 2.88 },
-      { "name": "MITH -1.5", "odds": 2.33 },
-      { "name": "Velocity +1.5", "odds": 1.55 },
-      { "name": "MITH +1.5", "odds": 1.15 },
-      { "name": "Velocity -1.5", "odds": 4.7 },
-      { "name": "Over 2.5", "odds": 2.13 },
-      { "name": "Under 2.5", "odds": 1.66 },
-      { "name": "Map score 2-0", "odds": 2.2 },
-      { "name": "Map score 2-1", "odds": 3.38 },
-      { "name": "Map score 0-2", "odds": 4.03 },
-      { "name": "Map score 1-2", "odds": 4.44 }
+      { "name": "MITH Winner", "odds": 2.33 },
+      { "name": "Bleed Winner", "odds": 1.53 },
+      { "name": "MITH -1.5", "odds": 3.94 },
+      { "name": "Bleed +1.5", "odds": 1.20 },
+      { "name": "MITH +1.5", "odds": 1.42 },
+      { "name": "Bleed -1.5", "odds": 2.66 },
+      { "name": "Over 2.5", "odds": 2.23 },
+      { "name": "Under 2.5", "odds": 1.59 },
+      { "name": "Map score 2-0", "odds": 3.38 },
+      { "name": "Map score 2-1", "odds": 4.12 },
+      { "name": "Map score 0-2", "odds": 2.49 },
+      { "name": "Map score 1-2", "odds": 3.63 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2022-11-23 16:05:00+0800",
-    "match_name": "MITH vs Velocity Map1",
+    "time": "2022-11-23 16:00:00+0800",
+    "match_name": "MITH vs Bleed Map1",
     "bet_list": [
-      { "name": "MITH Winner", "odds": 1.52 },
-      { "name": "Velocity Winner", "odds": 2.38 },
-      { "name": "MITH -2.5", "odds": 1.97 },
-      { "name": "Velocity +2.5", "odds": 1.77 },
-      { "name": "Over 21.5", "odds": 1.79 },
-      { "name": "Under 21.5", "odds": 1.95 },
-      { "name": "Odd", "odds": 1.87 },
-      { "name": "Even", "odds": 1.87 },
-      { "name": "MITH Pistol Winner", "odds": 1.75 },
-      { "name": "Velocity Pistol Winner", "odds": 1.99 }
+      { "name": "MITH Winner", "odds": 2.14 },
+      { "name": "Bleed Winner", "odds": 1.65 },
+      { "name": "MITH -2.5", "odds": 1.62 },
+      { "name": "Bleed +2.5", "odds": 2.13 },
+      { "name": "Over 21.5", "odds": 1.99 },
+      { "name": "Under 21.5", "odds": 1.75 },
+      { "name": "Odd", "odds": 1.95 },
+      { "name": "Even", "odds": 1.83 },
+      { "name": "MITH Pistol Winner", "odds": 1.89 },
+      { "name": "Velocity Pistol Winner", "odds": 1.85 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2022-11-24 16:30:00+0800",
+    "match_name": "MITH vs Bleed Map2",
+    "bet_list": [
+      { "name": "MITH Winner", "odds": 2.14 },
+      { "name": "Bleed Winner", "odds": 1.65 },
+      { "name": "MITH -2.5", "odds": 1.62 },
+      { "name": "Bleed +2.5", "odds": 2.13 },
+      { "name": "Over 21.5", "odds": 1.99 },
+      { "name": "Under 21.5", "odds": 1.75 },
+      { "name": "Odd", "odds": 1.95 },
+      { "name": "Even", "odds": 1.83 },
+      { "name": "MITH Pistol Winner", "odds": 1.89 },
+      { "name": "Velocity Pistol Winner", "odds": 1.85 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2022-11-24 17:00:00+0800",
+    "match_name": "MITH vs Bleed Map3",
+    "bet_list": [
+      { "name": "MITH Winner", "odds": 2.14 },
+      { "name": "Bleed Winner", "odds": 1.65 },
+      { "name": "MITH -2.5", "odds": 1.62 },
+      { "name": "Bleed +2.5", "odds": 2.13 },
+      { "name": "Over 21.5", "odds": 1.99 },
+      { "name": "Under 21.5", "odds": 1.75 },
+      { "name": "Odd", "odds": 1.95 },
+      { "name": "Even", "odds": 1.83 },
+      { "name": "MITH Pistol Winner", "odds": 1.89 },
+      { "name": "Velocity Pistol Winner", "odds": 1.85 }
     ]
   },
   {
