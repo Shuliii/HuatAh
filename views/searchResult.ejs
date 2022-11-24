@@ -42,8 +42,7 @@
         <div class="search-balance">
           <h1>Balance Summary</h1>
           <div class="balance-summary">
-            <h3>Username: <span>test</span></h3>
-            <h3>Balance: <span>100000</span></h3>
+            <h3>Balance: <span> <%= results[0][0].balance %> </span></h3>
           </div>
           <h1>Last few bets</h1>
           <div class="past-bet">
@@ -63,7 +62,7 @@
         </div>
         <div class="search-active-bets">
           <h1>Active Bets</h1>
-          <% results.forEach((result) => { %>
+          <% results[1].forEach((result) => { %>
           <div class="active-bets">
             <h2><%= result.Match_Name %></h2>
             <div class="active-bets-details">
