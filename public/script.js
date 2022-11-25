@@ -76,6 +76,10 @@ right.addEventListener("click", (e) => {
     const toBeRemove = e.target.closest(".final-step");
     toBeRemove.remove();
   }
+  if (e.target.classList.contains("submit")) {
+    document.querySelector(".final-step") &&
+      document.querySelector(".final-step").remove();
+  }
 });
 
 // right.addEventListener("submit", (e) => {
