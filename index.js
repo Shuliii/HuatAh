@@ -24,21 +24,32 @@ app.use("/Soccer", soccerRouter);
 
 app.post("/search", (req, res) => {
   const queryString1 =
-    "SELECT * FROM betlist WHERE Username = ? and Match_Result is NULL";
+    "SELECT SUM(Balance) as balance FROM betlist WHERE Username = ?";
   const queryString2 =
-    "select SUM(Balance) as balance from betlist where Username = ?";
-  const queryString3 = `SELECT * FROM BETLIST where Username = '${req.body.firstName}' and Match_Result is NULL`;
+    "SELECT * FROM betlist WHERE Username = ? and Match_Result is NULL";
+
+  const queryString3 =
+    "SELECT * FROM betlist where Username = ? and Match_Result is not NULL order by id desc limit ?;";
   async.parallel(
     [
+      function (callback) {
+        connection.query(queryString1, [req.body.firstName], (err, result) => {
+          callback(null, result);
+        });
+      },
       function (callback) {
         connection.query(queryString2, [req.body.firstName], (err, result) => {
           callback(null, result);
         });
       },
       function (callback) {
-        connection.query(queryString1, [req.body.firstName], (err, result) => {
-          callback(null, result);
-        });
+        connection.query(
+          queryString3,
+          [req.body.firstName, 5],
+          (err, result) => {
+            callback(null, result);
+          }
+        );
       },
     ],
     function (err, results) {

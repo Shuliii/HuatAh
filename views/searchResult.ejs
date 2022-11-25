@@ -40,7 +40,7 @@
       </form>
       <div class="search-content">
         <div class="search-balance">
-          <h1>Balance Summary</h1>
+          <h1>Summary</h1>
           <div class="balance-summary">
             <h3>
               Balance: <% if(results[0][0].balance === null) { %>
@@ -51,20 +51,19 @@
             </h3>
           </div>
           <h1>Last few bets</h1>
+          <% results[2].forEach((result) => { %>
           <div class="past-bet">
-            <h2>Match Name</h2>
-            <h3>Bet on: <span>Team1</span></h3>
-            <h3>Amount: <span>100</span></h3>
-            <h3>Odds: 2.00</h3>
-            <h3>Result: 100</h3>
+            <h2><%= result.Match_Name %></h2>
+            <div class="past-bets-details">
+              <h3>Bet on: <span><%= result.Bet_Name %></span></h3>
+              <h3>Amount: <span><%= result.Amount %></span></h3>
+              <h3>Odds: <span><%= result.Odds %></span></h3>
+            </div>
+            <div class="result">
+              <h3>Result: <span><%= result.Balance %></span></h3>
+            </div>
           </div>
-          <div class="past-bet">
-            <h2>Match Name</h2>
-            <h3>Bet on: <span>Team1</span></h3>
-            <h3>Amount: <span>100</span></h3>
-            <h3>Odds: 2.00</h3>
-            <h3>Result: 100</h3>
-          </div>
+          <% }) %>
         </div>
         <div class="search-active-bets">
           <h1>Active Bets</h1>
