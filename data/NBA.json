@@ -22,7 +22,7 @@
   },
   {
     "type": "NBA",
-    "time": "2022-11-24 08:00:00+0800",
+    "time": "2022-11-26 08:30:00+0800",
     "match_name": "Knicks vs Trail Blazers",
     "bet_list": [
       { "name": "Knicks Winner", "odds": 1.3 },
@@ -39,6 +39,21 @@
       { "name": "Under 217.5", "odds": 1.88 },
       { "name": "Over 218.5", "odds": 2.13 },
       { "name": "Under 218.5", "odds": 1.76 }
+    ]
+  },
+  {
+    "type": "NBA",
+    "time": "2022-11-26 09:00:00+0800",
+    "match_name": "Heat vs Wizards",
+    "bet_list": [
+      { "name": "Heat Winner", "odds": 1.62 },
+      { "name": "Wizards Winner", "odds": 2.38 },
+      { "name": "Heat -3", "odds": 1.88 },
+      { "name": "Wizards +3", "odds": 2.02 },
+      { "name": "Heat -3.5", "odds": 1.95 },
+      { "name": "Wizards +3.5", "odds": 1.95 },
+      { "name": "Heat -4", "odds": 2.02 },
+      { "name": "Wizards +4", "odds": 1.88 }
     ]
   },
   {
@@ -124,27 +139,6 @@
       { "name": "Under 239.5", "odds": 1.94 },
       { "name": "Over 240.5", "odds": 2.06 },
       { "name": "Under 240.5", "odds": 1.82 }
-    ]
-  },
-  {
-    "type": "NBA",
-    "time": "2022-11-24 08:30:00+0800",
-    "match_name": "Heat vs Wizards",
-    "bet_list": [
-      { "name": "Heat Winner", "odds": 1.8 },
-      { "name": "Wizards Winner", "odds": 2.11 },
-      { "name": "Heat -1", "odds": 1.9 },
-      { "name": "Wizards +1", "odds": 2.0 },
-      { "name": "Heat -1.5", "odds": 1.97 },
-      { "name": "Wizards +1.5", "odds": 1.93 },
-      { "name": "Heat -2", "odds": 2.04 },
-      { "name": "Wizards +2", "odds": 1.86 },
-      { "name": "Over 210.5", "odds": 1.85 },
-      { "name": "Under 210.5", "odds": 2.03 },
-      { "name": "Over 211.5", "odds": 1.97 },
-      { "name": "Under 211.5", "odds": 1.91 },
-      { "name": "Over 212.5", "odds": 2.09 },
-      { "name": "Under 212.5", "odds": 1.79 }
     ]
   },
   {
