@@ -35,7 +35,7 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2022-11-27 12:35:00+0800",
+    "time": "2022-11-27 13:35:00+0800",
     "match_name": "Gen.G vs Zeta Map2",
     "bet_list": [
       { "name": "Gen.G Winner", "odds": 1.74 },
@@ -96,7 +96,33 @@
   {
     "type": "valorant_logo",
     "time": "2022-11-27 15:10:00+0800",
-    "match_name": "DRX vs Talon Map1",
+    "match_name": "DRX vs Talon Map3",
+    "bet_list": [
+      { "name": "DRX Winner", "odds": 1.44 },
+      { "name": "Talon Winner", "odds": 2.61 },
+      { "name": "Odd", "odds": 1.95 },
+      { "name": "Even", "odds": 1.83 },
+      { "name": "DRX Pistol Winner", "odds": 1.74 },
+      { "name": "Talon Pistol Winner", "odds": 2.02 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2022-11-27 15:10:00+0800",
+    "match_name": "DRX vs Talon Map4",
+    "bet_list": [
+      { "name": "DRX Winner", "odds": 1.44 },
+      { "name": "Talon Winner", "odds": 2.61 },
+      { "name": "Odd", "odds": 1.95 },
+      { "name": "Even", "odds": 1.83 },
+      { "name": "DRX Pistol Winner", "odds": 1.74 },
+      { "name": "Talon Pistol Winner", "odds": 2.02 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2022-11-27 15:10:00+0800",
+    "match_name": "DRX vs Talon Map5",
     "bet_list": [
       { "name": "DRX Winner", "odds": 1.44 },
       { "name": "Talon Winner", "odds": 2.61 },
