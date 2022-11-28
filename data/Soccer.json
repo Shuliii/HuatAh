@@ -2,7 +2,7 @@
   {
     "type": "Soccer_ball",
     "time": "2022-11-28 18:00:00+0800",
-    "match_name": "Serbia vs Caeroon",
+    "match_name": "Serbia vs Cameroon",
     "bet_list": [
       { "name": "Serbia Winner", "odds": 1.73 },
       { "name": "Caeroon Winner", "odds": 4.53 },
