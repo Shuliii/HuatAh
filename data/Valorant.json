@@ -4,21 +4,12 @@
     "time": "2022-11-30 21:15:00+0800",
     "match_name": "Dewa United vs Bleed Match",
     "bet_list": [
-<<<<<<< HEAD
       { "name": "Dewa United Winner", "odds": 5.76 },
       { "name": "Bleed Winner", "odds": 1.09 },
       { "name": "Dewa United +5.5", "odds": 1.89 },
       { "name": "Bleed -5.5", "odds": 1.85 },
       { "name": "Over 20.5", "odds": 1.96 },
       { "name": "Under 20.5", "odds": 1.78 },
-=======
-      { "name": "Alter Ego Winner", "odds": 1.12 },
-      { "name": "SR Nacague Winner", "odds": 5.16 },
-      { "name": "Alter Ego -5.5", "odds": 1.96 },
-      { "name": "SR Nacague +5.5", "odds": 1.78 },
-      { "name": "Over 20.5", "odds": 1.95 },
-      { "name": "Under 20.5", "odds": 1.79 },
->>>>>>> ab8d2e72c1703eeab06f2ea7fcf0102e4b35c402
       { "name": "Odd", "odds": 1.87 },
       { "name": "Even", "odds": 1.87 }
     ]
