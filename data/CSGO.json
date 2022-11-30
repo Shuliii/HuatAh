@@ -65,25 +65,66 @@
   },
   {
     "type": "csgo_logo",
-    "time": "2022-11-28 01:20:00+0800",
-    "match_name": "Faze vs Heroic Map2",
+    "time": "2022-12-01 02:00:00+0800",
+    "match_name": "Spirit vs HEET Match",
     "bet_list": [
-      { "name": "Faze Winner", "odds": 1.7 },
-      { "name": "Heroic Winner", "odds": 2.11 },
-      { "name": "Faze +2.5", "odds": 1.51 },
-      { "name": "Heroic -2.5", "odds": 2.33 },
-      { "name": "Faze -2.5", "odds": 1.96 },
-      { "name": "Heroic +2.5", "odds": 1.8 },
-      { "name": "Faze -3.5", "odds": 2.19 },
-      { "name": "Heroic +3.5", "odds": 1.6 },
-      { "name": "Over 25.5", "odds": 1.5 },
-      { "name": "Under 25.5", "odds": 2.35 },
-      { "name": "Over 26.5", "odds": 1.8 },
-      { "name": "Under 26.5", "odds": 1.96 },
-      { "name": "Over 27.5", "odds": 2.11 },
-      { "name": "Under 27.5", "odds": 1.66 },
-      { "name": "Odd", "odds": 2.06 },
-      { "name": "Even", "odds": 1.74 }
+      { "name": "Spirit Winner", "odds": 1.29 },
+      { "name": "HEET Winner", "odds": 3.22 },
+      { "name": "Spirit -1.5", "odds": 2.06 },
+      { "name": "HEET +1.5", "odds": 1.7 },
+      { "name": "Spirit +1.5", "odds": 1.08 },
+      { "name": "HEET -1.5", "odds": 6.55 },
+      { "name": "Over 2.5", "odds": 2.14 },
+      { "name": "Under 2.5", "odds": 1.65 },
+      { "name": "Map score 2-0", "odds": 2.04 },
+      { "name": "Map score 2-1", "odds": 3.27 },
+      { "name": "Map score 0-2", "odds": 6.0 },
+      { "name": "Map score 1-2", "odds": 5.16 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-01 02:00:00+0800",
+    "match_name": "Spirit vs HEET Map1",
+    "bet_list": [
+      { "name": "Spirit Winner", "odds": 1.39 },
+      { "name": "HEET Winner", "odds": 2.75 },
+      { "name": "Spirit -3.5", "odds": 1.84 },
+      { "name": "HEET +3.5", "odds": 1.9 },
+      { "name": "Over 26.5", "odds": 1.94 },
+      { "name": "Under 26.5", "odds": 1.8 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-01 02:50:00+0800",
+    "match_name": "Spirit vs HEET Map2",
+    "bet_list": [
+      { "name": "Spirit Winner", "odds": 1.39 },
+      { "name": "HEET Winner", "odds": 2.75 },
+      { "name": "Spirit -3.5", "odds": 1.84 },
+      { "name": "HEET +3.5", "odds": 1.9 },
+      { "name": "Over 26.5", "odds": 1.94 },
+      { "name": "Under 26.5", "odds": 1.8 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-01 03:40:00+0800",
+    "match_name": "Spirit vs HEET Map3",
+    "bet_list": [
+      { "name": "Spirit Winner", "odds": 1.39 },
+      { "name": "HEET Winner", "odds": 2.75 },
+      { "name": "Spirit -3.5", "odds": 1.84 },
+      { "name": "HEET +3.5", "odds": 1.9 },
+      { "name": "Over 26.5", "odds": 1.94 },
+      { "name": "Under 26.5", "odds": 1.8 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
     ]
   },
   {
