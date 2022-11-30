@@ -1,13 +1,13 @@
 [
   {
     "type": "valorant_logo",
-    "time": "2022-11-30 13:45:00+0800",
-    "match_name": "Alter Ego vs SR Nacague Match",
+    "time": "2022-11-30 21:15:00+0800",
+    "match_name": "Dewa United vs Bleed Match",
     "bet_list": [
-      { "name": "Alter Ego Winner", "odds": 1.17 },
-      { "name": "SR Nacague Winner", "odds": 4.22 },
-      { "name": "Alter Ego -5.5", "odds": 1.97 },
-      { "name": "SR Nacague +5.5", "odds": 1.77 },
+      { "name": "Dewa United Winner", "odds": 5.76 },
+      { "name": "Bleed Winner", "odds": 1.09 },
+      { "name": "Dewa United +5.5", "odds": 1.89 },
+      { "name": "Bleed -5.5", "odds": 1.85 },
       { "name": "Over 20.5", "odds": 1.96 },
       { "name": "Under 20.5", "odds": 1.78 },
       { "name": "Odd", "odds": 1.87 },
