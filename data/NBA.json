@@ -243,12 +243,12 @@
       { "name": "Pacers +4.5", "odds": 1.95 },
       { "name": "Kings -5", "odds": 2.02 },
       { "name": "Pacers +5", "odds": 1.88 },
-      { "name": "Over 240.5", "odds": 1.81 },
-      { "name": "Under 240.5", "odds": 2.07 },
-      { "name": "Over 241.5", "odds": 1.89 },
-      { "name": "Under 241.5", "odds": 1.99 },
-      { "name": "Over 242.5", "odds": 2.05 },
-      { "name": "Under 242.5", "odds": 1.83 }
+      { "name": "Over 241.5", "odds": 1.88 },
+      { "name": "Under 241.5", "odds": 2.00 },
+      { "name": "Over 242.5", "odds": 2.00 },
+      { "name": "Under 242.5", "odds": 1.88 },
+      { "name": "Over 243.5", "odds": 2.13 },
+      { "name": "Under 243.5", "odds": 1.76 }
     ]
   },
   {
@@ -264,12 +264,12 @@
       { "name": "Trail Blazers +5.5", "odds": 1.96 },
       { "name": "Lakers -6", "odds": 2.01 },
       { "name": "Trail Blazers +6", "odds": 1.89 },
-      { "name": "Over 223.5", "odds": 1.85 },
-      { "name": "Under 223.5", "odds": 2.03 },
-      { "name": "Over 224.5", "odds": 1.97 },
-      { "name": "Under 224.5", "odds": 1.91 },
-      { "name": "Over 225.5", "odds": 2.09 },
-      { "name": "Under 225.5", "odds": 1.79 }
+      { "name": "Over 223.5", "odds": 1.88 },
+      { "name": "Under 223.5", "odds": 2.00 },
+      { "name": "Over 224.5", "odds": 2.00 },
+      { "name": "Under 224.5", "odds": 1.88 },
+      { "name": "Over 225.5", "odds": 2.13 },
+      { "name": "Under 225.5", "odds": 1.76 }
     ]
   },
   {
