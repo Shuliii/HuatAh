@@ -85,14 +85,14 @@
   },
   {
     "type": "NBA",
-    "time": "2022-12-01 08:30:00+0800",
+    "time": "2022-12-01 09:16:00+0800",
     "match_name": "Celtics vs Heat",
     "bet_list": [
       { "name": "Celtics Winner", "odds": 1.27 },
       { "name": "Heat Winner", "odds": 3.7 },
       { "name": "Celtics -8", "odds": 1.83 },
       { "name": "Heat +8", "odds": 2.07 },
-      { "name": "Celtics -8.5", "odds": 1.9 },
+      { "name": "Celtics -8.5", "odds": 1.88 },
       { "name": "Heat +8.5", "odds": 2.0 },
       { "name": "Celtics -9", "odds": 1.97 },
       { "name": "Heat +9", "odds": 1.93 },
