@@ -20,47 +20,47 @@
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-01 16:30:00+0800",
-    "match_name": "Rooster vs Vertex ESC Map1",
+    "time": "2022-12-02 14:45:00+0800",
+    "match_name": "Rooster vs e-LEMON-ators Map1",
     "bet_list": [
-      { "name": "Rooster Winner", "odds": 2.47 },
-      { "name": "Vertex ESC Winner", "odds": 1.5 },
-      { "name": "Rooster +3.5", "odds": 1.8 },
-      { "name": "Vertex ESC -3.5", "odds": 1.96 },
-      { "name": "Over 26.5", "odds": 1.85 },
-      { "name": "Under 26.5", "odds": 1.91 },
-      { "name": "Odd", "odds": 2.06 },
-      { "name": "Even", "odds": 1.74 }
+      { "name": "Rooster Winner", "odds": 1.57 },
+      { "name": "e-LEMON-ators Winner", "odds": 2.29 },
+      { "name": "Rooster -2.5", "odds": 1.94 },
+      { "name": "e-LEMON-ators +2.5", "odds": 1.8 },
+      { "name": "Over 26.5", "odds": 1.82 },
+      { "name": "Under 26.5", "odds": 1.92 },
+      { "name": "Odd", "odds": 1.99 },
+      { "name": "Even", "odds": 1.75 }
     ]
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-01 17:15:00+0800",
-    "match_name": "Rooster vs Vertex ESC Map2",
+    "time": "2022-12-02 15:30:00+0800",
+    "match_name": "Rooster vs e-LEMON-ators Map2",
     "bet_list": [
-      { "name": "Rooster Winner", "odds": 2.47 },
-      { "name": "Vertex ESC Winner", "odds": 1.5 },
-      { "name": "Rooster +3.5", "odds": 1.8 },
-      { "name": "Vertex ESC -3.5", "odds": 1.96 },
-      { "name": "Over 26.5", "odds": 1.85 },
-      { "name": "Under 26.5", "odds": 1.91 },
-      { "name": "Odd", "odds": 2.06 },
-      { "name": "Even", "odds": 1.74 }
+      { "name": "Rooster Winner", "odds": 1.57 },
+      { "name": "e-LEMON-ators Winner", "odds": 2.29 },
+      { "name": "Rooster -2.5", "odds": 1.94 },
+      { "name": "e-LEMON-ators +2.5", "odds": 1.8 },
+      { "name": "Over 26.5", "odds": 1.82 },
+      { "name": "Under 26.5", "odds": 1.92 },
+      { "name": "Odd", "odds": 1.99 },
+      { "name": "Even", "odds": 1.75 }
     ]
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-01 18:00:00+0800",
-    "match_name": "Rooster vs Vertex ESC Map3",
+    "time": "2022-12-02 14:00:00+0800",
+    "match_name": "Rooster vs e-LEMON-ators Map3",
     "bet_list": [
-      { "name": "Rooster Winner", "odds": 2.47 },
-      { "name": "Vertex ESC Winner", "odds": 1.5 },
-      { "name": "Rooster +3.5", "odds": 1.8 },
-      { "name": "Vertex ESC -3.5", "odds": 1.96 },
-      { "name": "Over 26.5", "odds": 1.85 },
-      { "name": "Under 26.5", "odds": 1.91 },
-      { "name": "Odd", "odds": 2.06 },
-      { "name": "Even", "odds": 1.74 }
+      { "name": "Rooster Winner", "odds": 1.57 },
+      { "name": "e-LEMON-ators Winner", "odds": 2.29 },
+      { "name": "Rooster -2.5", "odds": 1.94 },
+      { "name": "e-LEMON-ators +2.5", "odds": 1.8 },
+      { "name": "Over 26.5", "odds": 1.82 },
+      { "name": "Under 26.5", "odds": 1.92 },
+      { "name": "Odd", "odds": 1.99 },
+      { "name": "Even", "odds": 1.75 }
     ]
   },
   {
@@ -82,17 +82,47 @@
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-01 17:30:00+0800",
-    "match_name": "Nut-E vs Antic Map1",
+    "time": "2022-12-02 16:30:00+0800",
+    "match_name": "Grayhound vs Vertex ESC Map1",
     "bet_list": [
-      { "name": "Nut-E Winner", "odds": 2.72 },
-      { "name": "Antic Winner", "odds": 1.42 },
-      { "name": "Nut-E +3.5", "odds": 1.85 },
-      { "name": "Antic -3.5", "odds": 1.91 },
-      { "name": "Over 26.5", "odds": 1.91 },
-      { "name": "Under 26.5", "odds": 1.85 },
-      { "name": "Odd", "odds": 2.06 },
-      { "name": "Even", "odds": 1.74 }
+      { "name": "Grayhound Winner", "odds": 1.16 },
+      { "name": "Vertex ESC Winner", "odds": 4.57 },
+      { "name": "Grayhound -5.5", "odds": 1.79 },
+      { "name": "Vertex ESC +5.5", "odds": 1.95 },
+      { "name": "Over 25.5", "odds": 1.89 },
+      { "name": "Under 25.5", "odds": 1.85 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-02 17:15:00+0800",
+    "match_name": "Grayhound vs Vertex ESC Map2",
+    "bet_list": [
+      { "name": "Grayhound Winner", "odds": 1.16 },
+      { "name": "Vertex ESC Winner", "odds": 4.57 },
+      { "name": "Grayhound -5.5", "odds": 1.79 },
+      { "name": "Vertex ESC +5.5", "odds": 1.95 },
+      { "name": "Over 25.5", "odds": 1.89 },
+      { "name": "Under 25.5", "odds": 1.85 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-02 18:00:00+0800",
+    "match_name": "Grayhound vs Vertex ESC Map3",
+    "bet_list": [
+      { "name": "Grayhound Winner", "odds": 1.16 },
+      { "name": "Vertex ESC Winner", "odds": 4.57 },
+      { "name": "Grayhound -5.5", "odds": 1.79 },
+      { "name": "Vertex ESC +5.5", "odds": 1.95 },
+      { "name": "Over 25.5", "odds": 1.89 },
+      { "name": "Under 25.5", "odds": 1.85 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
     ]
   },
   {
