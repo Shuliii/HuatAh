@@ -1,21 +1,21 @@
 [
   {
     "type": "csgo_logo",
-    "time": "2022-12-01 16:30:00+0800",
-    "match_name": "Rooster vs Vertex ESC Match",
+    "time": "2022-12-02 14:00:00+0800",
+    "match_name": "Rooster vs e-LEMON-ators Match",
     "bet_list": [
-      { "name": "Rooster Winner", "odds": 2.78 },
-      { "name": "Vertex ESC Winner", "odds": 1.40 },
-      { "name": "Rooster -1.5", "odds": 5.34 },
-      { "name": "Vertex ESC +1.5", "odds": 1.13 },
-      { "name": "Rooster +1.5", "odds": 1.60 },
-      { "name": "Vertex ESC -1.5", "odds": 2.25 },
-      { "name": "Over 2.5", "odds": 2.16 },
-      { "name": "Under 2.5", "odds": 1.66 },
-      { "name": "Map score 2-0", "odds": 4.44 },
-      { "name": "Map score 2-1", "odds": 4.22 },
-      { "name": "Map score 0-2", "odds": 2.14 },
-      { "name": "Map score 1-2", "odds": 3.22 }
+      { "name": "Rooster Winner", "odds": 1.75 },
+      { "name": "e-LEMON-ators Winner", "odds": 1.99 },
+      { "name": "Rooster -1.5", "odds": 2.96 },
+      { "name": "e-LEMON-ators +1.5", "odds": 1.35 },
+      { "name": "Rooster +1.5", "odds": 1.25 },
+      { "name": "e-LEMON-ators -1.5", "odds": 3.56 },
+      { "name": "Over 2.5", "odds": 2.04 },
+      { "name": "Under 2.5", "odds": 1.72 },
+      { "name": "Map score 2-0", "odds": 3.0 },
+      { "name": "Map score 2-1", "odds": 3.56 },
+      { "name": "Map score 0-2", "odds": 3.43 },
+      { "name": "Map score 1-2", "odds": 3.94 }
     ]
   },
   {
@@ -24,8 +24,8 @@
     "match_name": "Rooster vs Vertex ESC Map1",
     "bet_list": [
       { "name": "Rooster Winner", "odds": 2.47 },
-      { "name": "Vertex ESC Winner", "odds": 1.50 },
-      { "name": "Rooster +3.5", "odds": 1.80 },
+      { "name": "Vertex ESC Winner", "odds": 1.5 },
+      { "name": "Rooster +3.5", "odds": 1.8 },
       { "name": "Vertex ESC -3.5", "odds": 1.96 },
       { "name": "Over 26.5", "odds": 1.85 },
       { "name": "Under 26.5", "odds": 1.91 },
@@ -39,8 +39,8 @@
     "match_name": "Rooster vs Vertex ESC Map2",
     "bet_list": [
       { "name": "Rooster Winner", "odds": 2.47 },
-      { "name": "Vertex ESC Winner", "odds": 1.50 },
-      { "name": "Rooster +3.5", "odds": 1.80 },
+      { "name": "Vertex ESC Winner", "odds": 1.5 },
+      { "name": "Rooster +3.5", "odds": 1.8 },
       { "name": "Vertex ESC -3.5", "odds": 1.96 },
       { "name": "Over 26.5", "odds": 1.85 },
       { "name": "Under 26.5", "odds": 1.91 },
@@ -54,8 +54,8 @@
     "match_name": "Rooster vs Vertex ESC Map3",
     "bet_list": [
       { "name": "Rooster Winner", "odds": 2.47 },
-      { "name": "Vertex ESC Winner", "odds": 1.50 },
-      { "name": "Rooster +3.5", "odds": 1.80 },
+      { "name": "Vertex ESC Winner", "odds": 1.5 },
+      { "name": "Rooster +3.5", "odds": 1.8 },
       { "name": "Vertex ESC -3.5", "odds": 1.96 },
       { "name": "Over 26.5", "odds": 1.85 },
       { "name": "Under 26.5", "odds": 1.91 },
@@ -65,21 +65,19 @@
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-01 17:30:00+0800",
-    "match_name": "Nut-E vs Antic Match",
+    "time": "2022-12-02 16:30:00+0800",
+    "match_name": "Grayhound vs Vertex ESC Match",
     "bet_list": [
-      { "name": "Nut-E Winner", "odds": 3.17 },
-      { "name": "Antic Winner", "odds": 1.32 },
-      { "name": "Nut-E -1.5", "odds": 1.70 },
-      { "name": "Antic +1.5", "odds": 2.08 },
-      { "name": "Nut-E +1.5", "odds": 2.20 },
-      { "name": "Antic -1.5", "odds": 1.63 },
-      { "name": "Over 2.5", "odds": 2.20 },
-      { "name": "Under 2.5", "odds": 1.63 },
-      { "name": "Map score 2-0", "odds": 5.76 },
-      { "name": "Map score 2-1", "odds": 5.16 },
-      { "name": "Map score 0-2", "odds": 2.07 },
-      { "name": "Map score 1-2", "odds": 3.32 }
+      { "name": "Grayhound Winner", "odds": 1.04 },
+      { "name": "Vertex ESC Winner", "odds": 8.14 },
+      { "name": "Grayhound -1.5", "odds": 1.46 },
+      { "name": "Vertex ESC +1.5", "odds": 2.56 },
+      { "name": "Over 2.5", "odds": 3.04 },
+      { "name": "Under 2.5", "odds": 1.33 },
+      { "name": "Map score 2-0", "odds": 1.47 },
+      { "name": "Map score 2-1", "odds": 3.94 },
+      { "name": "Map score 0-2", "odds": 12.11 },
+      { "name": "Map score 1-2", "odds": 10.09 }
     ]
   },
   {

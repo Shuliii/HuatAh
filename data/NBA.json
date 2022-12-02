@@ -1,27 +1,6 @@
 [
   {
     "type": "NBA",
-    "time": "2022-12-02 10:50:00+0800",
-    "match_name": "Pistons vs Mavericks",
-    "bet_list": [
-      { "name": "Pistons Winner", "odds": 3.63 },
-      { "name": "Mavericks Winner", "odds": 1.28 },
-      { "name": "Pistons +7.5", "odds": 1.98 },
-      { "name": "Mavericks -7.5", "odds": 1.92 },
-      { "name": "Pistons +8", "odds": 1.91 },
-      { "name": "Mavericks -8", "odds": 1.99 },
-      { "name": "Pistons +8.5", "odds": 1.87 },
-      { "name": "Mavericks -8.5", "odds": 2.03 },
-      { "name": "Over 220.5", "odds": 1.88 },
-      { "name": "Under 220.5", "odds": 2.0 },
-      { "name": "Over 221.5", "odds": 2.0 },
-      { "name": "Under 221.5", "odds": 1.88 },
-      { "name": "Over 222.5", "odds": 2.13 },
-      { "name": "Under 222.5", "odds": 1.76 }
-    ]
-  },
-  {
-    "type": "NBA",
     "time": "2022-12-01 08:30:00+0800",
     "match_name": "Hornets vs Wizards",
     "bet_list": [
