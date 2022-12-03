@@ -21,7 +21,7 @@ router.get("/", (req, res) => {
 router.post("/submit", (req, res) => {
   let newbetamount = Number(req.body.betamount);
   let newoddsamount = Number(req.body.odds);
-  const sthElse = path.join(__dirname, "/../data/CS:GO.json");
+  const sthElse = path.join(__dirname, "/../data/CSGO.json");
 
   fs.readFile(`${sthElse}`, (err, data) => {
     if (err) {
