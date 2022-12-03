@@ -20,6 +20,21 @@
   },
   {
     "type": "csgo_logo",
+    "time": "2022-12-03 14:00:00+0800",
+    "match_name": "Rooster vs Encore Map1",
+    "bet_list": [
+      { "name": "Rooster Winner", "odds": 2.51 },
+      { "name": "Encore Winner", "odds": 1.48 },
+      { "name": "Rooster +3.5", "odds": 1.79 },
+      { "name": "Encore -3.5", "odds": 1.95 },
+      { "name": "Over 26.5", "odds": 1.81 },
+      { "name": "Under 26.5", "odds": 1.93 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
     "time": "2022-12-03 14:40:00+0800",
     "match_name": "Rooster vs Encore Map2",
     "bet_list": [
@@ -48,21 +63,7 @@
       { "name": "Even", "odds": 1.73 }
     ]
   },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-03 14:00:00+0800",
-    "match_name": "Rooster vs Encore Map1",
-    "bet_list": [
-      { "name": "Rooster Winner", "odds": 2.51 },
-      { "name": "Encore Winner", "odds": 1.48 },
-      { "name": "Rooster +3.5", "odds": 1.79 },
-      { "name": "Encore -3.5", "odds": 1.95 },
-      { "name": "Over 26.5", "odds": 1.81 },
-      { "name": "Under 26.5", "odds": 1.93 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
+
   {
     "type": "csgo_logo",
     "time": "2022-12-02 15:30:00+0800",
