@@ -1,8 +1,10 @@
 [
   {
     "type": "NBA",
-    "time": "2022-12-05 08:00:00+0800",
+    "time": "2022-12-06 08:00:00+0800",
     "match_name": "Magic vs Bucks",
+    "team1": "Magic",
+    "team2": "Bucks",
     "bet_list": [
       { "name": "Magic Winner", "odds": 3.94 },
       { "name": "Bucks Winner", "odds": 1.24 },

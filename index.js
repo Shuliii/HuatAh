@@ -1,26 +1,108 @@
 const express = require("express");
-const connection = require("./routes/db");
+const path = require("path");
 const async = require("async");
+
+const fs = require("fs");
+
+const connection = require("./routes/db");
+
 const app = express();
 
 app.set("view engine", "ejs");
-
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
 const port = process.env.PORT || 3000;
 
-const dota2Router = require("./routes/dota2.js");
-const csgoRouter = require("./routes/csgo.js");
-const valorantRouter = require("./routes/valorant.js");
-const nbaRouter = require("./routes/nba.js");
-const soccerRouter = require("./routes/soccer.js");
+app.get("/", (req, res) => {
+  const valorantPath = path.join(__dirname, "/data/Valorant.json");
+  const csgoPath = path.join(__dirname, "/data/CSGO.json");
+  const nbaPath = path.join(__dirname, "/data/NBA.json");
+  const dotaPath = path.join(__dirname, "/data/Dota2.json");
+  const soccerPath = path.join(__dirname, "/data/Soccer.json");
 
-app.use("/Dota2", dota2Router);
-app.use("/CS:GO", csgoRouter);
-app.use("/Valorant", valorantRouter);
-app.use("/NBA", nbaRouter);
-app.use("/Soccer", soccerRouter);
+  async.parallel(
+    [
+      function (callback) {
+        fs.readFile(`${nbaPath}`, (err, data) => {
+          err && console.log(err);
+          let results = JSON.parse(data);
+          results = results.filter((object) => {
+            return Date.parse(object.time) - new Date().getTime() >= 0;
+          });
+          callback(null, results);
+        });
+      },
+      function (callback) {
+        fs.readFile(`${soccerPath}`, (err, data) => {
+          err && console.log(err);
+          let results = JSON.parse(data);
+          results = results.filter((object) => {
+            return Date.parse(object.time) - new Date().getTime() >= 0;
+          });
+          callback(null, results);
+        });
+      },
+      function (callback) {
+        fs.readFile(`${dotaPath}`, (err, data) => {
+          err && console.log(err);
+          let results = JSON.parse(data);
+          results = results.filter((object) => {
+            return Date.parse(object.time) - new Date().getTime() >= 0;
+          });
+          callback(null, results);
+        });
+      },
+      function (callback) {
+        fs.readFile(`${csgoPath}`, (err, data) => {
+          err && console.log(err);
+          let results = JSON.parse(data);
+          results = results.filter((object) => {
+            return Date.parse(object.time) - new Date().getTime() >= 0;
+          });
+          callback(null, results);
+        });
+      },
+      function (callback) {
+        fs.readFile(`${valorantPath}`, (err, data) => {
+          err && console.log(err);
+          let results = JSON.parse(data);
+          results = results.filter((object) => {
+            return Date.parse(object.time) - new Date().getTime() >= 0;
+          });
+          callback(null, results);
+        });
+      },
+    ],
+    function (err, results) {
+      res.render("index", { results });
+    }
+  );
+});
+
+app.post("/submit", (req, res) => {
+  let newbetamount = Number(req.body.betamount);
+  let newoddsamount = Number(req.body.odds);
+  let game = req.body.game;
+  const sthElse = path.join(__dirname, `/data/${game}.json`);
+  fs.readFile(`${sthElse}`, (err, data) => {
+    err && console.log(err);
+    let results = JSON.parse(data);
+    results = results.filter((object) => {
+      return object.match_name == req.body.matchName;
+    });
+
+    if (Date.parse(results[0].time) > new Date().getTime()) {
+      const queryString = `INSERT INTO BETLIST (ID, Username, Match_Name, Bet_Name, Amount, Odds) values (NULL, '${req.body.username}','${req.body.matchName}', '${req.body.betName}', ${newbetamount}, ${newoddsamount})`;
+      connection.query(queryString, (err, result) => {
+        err ? console.log(err) : console.log("successful");
+        res.status(204).send();
+      });
+    } else {
+      res.redirect("/");
+    }
+  });
+});
 
 app.post("/search", (req, res) => {
   const queryString1 =
@@ -53,56 +135,11 @@ app.post("/search", (req, res) => {
       },
     ],
     function (err, results) {
-      res.render("searchResult.ejs", { results });
+      res.render("search.ejs", { results });
     }
   );
-});
-
-app.get("/search", (req, res) => {
-  res.render("search.ejs");
 });
 
 app.listen(port, () => {
   console.log("Running on port 3000");
 });
-
-// const queryString = `SELECT * FROM BETLIST where Username = '${req.body.firstName}' and Match_Result is NULL`;
-//   connection.query(queryString, (err, results) => {
-//     err && console.log(err);
-//     res.render("searchResult.ejs", { results });
-
-// [
-//   RowDataPacket {
-//     ID: 2964,
-//     Username: 'Vito',
-//     Match_Name: 'Portugal vs Ghana',
-//     Bet_Name: 'Ghana Winner',
-//     Amount: 5,
-//     Odds: 9,
-//     Match_Result: null,
-//     Bet_Result: null,
-//     Balance: null
-//   },
-//   RowDataPacket {
-//     ID: 2974,
-//     Username: 'Vito',
-//     Match_Name: 'Portugal vs Ghana',
-//     Bet_Name: 'Draw',
-//     Amount: 10,
-//     Odds: 4.12,
-//     Match_Result: null,
-//     Bet_Result: null,
-//     Balance: null
-//   },
-//   RowDataPacket {
-//     ID: 2984,
-//     Username: 'Vito',
-//     Match_Name: 'Portugal vs Ghana',
-//     Bet_Name: 'Under 3',
-//     Amount: 10,
-//     Odds: 1.92,
-//     Match_Result: null,
-//     Bet_Result: null,
-//     Balance: null
-//   }
-// ]

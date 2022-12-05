@@ -43,6 +43,8 @@
     "type": "Soccer_ball",
     "time": "2022-12-05 23:00:00+0800",
     "match_name": "Japan vs Croatia",
+    "team1": "Japan",
+    "team2": "Croatia",
     "bet_list": [
       { "name": "Japan Winner", "odds": 3.55 },
       { "name": "Croatia Winner", "odds": 2.05 },
@@ -63,6 +65,8 @@
     "type": "Soccer_ball",
     "time": "2022-12-06 03:00:00+0800",
     "match_name": "Brazil vs Korea",
+    "team1": "Brazil",
+    "team2": "Korea",
     "bet_list": [
       { "name": "Brazil Winner", "odds": 1.25 },
       { "name": "Korea Winner", "odds": 10.09 },

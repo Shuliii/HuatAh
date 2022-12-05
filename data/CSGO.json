@@ -3,6 +3,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 17:30:00+0800",
     "match_name": "Movistar Riders vs forZe Match",
+    "team1": "Movistar Riders",
+    "team2": "forZe",
     "bet_list": [
       { "name": "Movistar Riders Winner", "odds": 2.13 },
       { "name": "forZe Winner", "odds": 1.66 },
@@ -22,6 +24,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 17:30:00+0800",
     "match_name": "Movistar Riders vs forZe Map1",
+    "team1": "Movistar Riders",
+    "team2": "forZe",
     "bet_list": [
       { "name": "Movistar Riders Winner", "odds": 1.95 },
       { "name": "forZe Winner", "odds": 1.79 },
@@ -37,6 +41,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 18:20:00+0800",
     "match_name": "Movistar Riders vs forZe Map2",
+    "team1": "Movistar Riders",
+    "team2": "forZe",
     "bet_list": [
       { "name": "Movistar Riders Winner", "odds": 1.95 },
       { "name": "forZe Winner", "odds": 1.79 },
@@ -52,6 +58,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 19:10:00+0800",
     "match_name": "Movistar Riders vs forZe Map3",
+    "team1": "Movistar Riders",
+    "team2": "forZe",
     "bet_list": [
       { "name": "Movistar Riders Winner", "odds": 1.95 },
       { "name": "forZe Winner", "odds": 1.79 },
@@ -67,6 +75,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 20:00:00+0800",
     "match_name": "Avangar vs Illuminar Match",
+    "team1": "Avangar",
+    "team2": "Illuminar",
     "bet_list": [
       { "name": "Avangar Winner", "odds": 2.51 },
       { "name": "Illuminar Winner", "odds": 1.48 },
@@ -86,6 +96,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 20:00:00+0800",
     "match_name": "Avangar vs Illuminar Map1",
+    "team1": "Avangar",
+    "team2": "Illuminar",
     "bet_list": [
       { "name": "Avangar Winner", "odds": 2.35 },
       { "name": "Illuminar Winner", "odds": 1.54 },
@@ -101,6 +113,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 20:45:00+0800",
     "match_name": "Avangar vs Illuminar Map2",
+    "team1": "Avangar",
+    "team2": "Illuminar",
     "bet_list": [
       { "name": "Avangar Winner", "odds": 2.35 },
       { "name": "Illuminar Winner", "odds": 1.54 },
@@ -116,6 +130,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 21:30:00+0800",
     "match_name": "Avangar vs Illuminar Map3",
+    "team1": "Avangar",
+    "team2": "Illuminar",
     "bet_list": [
       { "name": "Avangar Winner", "odds": 2.35 },
       { "name": "Illuminar Winner", "odds": 1.54 },
@@ -131,6 +147,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 20:30:00+0800",
     "match_name": "HEET  vs Into The Breach Match",
+    "team1": "HEET",
+    "team2": "Into the Breach",
     "bet_list": [
       { "name": "HEET  Winner", "odds": 1.44 },
       { "name": "Into The Breach Winner", "odds": 2.61 },
@@ -150,6 +168,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 20:30:00+0800",
     "match_name": "HEET vs Into The Breach Map1",
+    "team1": "HEET",
+    "team2": "Into the Breach",
     "bet_list": [
       { "name": "HEET Winner", "odds": 1.54 },
       { "name": "Into The Breach Winner", "odds": 2.35 },
@@ -165,6 +185,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 21:20:00+0800",
     "match_name": "HEET vs Into The Breach Map2",
+    "team1": "HEET",
+    "team2": "Into the Breach",
     "bet_list": [
       { "name": "HEET Winner", "odds": 1.54 },
       { "name": "Into The Breach Winner", "odds": 2.35 },
@@ -180,6 +202,8 @@
     "type": "csgo_logo",
     "time": "2022-12-05 22:10:00+0800",
     "match_name": "HEET vs Into The Breach Map3",
+    "team1": "HEET",
+    "team2": "Into the Breach",
     "bet_list": [
       { "name": "HEET Winner", "odds": 1.54 },
       { "name": "Into The Breach Winner", "odds": 2.35 },

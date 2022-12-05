@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Huat Ah</title>
+    <title>Huat Ah v2</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -17,45 +17,185 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <header class="header">
-      <div class="logo"><img src="./img/logo_red.png" /></div>
-      <div class="nav">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/search">Search</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </div>
+    <header>
+      <a href="/"><img src="./img/logo_red.png" alt="huatah logo" /></a>
+      <form action="/search" method="POST">
+        <input
+          autocomplete="off"
+          type="search"
+          name="firstName"
+          value=""
+          required
+        />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
     </header>
-    <main class="main-index">
-      <div class="bet-container">
-        <% results.forEach((result) => { %>
-        <div class="bet">
-          <div class="expand main-bet">
-            <img src="/img/<%= result.type %>.jpg" />
-            <div class="match-name">
-              <h2><%=result.match_name%></h2>
+    <div class="container">
+      <input type="radio" name="s" id="NBA" class="anchors" />
+      <input type="radio" name="s" id="Soccer" class="anchors" />
+      <input type="radio" name="s" id="Dota2" class="anchors" />
+      <input type="radio" name="s" id="CSGO" class="anchors" />
+      <input type="radio" name="s" id="Valorant" class="anchors" />
+      <nav>
+        <div class="slider"></div>
+        <label class="anchors | NBAanchors" for="NBA">NBA</label>
+        <label class="anchors | Socceranchors" for="Soccer">Soccer</label>
+        <label class="anchors | Dota2anchors" for="Dota2">Dota2</label>
+        <label class="anchors | CSGOanchors" for="CSGO">CSGO</label>
+        <label class="anchors | Valorantanchors" for="Valorant">Valorant</label>
+      </nav>
+    </div>
+    <div class="right hidden">
+      <svg
+        class="icon-menu-close"
+        width="35px"
+        height="35px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g fill="currentColor" fill-rule="evenodd">
+          <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+          <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="options | NBA" data-status="inactive">
+        <% if (results[0] === null) { %>
+        <span></span>
+        <% } else { %>
+        <div class="bet-container">
+          <% results[0].forEach((result) => { %>
+          <div class="bet">
+            <div class="expand main-bet">
+              <img src="/img/<%= result.type %>.jpg" />
+              <div class="match-name-container">
+                <img src="/img/nba/<%=result.team1%>.png" />
+                <h2 class="match-name"><%=result.match_name%></h2>
+                <img src="/img/nba/<%=result.team2%>.png" />
+              </div>
             </div>
-            <!-- <button class="expand">&darr;</button> -->
+            <div class="detail-bet hidden">
+              <% result.bet_list.forEach((el) => { %>
+              <button class="confirm-bet">
+                <span class="bet-name"><%= el.name %></span>
+                <span class="odds"><%= el.odds %></span>
+              </button>
+              <% }) %>
+            </div>
           </div>
-          <div class="detail-bet hidden">
-            <% result.bet_list.forEach((el) => { %>
-            <button class="confirm-bet">
-              <span class="bet-name"><%= el.name %></span>
-              <span class="odds"><%= el.odds %></span>
-            </button>
-            <% }) %>
-          </div>
+          <% }) %> <% } %>
         </div>
-        <% }) %>
       </div>
-      <div class="right">
-        <!-- <form action="/find" method="POST" class="form">
-          <input type="text" name="firstName" value="" />
-          <button type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </form> -->
+      <div class="options | Soccer" data-status="inactive">
+        <% if (results[1] === null) { %>
+        <span></span>
+        <% } else { %>
+        <div class="bet-container">
+          <% results[1].forEach((result) => { %>
+          <div class="bet">
+            <div class="expand main-bet">
+              <img src="/img/<%= result.type %>.jpg" />
+              <div class="match-name-container">
+                <img src="/img/soccer/<%=result.team1%>.png" />
+                <h2 class="match-name"><%=result.match_name%></h2>
+                <img src="/img/soccer/<%=result.team2%>.png" />
+              </div>
+            </div>
+            <div class="detail-bet hidden">
+              <% result.bet_list.forEach((el) => { %>
+              <button class="confirm-bet">
+                <span class="bet-name"><%= el.name %></span>
+                <span class="odds"><%= el.odds %></span>
+              </button>
+              <% }) %>
+            </div>
+          </div>
+          <% }) %> <% } %>
+        </div>
+      </div>
+
+      <div class="options | Dota2" data-status="inactive">
+        <% if (results[2] === null) { %>
+        <span></span>
+        <% } else { %>
+        <div class="bet-container">
+          <% results[2].forEach((result) => { %>
+          <div class="bet">
+            <div class="expand main-bet">
+              <img src="/img/<%= result.type %>.jpg" />
+              <div class="match-name-container">
+                <img src="/img/dota2/<%=result.team1%>.png" />
+                <h2 class="match-name"><%=result.match_name%></h2>
+                <img src="/img/dota2/<%=result.team2%>.png" />
+              </div>
+            </div>
+            <div class="detail-bet hidden">
+              <% result.bet_list.forEach((el) => { %>
+              <button class="confirm-bet">
+                <span class="bet-name"><%= el.name %></span>
+                <span class="odds"><%= el.odds %></span>
+              </button>
+              <% }) %>
+            </div>
+          </div>
+          <% }) %> <% } %>
+        </div>
+      </div>
+
+      <div class="options | CSGO" data-status="inactive">
+        <% if (results[3] === null) { %>
+        <span></span>
+        <% } else { %>
+        <div class="bet-container">
+          <% results[3].forEach((result) => { %>
+          <div class="bet">
+            <div class="expand main-bet">
+              <img src="/img/<%= result.type %>.jpg" />
+              <div class="match-name-container">
+                <img src="/img/csgo/<%=result.team1%>.png" />
+                <h2 class="match-name"><%=result.match_name%></h2>
+                <img src="/img/csgo/<%=result.team2%>.png" />
+              </div>
+            </div>
+            <div class="detail-bet hidden">
+              <% result.bet_list.forEach((el) => { %>
+              <button class="confirm-bet">
+                <span class="bet-name"><%= el.name %></span>
+                <span class="odds"><%= el.odds %></span>
+              </button>
+              <% }) %>
+            </div>
+          </div>
+          <% }) %> <% } %>
+        </div>
+      </div>
+
+      <div class="options | Valorant" data-status="inactive">
+        <% if (results[4] === null) { %>
+        <span></span>
+        <% } else { %>
+        <div class="bet-container">
+          <% results[4].forEach((result) => { %>
+          <div class="bet">
+            <div class="expand main-bet">
+              <img src="/img/<%= result.type %>.jpg" />
+              <div class="match-name-container">
+                <img src="/img/valorant/<%=result.team1%>.png" />
+                <h2 class="match-name"><%=result.match_name%></h2>
+                <img src="/img/valorant/<%=result.team2%>.png" />
+              </div>
+            </div>
+            <div class="detail-bet hidden">
+              <% result.bet_list.forEach((el) => { %>
+              <button class="confirm-bet">
+                <span class="bet-name"><%= el.name %></span>
+                <span class="odds"><%= el.odds %></span>
+              </button>
+              <% }) %>
+            </div>
+          </div>
+          <% }) %> <% } %>
+        </div>
       </div>
     </main>
     <footer>
