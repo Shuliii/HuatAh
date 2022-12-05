@@ -1,52 +1,128 @@
 [
   {
     "type": "csgo_logo",
-    "time": "2022-12-04 14:00:00+0800",
-    "match_name": "Grayhound vs Rooster Match",
+    "time": "2022-12-05 17:30:00+0800",
+    "match_name": "Movistar Riders vs forZe Match",
     "bet_list": [
-      { "name": "Grayhound Winner", "odds": 1.02 },
-      { "name": "Rooster Winner", "odds": 9.33 },
-      { "name": "Grayhound -1.5", "odds": 1.1 },
-      { "name": "Rooster +1.5", "odds": 5.54 },
-      { "name": "Grayhound -2.5", "odds": 1.5 },
-      { "name": "Rooster +2.5", "odds": 2.42 },
-      { "name": "Over 3.5", "odds": 2.42 },
-      { "name": "Under 3.5", "odds": 1.5 },
-      { "name": "Over 4.5", "odds": 6.55 },
-      { "name": "Under 4.5", "odds": 1.08 },
-      { "name": "Map score 3-0", "odds": 1.51 },
-      { "name": "Map score 3-1", "odds": 3.5 },
-      { "name": "Map score 3-2", "odds": 8.14 },
-      { "name": "Map score 1-3", "odds": 13.5 },
-      { "name": "Map score 2-3", "odds": 13.5 }
+      { "name": "Movistar Riders Winner", "odds": 2.13 },
+      { "name": "forZe Winner", "odds": 1.66 },
+      { "name": "Movistar Riders -1.5", "odds": 3.5 },
+      { "name": "forZe +1.5", "odds": 1.26 },
+      { "name": "Movistar Riders +1.5", "odds": 1.37 },
+      { "name": "forZe -1.5", "odds": 2.88 },
+      { "name": "Over 2.5", "odds": 1.97 },
+      { "name": "Under 2.5", "odds": 1.77 },
+      { "name": "Map score 2-0", "odds": 3.56 },
+      { "name": "Map score 2-1", "odds": 3.94 },
+      { "name": "Map score 0-2", "odds": 3.0 },
+      { "name": "Map score 1-2", "odds": 3.5 }
     ]
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-04 14:00:00+0800",
-    "match_name": "Grayhound vs Rooster Map1",
+    "time": "2022-12-05 17:30:00+0800",
+    "match_name": "Movistar Riders vs forZe Map1",
     "bet_list": [
-      { "name": "Grayhound Winner", "odds": 1.21 },
-      { "name": "Rooster Winner", "odds": 3.85 },
-      { "name": "Grayhound -5.5", "odds": 1.87 },
-      { "name": "Rooster +5.5", "odds": 1.87 },
-      { "name": "Over 25.5", "odds": 1.92 },
-      { "name": "Under 25.5", "odds": 1.82 },
+      { "name": "Movistar Riders Winner", "odds": 1.95 },
+      { "name": "forZe Winner", "odds": 1.79 },
+      { "name": "Movistar Riders +2.5", "odds": 1.64 },
+      { "name": "forZe -2.5", "odds": 2.11 },
+      { "name": "Over 26.5", "odds": 1.82 },
+      { "name": "Under 26.5", "odds": 1.92 },
       { "name": "Odd", "odds": 2.05 },
       { "name": "Even", "odds": 1.73 }
     ]
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-04 14:45:00+0800",
-    "match_name": "Grayhound vs Rooster Map2",
+    "time": "2022-12-05 18:20:00+0800",
+    "match_name": "Movistar Riders vs forZe Map2",
     "bet_list": [
-      { "name": "Grayhound Winner", "odds": 1.21 },
-      { "name": "Rooster Winner", "odds": 3.85 },
-      { "name": "Grayhound -5.5", "odds": 1.87 },
-      { "name": "Rooster +5.5", "odds": 1.87 },
-      { "name": "Over 25.5", "odds": 1.92 },
-      { "name": "Under 25.5", "odds": 1.82 },
+      { "name": "Movistar Riders Winner", "odds": 1.95 },
+      { "name": "forZe Winner", "odds": 1.79 },
+      { "name": "Movistar Riders +2.5", "odds": 1.64 },
+      { "name": "forZe -2.5", "odds": 2.11 },
+      { "name": "Over 26.5", "odds": 1.82 },
+      { "name": "Under 26.5", "odds": 1.92 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-04 19:10:00+0800",
+    "match_name": "Movistar Riders vs forZe Map3",
+    "bet_list": [
+      { "name": "Movistar Riders Winner", "odds": 1.95 },
+      { "name": "forZe Winner", "odds": 1.79 },
+      { "name": "Movistar Riders +2.5", "odds": 1.64 },
+      { "name": "forZe -2.5", "odds": 2.11 },
+      { "name": "Over 26.5", "odds": 1.82 },
+      { "name": "Under 26.5", "odds": 1.92 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-05 20:00:00+0800",
+    "match_name": "Avangar vs Illuminar Match",
+    "bet_list": [
+      { "name": "Avangar Winner", "odds": 2.51 },
+      { "name": "Illuminar Winner", "odds": 1.48 },
+      { "name": "Avangar -1.5", "odds": 4.57 },
+      { "name": "Illuminar +1.5", "odds": 1.16 },
+      { "name": "Avangar +1.5", "odds": 1.52 },
+      { "name": "Illuminar -1.5", "odds": 2.38 },
+      { "name": "Over 2.5", "odds": 2.05 },
+      { "name": "Under 2.5", "odds": 1.71 },
+      { "name": "Map score 2-0", "odds": 5.0 },
+      { "name": "Map score 2-1", "odds": 4.7 },
+      { "name": "Map score 0-2", "odds": 2.4 },
+      { "name": "Map score 1-2", "odds": 3.32 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-05 20:00:00+0800",
+    "match_name": "Avangar vs Illuminar Map1",
+    "bet_list": [
+      { "name": "Avangar Winner", "odds": 2.35 },
+      { "name": "Illuminar Winner", "odds": 1.54 },
+      { "name": "Avangar +2.5", "odds": 1.87 },
+      { "name": "Illuminar -2.5", "odds": 1.87 },
+      { "name": "Over 26.5", "odds": 1.87 },
+      { "name": "Under 26.5", "odds": 1.87 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-05 20:45:00+0800",
+    "match_name": "Avangar vs Illuminar Map2",
+    "bet_list": [
+      { "name": "Avangar Winner", "odds": 2.35 },
+      { "name": "Illuminar Winner", "odds": 1.54 },
+      { "name": "Avangar +2.5", "odds": 1.87 },
+      { "name": "Illuminar -2.5", "odds": 1.87 },
+      { "name": "Over 26.5", "odds": 1.87 },
+      { "name": "Under 26.5", "odds": 1.87 },
+      { "name": "Odd", "odds": 2.05 },
+      { "name": "Even", "odds": 1.73 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-05 21:30:00+0800",
+    "match_name": "Avangar vs Illuminar Map3",
+    "bet_list": [
+      { "name": "Avangar Winner", "odds": 2.35 },
+      { "name": "Illuminar Winner", "odds": 1.54 },
+      { "name": "Avangar +2.5", "odds": 1.87 },
+      { "name": "Illuminar -2.5", "odds": 1.87 },
+      { "name": "Over 26.5", "odds": 1.87 },
+      { "name": "Under 26.5", "odds": 1.87 },
       { "name": "Odd", "odds": 2.05 },
       { "name": "Even", "odds": 1.73 }
     ]
