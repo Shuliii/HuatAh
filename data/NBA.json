@@ -141,5 +141,28 @@
       { "name": "Grizzlies -2.5", "odds": 2.02 },
       { "name": "Heat +2.5", "odds": 1.88 }
     ]
+  },
+  {
+    "type": "NBA",
+    "time": "2022-12-06 11:00:00+0800",
+    "match_name": "Warriors vs Pacers",
+    "team1": "Warriors",
+    "team2": "Pacers",
+    "bet_list": [
+      { "name": "Warriors Winner", "odds": 1.15 },
+      { "name": "Pacers Winner", "odds": 5.0 },
+      { "name": "Warriors -10.5", "odds": 1.83 },
+      { "name": "Pacers +10.5", "odds": 2.07 },
+      { "name": "Warriors -11", "odds": 1.9 },
+      { "name": "Pacers +11", "odds": 2.0 },
+      { "name": "Warriors -11.5", "odds": 1.97 },
+      { "name": "Pacers +11.5", "odds": 1.93 },
+      { "name": "Over 237.5", "odds": 1.88 },
+      { "name": "Under 237.5", "odds": 2.0 },
+      { "name": "Over 238.5", "odds": 2.0 },
+      { "name": "Under 238.5", "odds": 1.88 },
+      { "name": "Over 239.5", "odds": 2.13 },
+      { "name": "Under 239.5", "odds": 1.76 }
+    ]
   }
 ]
