@@ -1,21 +1,44 @@
 [
   {
     "type": "dota_logo",
-    "time": "2022-11-19 17:00:00+0800",
-    "match_name": "Team1 vs Team2",
+    "time": "2022-12-07 17:00:00+0800",
+    "match_name": "Army Geniuses vs Fnatic",
+    "team1" : "Army Geniuses",
+    "team2" : "Fnatic",
     "bet_list": [
-      { "name": "Team1 Winner", "odds": 1.9 },
-      { "name": "Team2 Winner", "odds": 1.9 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 },
-      { "name": "Team1 Winner", "odds": 1.8 },
-      { "name": "Team2 Winner", "odds": 1.75 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 },
-      { "name": "Team1 Winner", "odds": 1.9 },
-      { "name": "Team2 Winner", "odds": 1.6 },
-      { "name": "Team2 +3.5", "odds": 1.9 },
-      { "name": "Team2 -3.5", "odds": 1.9 }
+      { "name": "Army Geniuses Winner", "odds": 2.36 },
+      { "name": "Fnatic Winner", "odds": 1.55 },
+      { "name": "Army Geniuses -1.5", "odds": 4.70 },
+      { "name": "Fnatic +1.5", "odds": 1.17 },
+      { "name": "Army Geniuses +1.5", "odds": 1.51 },
+      { "name": "Fnatic -1.5", "odds": 2.44 },
+      { "name": "Over 2.5", "odds": 2.17 },
+      { "name": "Under 2.5", "odds": 1.65 },
+      { "name": "Map score 2-0", "odds": 4.12 },
+      { "name": "Map score 2-1", "odds": 4.33 },
+      { "name": "Map score 0-2", "odds": 2.47 },
+      { "name": "Map score 1-2", "odds": 3.50 }
+    ]
+  },
+  {
+    "type": "dota_logo",
+    "time": "2022-12-07 20:00:00+0800",
+    "match_name": "Geek Fam vs Unity Gaming",
+    "team1" : "Geek Fam",
+    "team2" : "Unity Gaming",
+    "bet_list": [
+      { "name": "Geek Fam Winner", "odds": 1.53 },
+      { "name": "Unity Gaming Winner", "odds": 2.40 },
+      { "name": "Geek Fam -1.5", "odds": 2.72 },
+      { "name": "Unity Gaming +1.5", "odds": 1.42 },
+      { "name": "Geek Fam +1.5", "odds": 1.17 },
+      { "name": "Unity Gaming -1.5", "odds": 4.70 },
+      { "name": "Over 2.5", "odds": 2.03 },
+      { "name": "Under 2.5", "odds": 1.75 },
+      { "name": "Map score 2-0", "odds": 2.78 },
+      { "name": "Map score 2-1", "odds": 3.22 },
+      { "name": "Map score 0-2", "odds": 3.70 },
+      { "name": "Map score 1-2", "odds": 3.63 }
     ]
   }
 ]
