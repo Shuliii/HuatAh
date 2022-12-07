@@ -156,7 +156,6 @@ nav > label {
 .slider {
   position: absolute;
   height: 100%;
-  width: 20%;
   background: none;
   left: 0;
   top: 0;
@@ -168,7 +167,9 @@ nav > label {
 .Socceranchors,
 .Dota2anchors,
 .CSGOanchors,
-.Valorantanchors {
+.Valorantanchors,
+.Balanceanchors,
+.Activeanchors {
   transition-delay: 400ms;
 }
 
@@ -214,6 +215,14 @@ nav > label {
 }
 #Valorant:checked ~ nav > .slider {
   left: 80%;
+  background: var(--red);
+}
+#Summary:checked ~ nav > .slider {
+  left: 0%;
+  background: var(--red);
+}
+#Active-Bets:checked ~ nav > .slider {
+  left: 50%;
   background: var(--red);
 }
 
@@ -744,7 +753,7 @@ footer {
   }
 
   .active-bets,
-  .past-bets {
+  .past-bet {
     font-size: 12px;
   }
 
@@ -759,7 +768,7 @@ footer {
     width: 90%;
   }
   .active-bets,
-  .past-bets {
+  .past-bet {
     font-size: 10px;
   }
   .potential > h3 > span,

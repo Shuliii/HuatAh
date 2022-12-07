@@ -1,9 +1,13 @@
 const anchors = document.querySelectorAll(".anchors");
+const slide = document.querySelector('.slider');
 const expands = document.querySelectorAll(".expand");
 const confirmBets = document.querySelectorAll(".confirm-bet");
 const right = document.querySelector(".right");
 const iconMenuClose = document.querySelector(".icon-menu-close");
 const body = document.querySelector("body");
+
+const width = 100/anchors.length;
+slide.style.width = `${width}%`;
 
 //THIS IS NAVIGATION
 anchors.forEach((anchor) => {
