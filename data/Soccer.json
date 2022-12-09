@@ -25,7 +25,7 @@
     "type": "Soccer_ball",
     "time": "2022-12-10 03:00:00+0800",
     "match_name": "Netherlands vs Argentina",
-    "team1": "Netherland",
+    "team1": "Netherlands",
     "team2": "Argentina",
     "bet_list": [
       { "name": "Netherlands Winner", "odds": 3.32 },
