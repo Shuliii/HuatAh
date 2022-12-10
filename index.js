@@ -108,10 +108,10 @@ app.post("/search", (req, res) => {
   const queryString1 =
     "SELECT SUM(Balance) as balance FROM betlist WHERE Username = ?";
   const queryString2 =
-    "SELECT * FROM betlist WHERE Username = ? and Match_Result is NULL";
+    "SELECT * FROM betlist WHERE Username = ? and Bet_Result is NULL";
 
   const queryString3 =
-    "SELECT * FROM betlist where Username = ? and Match_Result is not NULL order by id desc limit ?;";
+    "SELECT * FROM betlist where Username = ? and Bet_Result is not NULL order by id desc limit ?;";
   async.parallel(
     [
       function (callback) {

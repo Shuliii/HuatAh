@@ -1,12 +1,12 @@
 const anchors = document.querySelectorAll(".anchors");
-const slide = document.querySelector('.slider');
+const slide = document.querySelector(".slider");
 const expands = document.querySelectorAll(".expand");
 const confirmBets = document.querySelectorAll(".confirm-bet");
 const right = document.querySelector(".right");
 const iconMenuClose = document.querySelector(".icon-menu-close");
 const body = document.querySelector("body");
 
-const width = 100/anchors.length;
+const width = 100 / anchors.length;
 slide.style.width = `${width}%`;
 
 //THIS IS NAVIGATION
@@ -48,14 +48,12 @@ confirmBets.forEach((confirm) => {
     if (!right.classList.contains("hidden")) return;
     if (right.children[1]) document.querySelector(".final-step").remove();
     const game = confirm.closest(".options").classList[2];
-    console.log(game);
     const matchName =
       confirm.parentElement.previousElementSibling.children[1].children[1].innerHTML.trim();
-    console.log(matchName);
     const betName = confirm.querySelector(".bet-name").innerHTML;
     const odds = confirm.querySelector(".odds").innerHTML;
     const toBeInserted = `<div class="final-step">
-    <form action="/submit" method="POST" class="final-bet">
+    <form action="/submit" method="POST" class="final-bet" name="final-bet">
       <input type="text" name="game" readonly="readonly" value="${game}">
       <input type="text" name="matchName" readonly="readonly" value="${matchName}">
       <h1>You're betting on <input type="text" name="betName" readonly="readonly" value="${betName}"></h1>
@@ -90,19 +88,30 @@ iconMenuClose.addEventListener("click", (e) => {
 //TO REMOVE ELEMENT WHEN PRESS CANCEL (USING EVENT DELEGATION)
 
 right.addEventListener("click", (e) => {
+  const toBeRemove = e.target.closest(".final-step");
+  const toBeSubmitted = e.target.closest(".final-bet");
   if (e.target.classList.contains("cancel")) {
-    const toBeRemove = e.target.closest(".final-step");
     toBeRemove.remove();
     right.classList.add("hidden");
     body.style.overflow = "visible";
   }
-  // if (e.target.classList.contains("submit")) {
-  //   document.querySelector(".final-step") &&
-  //     document.querySelector(".final-step").remove();
-  // }
+  if (e.target.classList.contains("submit")) {
+    if (toBeSubmitted.checkValidity()) {
+      toBeSubmitted.submit();
+      toBeRemove.remove();
+      const toBeInserted = `<div class="announcement">
+    <h2>Thank you for placing your bets. Please double check your bets by using the search bar.</h2>
+  </div>`;
+      right.insertAdjacentHTML("beforeend", toBeInserted);
+    }
+  }
 });
 
-right.addEventListener("submit", (e) => {
-  right.classList.add("hidden");
-  body.style.overflow = "visible";
-});
+// right.addEventListener("click", (e) => {
+//   const toBeRemove = e.target.closest(".final-step");
+//   const toBeSubmitted = e.target.closest(".final-bet");
+//   console.log(toBeRemove);
+//   console.log(toBeSubmitted);
+//   toBeSubmitted.submit();
+//   toBeRemove.remove();
+// });
