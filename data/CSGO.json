@@ -1,83 +1,65 @@
 [
   {
     "type": "csgo_logo",
-    "time": "2022-12-07 17:00:00+0800",
-    "match_name": "Prospects vs Into The Breach Match",
-    "team1": "Prospects",
-    "team2": "Into The Breach",
+    "time": "2022-12-10 20:00:00+0800",
+    "match_name": "ECSTATIC vs 500 Match",
+    "team1": "ECSTATIC",
+    "team2": "500",
     "bet_list": [
-      { "name": "Prospects Winner", "odds": 1.48 },
-      { "name": "Into The Breach Winner", "odds": 2.56 },
-      { "name": "Prospects -1.5", "odds": 2.4 },
-      { "name": "Into The Breach +1.5", "odds": 1.53 },
-      { "name": "Prospects +1.5", "odds": 1.16 },
-      { "name": "Into The Breach -1.5", "odds": 4.84 },
-      { "name": "Over 2.5", "odds": 2.05 },
-      { "name": "Under 2.5", "odds": 1.73 },
-      { "name": "Map score 2-0", "odds": 2.4 },
+      { "name": "ECSTATIC Winner", "odds": 2.75 },
+      { "name": "500 Winner", "odds": 1.39 },
+      { "name": "ECSTATIC -1.5", "odds": 5.16 },
+      { "name": "500 +1.5", "odds": 1.12 },
+      { "name": "ECSTATIC +1.5", "odds": 1.61 },
+      { "name": "500 -1.5", "odds": 2.2 },
+      { "name": "Over 2.5", "odds": 2.16 },
+      { "name": "Under 2.5", "odds": 1.64 },
+      { "name": "Map score 2-0", "odds": 5.16 },
+      { "name": "Map score 2-1", "odds": 4.84 },
+      { "name": "Map score 0-2", "odds": 2.17 },
+      { "name": "Map score 1-2", "odds": 3.32 }
+    ]
+  },
+  {
+    "type": "csgo_logo",
+    "time": "2022-12-10 23:00:00+0800",
+    "match_name": "AGO vs PACT Match",
+    "team1": "AGO",
+    "team2": "PACT",
+    "bet_list": [
+      { "name": "AGO Winner", "odds": 1.36 },
+      { "name": "PACT Winner", "odds": 2.92 },
+      { "name": "AGO -1.5", "odds": 2.16 },
+      { "name": "PACT +1.5", "odds": 1.64 },
+      { "name": "AGO +1.5", "odds": 1.12 },
+      { "name": "PACT -1.5", "odds": 5.16 },
+      { "name": "Over 2.5", "odds": 2.17 },
+      { "name": "Under 2.5", "odds": 1.63 },
+      { "name": "Map score 2-0", "odds": 2.17 },
       { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 4.84 },
-      { "name": "Map score 1-2", "odds": 4.57 }
+      { "name": "Map score 0-2", "odds": 5.54 },
+      { "name": "Map score 1-2", "odds": 5.0 }
     ]
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-08 15:30:00+0800",
-    "match_name": "Algeria vs Argentina Map1",
-    "team1": "Algeria",
-    "team2": "Argentina",
+    "time": "2022-12-10 23:00:00+0800",
+    "match_name": "CPH vs Tricked Match",
+    "team1": "CPH",
+    "team2": "Tricked",
     "bet_list": [
-      { "name": "Algeria Winner", "odds": 7.25 },
-      { "name": "Argentina Winner", "odds": 1.06 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 16:10:00+0800",
-    "match_name": "Algeria vs Argentina Map2",
-    "team1": "Algeria",
-    "team2": "Argentina",
-    "bet_list": [
-      { "name": "Algeria Winner", "odds": 7.25 },
-      { "name": "Argentina Winner", "odds": 1.06 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 16:50:00+0800",
-    "match_name": "Algeria vs Argentina Map3",
-    "team1": "Algeria",
-    "team2": "Argentina",
-    "bet_list": [
-      { "name": "Algeria Winner", "odds": 7.25 },
-      { "name": "Argentina Winner", "odds": 1.06 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 17:00:00+0800",
-    "match_name": "Masonic vs Into The Breach Match",
-    "team1": "Masonic",
-    "team2": "Into The Breach",
-    "bet_list": [
-      { "name": "Masonic Winner", "odds": 2.2 },
-      { "name": "Into The Breach Winner", "odds": 1.61 },
-      { "name": "Masonic -1.5", "odds": 3.94 },
-      { "name": "Into The Breach +1.5", "odds": 1.2 },
-      { "name": "Masonic +1.5", "odds": 1.38 },
-      { "name": "Into The Breach -1.5", "odds": 2.85 },
-      { "name": "Over 2.5", "odds": 1.93 },
-      { "name": "Under 2.5", "odds": 1.81 },
-      { "name": "Map score 2-0", "odds": 3.77 },
-      { "name": "Map score 2-1", "odds": 3.94 },
-      { "name": "Map score 0-2", "odds": 3.12 },
-      { "name": "Map score 1-2", "odds": 3.5 }
+      { "name": "CPH Winner", "odds": 1.57 },
+      { "name": "Tricked Winner", "odds": 2.29 },
+      { "name": "CPH -1.5", "odds": 2.61 },
+      { "name": "Tricked +1.5", "odds": 1.44 },
+      { "name": "CPH +1.5", "odds": 1.18 },
+      { "name": "Tricked -1.5", "odds": 4.33 },
+      { "name": "Over 2.5", "odds": 2.01 },
+      { "name": "Under 2.5", "odds": 1.75 },
+      { "name": "Map score 2-0", "odds": 2.66 },
+      { "name": "Map score 2-1", "odds": 1.8 },
+      { "name": "Map score 0-2", "odds": 4.33 },
+      { "name": "Map score 1-2", "odds": 4.22 }
     ]
   },
   {
