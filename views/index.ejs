@@ -70,7 +70,10 @@
               <div class="timezonebet">
                 <img src="./img/<%= result.type %>.jpg" />
                 <% const date = new Date(result.time) %>
-                <h1><%= date.toLocaleTimeString("en-GB") %></h1>
+                <h1>
+                  <%= date.toLocaleTimeString("en-GB", {timeZone: "Singapore"})
+                  %>
+                </h1>
               </div>
               <div class="match-name-container">
                 <img src="./img/nba/<%=result.team1%>.png" />
