@@ -127,7 +127,7 @@ app.post("/search", (req, res) => {
       function (callback) {
         connection.query(
           queryString3,
-          [req.body.firstName, 5],
+          [req.body.firstName, 10],
           (err, result) => {
             callback(null, result);
           }
