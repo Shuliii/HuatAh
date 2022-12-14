@@ -193,7 +193,7 @@
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-17 20:00:00+0800",
+    "time": "2022-12-14 20:00:00+0800",
     "match_name": "Heroic vs OG Match",
     "team1": "Heroic",
     "team2": "OG",
@@ -214,396 +214,77 @@
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-10 23:00:00+0800",
-    "match_name": "CPH vs Tricked Match",
-    "team1": "CPH",
-    "team2": "Tricked",
+    "time": "2022-12-14 20:00:00+0800",
+    "match_name": "Heroic vs OG Map1",
+    "team1": "Heroic",
+    "team2": "OG",
     "bet_list": [
-      { "name": "CPH Winner", "odds": 1.57 },
-      { "name": "Tricked Winner", "odds": 2.29 },
-      { "name": "CPH -1.5", "odds": 2.61 },
-      { "name": "Tricked +1.5", "odds": 1.44 },
-      { "name": "CPH +1.5", "odds": 1.18 },
-      { "name": "Tricked -1.5", "odds": 4.33 },
-      { "name": "Over 2.5", "odds": 2.01 },
-      { "name": "Under 2.5", "odds": 1.75 },
-      { "name": "Map score 2-0", "odds": 2.66 },
-      { "name": "Map score 2-1", "odds": 1.8 },
-      { "name": "Map score 0-2", "odds": 4.33 },
-      { "name": "Map score 1-2", "odds": 4.22 }
+      { "name": "Heroic Winner", "odds": 1.5 },
+      { "name": "OG Winner", "odds": 2.51 },
+      { "name": "Heroic -2.5", "odds": 1.75 },
+      { "name": "OG +2.5", "odds": 2.01 },
+      { "name": "Heroic -3.5", "odds": 1.95 },
+      { "name": "OG +3.5", "odds": 1.81 },
+      { "name": "Heroic -4.5", "odds": 2.17 },
+      { "name": "OG +4.5", "odds": 1.61 },
+      { "name": "Over 25.5", "odds": 1.58 },
+      { "name": "Under 25.5", "odds": 2.21 },
+      { "name": "Over 26.5", "odds": 1.88 },
+      { "name": "Under 26.5", "odds": 1.88 },
+      { "name": "Over 27.5", "odds": 2.21 },
+      { "name": "Under 27.5", "odds": 1.58 },
+      { "name": "Odd", "odds": 2.06 },
+      { "name": "Even", "odds": 1.74 }
     ]
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-08 17:00:00+0800",
-    "match_name": "Masonic vs Into The Breach Map1",
-    "team1": "Masonic",
-    "team2": "Into The Breach",
+    "time": "2022-12-14 20:45:00+0800",
+    "match_name": "Heroic vs OG Map2",
+    "team1": "Heroic",
+    "team2": "OG",
     "bet_list": [
-      { "name": "Masonic Winner", "odds": 2.05 },
-      { "name": "Into The Breach Winner", "odds": 1.71 },
-      { "name": "Masonic +4.5", "odds": 1.78 },
-      { "name": "Into The Breach -4.5", "odds": 1.96 },
-      { "name": "Over 26.5", "odds": 1.87 },
-      { "name": "Under 26.5", "odds": 1.87 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
+      { "name": "Heroic Winner", "odds": 1.5 },
+      { "name": "OG Winner", "odds": 2.51 },
+      { "name": "Heroic -2.5", "odds": 1.75 },
+      { "name": "OG +2.5", "odds": 2.01 },
+      { "name": "Heroic -3.5", "odds": 1.95 },
+      { "name": "OG +3.5", "odds": 1.81 },
+      { "name": "Heroic -4.5", "odds": 2.17 },
+      { "name": "OG +4.5", "odds": 1.61 },
+      { "name": "Over 25.5", "odds": 1.58 },
+      { "name": "Under 25.5", "odds": 2.21 },
+      { "name": "Over 26.5", "odds": 1.88 },
+      { "name": "Under 26.5", "odds": 1.88 },
+      { "name": "Over 27.5", "odds": 2.21 },
+      { "name": "Under 27.5", "odds": 1.58 },
+      { "name": "Odd", "odds": 2.06 },
+      { "name": "Even", "odds": 1.74 }
     ]
   },
   {
     "type": "csgo_logo",
-    "time": "2022-12-08 17:50:00+0800",
-    "match_name": "Masonic vs Into The Breach Map2",
-    "team1": "Masonic",
-    "team2": "Into The Breach",
+    "time": "2022-12-14 21:30:00+0800",
+    "match_name": "Heroic vs OG Map3",
+    "team1": "Heroic",
+    "team2": "OG",
     "bet_list": [
-      { "name": "Masonic Winner", "odds": 2.05 },
-      { "name": "Into The Breach Winner", "odds": 1.71 },
-      { "name": "Masonic +4.5", "odds": 1.78 },
-      { "name": "Into The Breach -4.5", "odds": 1.96 },
-      { "name": "Over 26.5", "odds": 1.87 },
-      { "name": "Under 26.5", "odds": 1.87 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 18:40:00+0800",
-    "match_name": "Masonic vs Into The Breach Map3",
-    "team1": "Masonic",
-    "team2": "Into The Breach",
-    "bet_list": [
-      { "name": "Masonic Winner", "odds": 2.05 },
-      { "name": "Into The Breach Winner", "odds": 1.71 },
-      { "name": "Masonic +4.5", "odds": 1.78 },
-      { "name": "Into The Breach -4.5", "odds": 1.96 },
-      { "name": "Over 26.5", "odds": 1.87 },
-      { "name": "Under 26.5", "odds": 1.87 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 20:00:00+0800",
-    "match_name": "Apeks vs eClub Brugge Match",
-    "team1": "Apeks",
-    "team2": "eClub Brugge",
-    "bet_list": [
-      { "name": "Apeks Winner", "odds": 1.34 },
-      { "name": "eClub Brugge Winner", "odds": 3.0 },
-      { "name": "Apeks -1.5", "odds": 2.19 },
-      { "name": "eClub Brugge +1.5", "odds": 1.62 },
-      { "name": "Apeks +1.5", "odds": 1.11 },
-      { "name": "eClub Brugge -1.5", "odds": 5.34 },
-      { "name": "Over 2.5", "odds": 2.05 },
-      { "name": "Under 2.5", "odds": 1.71 },
-      { "name": "Map score 2-0", "odds": 2.35 },
-      { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 4.33 },
-      { "name": "Map score 1-2", "odds": 4.12 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 20:00:00+0800",
-    "match_name": "Apeks vs eClub Brugge Map1",
-    "team1": "Apeks",
-    "team2": "eClub Brugge",
-    "bet_list": [
-      { "name": "Apeks Winner", "odds": 1.44 },
-      { "name": "eClub Brugge Winner", "odds": 2.61 },
-      { "name": "Apeks -3.5", "odds": 1.89 },
-      { "name": "eClub Brugge +3.5", "odds": 1.85 },
-      { "name": "Over 26.5", "odds": 1.95 },
-      { "name": "Under 26.5", "odds": 1.79 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 20:40:00+0800",
-    "match_name": "Apeks vs eClub Brugge Map2",
-    "team1": "Apeks",
-    "team2": "eClub Brugge",
-    "bet_list": [
-      { "name": "Apeks Winner", "odds": 1.44 },
-      { "name": "eClub Brugge Winner", "odds": 2.61 },
-      { "name": "Apeks -3.5", "odds": 1.89 },
-      { "name": "eClub Brugge +3.5", "odds": 1.85 },
-      { "name": "Over 26.5", "odds": 1.95 },
-      { "name": "Under 26.5", "odds": 1.79 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-08 21:30:00+0800",
-    "match_name": "Apeks vs eClub Brugge Map3",
-    "team1": "Apeks",
-    "team2": "eClub Brugge",
-    "bet_list": [
-      { "name": "Apeks Winner", "odds": 1.44 },
-      { "name": "eClub Brugge Winner", "odds": 2.61 },
-      { "name": "Apeks -3.5", "odds": 1.89 },
-      { "name": "eClub Brugge +3.5", "odds": 1.85 },
-      { "name": "Over 26.5", "odds": 1.95 },
-      { "name": "Under 26.5", "odds": 1.79 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-09 00:00:00+0800",
-    "match_name": "ECLOT vs Honoris Match",
-    "team1": "ECLOT",
-    "team2": "Honoris",
-    "bet_list": [
-      { "name": "ECLOT Winner", "odds": 2.29 },
-      { "name": "Honoris Winner", "odds": 1.57 },
-      { "name": "ECLOT -1.5", "odds": 4.03 },
-      { "name": "Honoris +1.5", "odds": 1.19 },
-      { "name": "ECLOT +1.5", "odds": 1.44 },
-      { "name": "Honoris -1.5", "odds": 2.61 },
-      { "name": "Over 2.5", "odds": 1.99 },
-      { "name": "Under 2.5", "odds": 1.75 },
-      { "name": "Map score 2-0", "odds": 4.33 },
-      { "name": "Map score 2-1", "odds": 4.22 },
-      { "name": "Map score 0-2", "odds": 2.66 },
-      { "name": "Map score 1-2", "odds": 3.38 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-09 00:00:00+0800",
-    "match_name": "ECLOT vs Honoris Map1",
-    "team1": "ECLOT",
-    "team2": "Honoris",
-    "bet_list": [
-      { "name": "ECLOT Winner", "odds": 2.17 },
-      { "name": "Honoris Winner", "odds": 1.63 },
-      { "name": "ECLOT +2.5", "odds": 1.86 },
-      { "name": "Honoris -2.5", "odds": 1.88 },
-      { "name": "Over 26.5", "odds": 1.9 },
-      { "name": "Under 26.5", "odds": 1.84 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-09 00:40:00+0800",
-    "match_name": "ECLOT vs Honoris Map2",
-    "team1": "ECLOT",
-    "team2": "Honoris",
-    "bet_list": [
-      { "name": "ECLOT Winner", "odds": 2.17 },
-      { "name": "Honoris Winner", "odds": 1.63 },
-      { "name": "ECLOT +2.5", "odds": 1.86 },
-      { "name": "Honoris -2.5", "odds": 1.88 },
-      { "name": "Over 26.5", "odds": 1.9 },
-      { "name": "Under 26.5", "odds": 1.84 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-09 01:30:00+0800",
-    "match_name": "ECLOT vs Honoris Map3",
-    "team1": "ECLOT",
-    "team2": "Honoris",
-    "bet_list": [
-      { "name": "ECLOT Winner", "odds": 2.17 },
-      { "name": "Honoris Winner", "odds": 1.63 },
-      { "name": "ECLOT +2.5", "odds": 1.86 },
-      { "name": "Honoris -2.5", "odds": 1.88 },
-      { "name": "Over 26.5", "odds": 1.9 },
-      { "name": "Under 26.5", "odds": 1.84 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-07 19:50:00+0800",
-    "match_name": "HEET vs Havu Map2",
-    "team1": "HEET",
-    "team2": "Havu",
-    "bet_list": [
-      { "name": "HEET Winner", "odds": 1.88 },
-      { "name": "Havu Winner", "odds": 1.88 },
-      { "name": "HEET -2.5", "odds": 2.12 },
-      { "name": "Havu +2.5", "odds": 1.65 },
-      { "name": "Over 26.5", "odds": 1.82 },
-      { "name": "Under 26.5", "odds": 1.94 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-07 20:40:00+0800",
-    "match_name": "HEET vs Havu Map3",
-    "team1": "HEET",
-    "team2": "Havu",
-    "bet_list": [
-      { "name": "HEET Winner", "odds": 1.88 },
-      { "name": "Havu Winner", "odds": 1.88 },
-      { "name": "HEET -2.5", "odds": 2.12 },
-      { "name": "Havu +2.5", "odds": 1.65 },
-      { "name": "Over 26.5", "odds": 1.82 },
-      { "name": "Under 26.5", "odds": 1.94 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-07 20:00:00+0800",
-    "match_name": "Prospects vs Illuminar Match",
-    "team1": "Prospects",
-    "team2": "Illuminar",
-    "bet_list": [
-      { "name": "Prospects Winner", "odds": 1.69 },
-      { "name": "Illuminar Winner", "odds": 2.12 },
-      { "name": "Prospects -1.5", "odds": 2.92 },
-      { "name": "Illuminar +1.5", "odds": 1.38 },
-      { "name": "Prospects +1.5", "odds": 1.23 },
-      { "name": "Illuminar -1.5", "odds": 3.85 },
-      { "name": "Over 2.5", "odds": 2.0 },
-      { "name": "Under 2.5", "odds": 1.78 },
-      { "name": "Map score 2-0", "odds": 2.92 },
-      { "name": "Map score 2-1", "odds": 3.5 },
-      { "name": "Map score 0-2", "odds": 3.94 },
-      { "name": "Map score 1-2", "odds": 3.94 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-07 20:00:00+0800",
-    "match_name": "Prospects vs Illuminar Map1",
-    "team1": "Prospects",
-    "team2": "Illuminar",
-    "bet_list": [
-      { "name": "Prospects Winner", "odds": 1.73 },
-      { "name": "Illuminar Winner", "odds": 2.05 },
-      { "name": "Prospects -2.5", "odds": 2.08 },
-      { "name": "Illuminar +2.5", "odds": 1.68 },
-      { "name": "Over 26.5", "odds": 1.84 },
-      { "name": "Under 26.5", "odds": 1.92 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-07 20:45:00+0800",
-    "match_name": "Prospects vs Illuminar Map2",
-    "team1": "Prospects",
-    "team2": "Illuminar",
-    "bet_list": [
-      { "name": "Prospects Winner", "odds": 1.73 },
-      { "name": "Illuminar Winner", "odds": 2.05 },
-      { "name": "Prospects -2.5", "odds": 2.08 },
-      { "name": "Illuminar +2.5", "odds": 1.68 },
-      { "name": "Over 26.5", "odds": 1.84 },
-      { "name": "Under 26.5", "odds": 1.92 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-07 21:30:00+0800",
-    "match_name": "Prospects vs Illuminar Map3",
-    "team1": "Prospects",
-    "team2": "Illuminar",
-    "bet_list": [
-      { "name": "Prospects Winner", "odds": 1.73 },
-      { "name": "Illuminar Winner", "odds": 2.05 },
-      { "name": "Prospects -2.5", "odds": 2.08 },
-      { "name": "Illuminar +2.5", "odds": 1.68 },
-      { "name": "Over 26.5", "odds": 1.84 },
-      { "name": "Under 26.5", "odds": 1.92 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-05 20:30:00+0800",
-    "match_name": "HEET  vs Into The Breach Match",
-    "team1": "HEET",
-    "team2": "Into the Breach",
-    "bet_list": [
-      { "name": "HEET  Winner", "odds": 1.44 },
-      { "name": "Into The Breach Winner", "odds": 2.61 },
-      { "name": "HEET  -1.5", "odds": 2.35 },
-      { "name": "Into The Breach +1.5", "odds": 1.54 },
-      { "name": "HEET  +1.5", "odds": 1.14 },
-      { "name": "Into The Breach -1.5", "odds": 4.84 },
-      { "name": "Over 2.5", "odds": 2.07 },
-      { "name": "Under 2.5", "odds": 1.69 },
-      { "name": "Map score 2-0", "odds": 2.29 },
-      { "name": "Map score 2-1", "odds": 3.27 },
-      { "name": "Map score 0-2", "odds": 5.0 },
-      { "name": "Map score 1-2", "odds": 4.57 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-05 20:30:00+0800",
-    "match_name": "HEET vs Into The Breach Map1",
-    "team1": "HEET",
-    "team2": "Into the Breach",
-    "bet_list": [
-      { "name": "HEET Winner", "odds": 1.54 },
-      { "name": "Into The Breach Winner", "odds": 2.35 },
-      { "name": "HEET -2.5", "odds": 1.79 },
-      { "name": "Into The Breach +2.5", "odds": 1.95 },
-      { "name": "Over 26.5", "odds": 1.9 },
-      { "name": "Under 26.5", "odds": 1.84 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-05 21:20:00+0800",
-    "match_name": "HEET vs Into The Breach Map2",
-    "team1": "HEET",
-    "team2": "Into the Breach",
-    "bet_list": [
-      { "name": "HEET Winner", "odds": 1.54 },
-      { "name": "Into The Breach Winner", "odds": 2.35 },
-      { "name": "HEET -2.5", "odds": 1.79 },
-      { "name": "Into The Breach +2.5", "odds": 1.95 },
-      { "name": "Over 26.5", "odds": 1.9 },
-      { "name": "Under 26.5", "odds": 1.84 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
-    ]
-  },
-  {
-    "type": "csgo_logo",
-    "time": "2022-12-05 22:10:00+0800",
-    "match_name": "HEET vs Into The Breach Map3",
-    "team1": "HEET",
-    "team2": "Into the Breach",
-    "bet_list": [
-      { "name": "HEET Winner", "odds": 1.54 },
-      { "name": "Into The Breach Winner", "odds": 2.35 },
-      { "name": "HEET -2.5", "odds": 1.79 },
-      { "name": "Into The Breach +2.5", "odds": 1.95 },
-      { "name": "Over 26.5", "odds": 1.9 },
-      { "name": "Under 26.5", "odds": 1.84 },
-      { "name": "Odd", "odds": 2.05 },
-      { "name": "Even", "odds": 1.73 }
+      { "name": "Heroic Winner", "odds": 1.5 },
+      { "name": "OG Winner", "odds": 2.51 },
+      { "name": "Heroic -2.5", "odds": 1.75 },
+      { "name": "OG +2.5", "odds": 2.01 },
+      { "name": "Heroic -3.5", "odds": 1.95 },
+      { "name": "OG +3.5", "odds": 1.81 },
+      { "name": "Heroic -4.5", "odds": 2.17 },
+      { "name": "OG +4.5", "odds": 1.61 },
+      { "name": "Over 25.5", "odds": 1.58 },
+      { "name": "Under 25.5", "odds": 2.21 },
+      { "name": "Over 26.5", "odds": 1.88 },
+      { "name": "Under 26.5", "odds": 1.88 },
+      { "name": "Over 27.5", "odds": 2.21 },
+      { "name": "Under 27.5", "odds": 1.58 },
+      { "name": "Odd", "odds": 2.06 },
+      { "name": "Even", "odds": 1.74 }
     ]
   }
 ]
