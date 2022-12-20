@@ -208,7 +208,7 @@
   },
   {
     "type": "NBA",
-    "time": "2022-12-17 11:00:00+0800",
+    "time": "2022-12-17 08:00:00+0800",
     "match_name": "Pistons vs Jazz",
     "team1": "Pistons",
     "team2": "Jazz",
@@ -231,7 +231,7 @@
   },
   {
     "type": "NBA",
-    "time": "2022-12-16 09:00:00+0800",
+    "time": "2022-12-16 08:30:00+0800",
     "match_name": "Knicks vs Warriors",
     "team1": "Knicks",
     "team2": "Warriors",
@@ -254,7 +254,7 @@
   },
   {
     "type": "NBA",
-    "time": "2022-12-16 09:00:00+0800",
+    "time": "2022-12-16 08:30:00+0800",
     "match_name": "Heat vs Bulls",
     "team1": "Heat",
     "team2": "Bulls",
@@ -300,7 +300,7 @@
   },
   {
     "type": "NBA",
-    "time": "2022-12-16 11:30:00+0800",
+    "time": "2022-12-16 11:00:00+0800",
     "match_name": "Nuggets vs Grizzlies",
     "team1": "Nuggets",
     "team2": "Grizzlies",
