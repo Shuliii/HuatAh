@@ -35,62 +35,72 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2022-12-21 18:30:00+0800",
-    "match_name": "Bleed vs Boom Match",
+    "time": "2022-12-22 18:30:00+0800",
+    "match_name": "Bleed vs Velocity Match",
     "team1": "Bleed",
-    "team2": "Boom",
+    "team2": "Velocity",
     "bet_list": [
-      { "name": "Bleed Winner", "odds": 1.34 },
-      { "name": "Boom Winner", "odds": 2.85 },
-      { "name": "Bleed -1.5", "odds": 2.14 },
-      { "name": "Boom +1.5", "odds": 1.63 },
-      { "name": "Bleed +1.5", "odds": 1.12 },
-      { "name": "Boom -1.5", "odds": 4.84 },
-      { "name": "Over 2.5", "odds": 2.28 },
-      { "name": "Under 2.5", "odds": 1.56 },
-      { "name": "Map score 2-0", "odds": 2.14 },
+      { "name": "Bleed Winner", "odds": 1.21 },
+      { "name": "Velocity Winner", "odds": 3.7 },
+      { "name": "Bleed -1.5", "odds": 1.87 },
+      { "name": "Velocity +1.5", "odds": 1.85 },
+      { "name": "Over 2.5", "odds": 2.14 },
+      { "name": "Under 2.5", "odds": 1.63 },
+      { "name": "Map score 2-0", "odds": 1.9 },
       { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 4.33 },
-      { "name": "Map score 1-2", "odds": 4.57 }
+      { "name": "Map score 0-2", "odds": 5.54 },
+      { "name": "Map score 1-2", "odds": 5.0 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2022-12-21 18:30:00+0800",
-    "match_name": "Bleed vs Boom Map1",
+    "match_name": "Bleed vs Velocity Map1",
     "team1": "Bleed",
-    "team2": "Boom",
+    "team2": "Velocity",
     "bet_list": [
-      { "name": "Bleed Winner", "odds": 1.47 },
-      { "name": "Boom Winner", "odds": 2.49 },
-      { "name": "Bleed Pistol Winner", "odds": 1.74 },
-      { "name": "Boom Pistol Winner", "odds": 1.98 }
+      { "name": "Bleed Winner", "odds": 1.38 },
+      { "name": "Velocity Winner", "odds": 2.72 },
+      { "name": "Bleed -4.5", "odds": 1.94 },
+      { "name": "Velocity +4.5", "odds": 1.78 },
+      { "name": "Over 20.5", "odds": 1.83 },
+      { "name": "Under 20.5", "odds": 1.89 },
+      { "name": "Bleed Pistol Winner", "odds": 1.63 },
+      { "name": "Velocity Pistol Winner", "odds": 2.14 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2022-12-21 19:10:00+0800",
-    "match_name": "Bleed vs Boom Map2",
+    "match_name": "Bleed vs Velocity Map2",
     "team1": "Bleed",
-    "team2": "Boom",
+    "team2": "Velocity",
     "bet_list": [
-      { "name": "Bleed Winner", "odds": 1.47 },
-      { "name": "Boom Winner", "odds": 2.49 },
-      { "name": "Bleed Pistol Winner", "odds": 1.74 },
-      { "name": "Boom Pistol Winner", "odds": 1.98 }
+      { "name": "Bleed Winner", "odds": 1.38 },
+      { "name": "Velocity Winner", "odds": 2.72 },
+      { "name": "Bleed -4.5", "odds": 1.94 },
+      { "name": "Velocity +4.5", "odds": 1.78 },
+      { "name": "Over 20.5", "odds": 1.83 },
+      { "name": "Under 20.5", "odds": 1.89 },
+      { "name": "Bleed Pistol Winner", "odds": 1.63 },
+      { "name": "Velocity Pistol Winner", "odds": 2.14 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2022-12-21 19:50:00+0800",
-    "match_name": "Bleed vs Boom Map3",
+    "match_name": "Bleed vs Velocity Map3",
     "team1": "Bleed",
-    "team2": "Boom",
+    "team2": "Velocity",
     "bet_list": [
-      { "name": "Bleed Winner", "odds": 1.47 },
-      { "name": "Boom Winner", "odds": 2.49 },
-      { "name": "Bleed Pistol Winner", "odds": 1.74 },
-      { "name": "Boom Pistol Winner", "odds": 1.98 }
+      { "name": "Bleed Winner", "odds": 1.38 },
+      { "name": "Velocity Winner", "odds": 2.72 },
+      { "name": "Bleed -4.5", "odds": 1.94 },
+      { "name": "Velocity +4.5", "odds": 1.78 },
+      { "name": "Over 20.5", "odds": 1.83 },
+      { "name": "Under 20.5", "odds": 1.89 },
+      { "name": "Bleed Pistol Winner", "odds": 1.63 },
+      { "name": "Velocity Pistol Winner", "odds": 2.14 }
     ]
   },
   {
