@@ -38,5 +38,25 @@
       { "name": "Over 2.75", "odds": 2.19 },
       { "name": "Under 2.75", "odds": 1.73 }
     ]
+  },
+  {
+    "type": "Soccer_ball",
+    "time": "2022-12-27 04:00:00+0800",
+    "match_name": "Arsenal vs West Ham",
+    "team1": "Arsenal",
+    "team2": "West Ham",
+    "bet_list": [
+      { "name": "Arsenal Winner", "odds": 1.58 },
+      { "name": "West Ham Winner", "odds": 5.9 },
+      { "name": "Draw", "odds": 4.25 },
+      { "name": "Arsenal -1", "odds": 2.02 },
+      { "name": "West Ham +1", "odds": 1.91 },
+      { "name": "Arsenal -0.75", "odds": 1.73 },
+      { "name": "West Ham +0.75", "odds": 2.21 },
+      { "name": "Over 2.75", "odds": 2.07 },
+      { "name": "Under 2.75", "odds": 1.85 },
+      { "name": "Over 2.5", "odds": 1.84 },
+      { "name": "Under 2.5", "odds": 2.08 }
+    ]
   }
 ]
