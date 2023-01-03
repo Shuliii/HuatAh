@@ -27,7 +27,7 @@
     "type": "Soccer_ball",
     "time": "2023-01-04 03:45:00+0800",
     "match_name": "Arsenal vs Newcastle",
-    "team1": "Leicester City",
+    "team1": "Arsenal",
     "team2": "Newcastle",
     "bet_list": [
       { "name": "Arsenal Winner", "odds": 1.8 },
