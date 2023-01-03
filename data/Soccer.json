@@ -51,7 +51,7 @@
     "type": "Soccer_ball",
     "time": "2023-01-03 03:45:00+0800",
     "match_name": "Everton vs Brighton",
-    "team1": "Leicester City",
+    "team1": "Everton",
     "team2": "Brighton",
     "bet_list": [
       { "name": "Everton Winner", "odds": 5.7 },
