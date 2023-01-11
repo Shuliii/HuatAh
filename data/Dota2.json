@@ -1,240 +1,86 @@
 [
   {
     "type": "dota_logo",
-    "time": "2023-01-10 16:00:00+0800",
-    "match_name": "Xtreme vs EHOME Match",
-    "team1": "Xtreme",
-    "team2": "EHOME",
+    "time": "2023-01-11 13:00:00+0800",
+    "match_name": "SMG vs Execration Match",
+    "team1": "SMG",
+    "team2": "Execration",
     "bet_list": [
-      { "name": "Xtreme Winner", "odds": 1.30 },
-      { "name": "EHOME Winner", "odds": 3.17 },
-      { "name": "Xtreme -1.5", "odds": 1.64 },
-      { "name": "EHOME +1.5", "odds": 2.16 },
-      { "name": "Xtreme +1.5", "odds": 1.09 },
-      { "name": "EHOME -1.5", "odds": 5.76 },
-      { "name": "Over 2.5", "odds": 1.97 },
-      { "name": "Under 2.5", "odds": 1.79 },
-      { "name": "Map score 2-0", "odds": 2.09 },
+      { "name": "SMG Winner", "odds": 2.04 },
+      { "name": "Execration Winner", "odds": 1.72 },
+      { "name": "SMG -1.5", "odds": 3.22 },
+      { "name": "Execration +1.5", "odds": 1.29 },
+      { "name": "SMG +1.5", "odds": 1.32 },
+      { "name": "Execration -1.5", "odds": 3.08 },
+      { "name": "Over 2.5", "odds": 1.8 },
+      { "name": "Under 2.5", "odds": 1.94 },
+      { "name": "Map score 2-0", "odds": 3.12 },
+      { "name": "Map score 2-1", "odds": 3.5 },
+      { "name": "Map score 0-2", "odds": 3.32 },
+      { "name": "Map score 1-2", "odds": 3.5 }
+    ]
+  },
+  {
+    "type": "dota_logo",
+    "time": "2023-01-11 16:00:00+0800",
+    "match_name": "Bleed vs Fnatic Match",
+    "team1": "Bleed",
+    "team2": "Fnatic",
+    "bet_list": [
+      { "name": "Bleed Winner", "odds": 1.75 },
+      { "name": "Fnatic Winner", "odds": 2.01 },
+      { "name": "Bleed -1.5", "odds": 2.88 },
+      { "name": "Fnatic +1.5", "odds": 1.37 },
+      { "name": "Bleed +1.5", "odds": 1.29 },
+      { "name": "Fnatic -1.5", "odds": 3.22 },
+      { "name": "Over 2.5", "odds": 2.0 },
+      { "name": "Under 2.5", "odds": 1.76 },
+      { "name": "Map score 2-0", "odds": 2.75 },
       { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 5.00 },
-      { "name": "Map score 1-2", "odds": 4.22 }
+      { "name": "Map score 0-2", "odds": 4.03 },
+      { "name": "Map score 1-2", "odds": 3.5 }
     ]
   },
   {
     "type": "dota_logo",
-    "time": "2023-01-10 01:00:00+0800",
-    "match_name": "Liquid vs Secret Map1",
-    "team1": "Liquid",
-    "team2": "Secret",
-    "bet_list": [
-      { "name": "Liquid Winner", "odds": 1.64 },
-      { "name": "Secret Winner", "odds": 2.16 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 01:40:00+0800",
-    "match_name": "Liquid vs Secret Map2",
-    "team1": "Liquid",
-    "team2": "Secret",
-    "bet_list": [
-      { "name": "Liquid Winner", "odds": 1.64 },
-      { "name": "Secret Winner", "odds": 2.16 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 02:30:00+0800",
-    "match_name": "Liquid vs Secret Map3",
-    "team1": "Liquid",
-    "team2": "Secret",
-    "bet_list": [
-      { "name": "Liquid Winner", "odds": 1.64 },
-      { "name": "Secret Winner", "odds": 2.16 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 19:00:00+0800",
-    "match_name": "PSG.LGD vs Knights Match",
-    "team1": "PSG.LGD",
-    "team2": "Knights",
-    "bet_list": [
-      { "name": "PSG.LGD Winner", "odds": 1.35 },
-      { "name": "Knights Winner", "odds": 2.88 },
-      { "name": "PSG.LGD -1.5", "odds": 2.03 },
-      { "name": "Knights +1.5", "odds": 1.73 },
-      { "name": "PSG.LGD +1.5", "odds": 1.14 },
-      { "name": "Knights -1.5", "odds": 4.84 },
-      { "name": "Over 2.5", "odds": 2.16 },
-      { "name": "Under 2.5", "odds": 1.64 },
-      { "name": "Map score 2-0", "odds": 1.96 },
-      { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 4.84 },
-      { "name": "Map score 1-2", "odds": 5.00 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 04:00:00+0800",
-    "match_name": "Gaimin Gladiators vs Entity Map1",
-    "team1": "Gaimin Gladiators",
-    "team2": "Entity",
-    "bet_list": [
-      { "name": "Gaimin Gladiators Winner", "odds": 1.59 },
-      { "name": "Entity Winner", "odds": 2.23 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 04:45:00+0800",
-    "match_name": "Gaimin Gladiators vs Entity Map2",
-    "team1": "Gaimin Gladiators",
-    "team2": "Entity",
-    "bet_list": [
-      { "name": "Gaimin Gladiators Winner", "odds": 1.59 },
-      { "name": "Entity Winner", "odds": 2.23 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 05:30:00+0800",
-    "match_name": "Gaimin Gladiators vs Entity Map3",
-    "team1": "Gaimin Gladiators",
-    "team2": "Entity",
-    "bet_list": [
-      { "name": "Gaimin Gladiators Winner", "odds": 1.59 },
-      { "name": "Entity Winner", "odds": 2.23 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-09 14:30:00+0800",
-    "match_name": "Execration vs Talon Map3",
-    "team1": "Execration",
+    "time": "2023-01-11 19:00:00+0800",
+    "match_name": "Boom vs Talon Match",
+    "team1": "Boom",
     "team2": "Talon",
     "bet_list": [
-      { "name": "Execration Winner", "odds": 2.44 },
-      { "name": "Talon Winner", "odds": 1.49 },
-      { "name": "Execration Kills +9.5", "odds": 1.92 },
-      { "name": "Talon Kills -9.5", "odds": 1.82 },
-      { "name": "Total time Over 37", "odds": 1.87 },
-      { "name": "Total time Under 37", "odds": 1.87 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-09 19:00:00+0800",
-    "match_name": "Navi vs Spirit Match",
-    "team1": "Navi",
-    "team2": "Spirit",
-    "bet_list": [
-      { "name": "Navi Winner", "odds": 4.03 },
-      { "name": "Spirit Winner", "odds": 4.84 },
-      { "name": "Navi +1.5", "odds": 2.05 },
-      { "name": "Spirit -1.5", "odds": 1.71 },
-      { "name": "Over 2.5", "odds": 2.35 },
-      { "name": "Under 2.5", "odds": 1.54 },
-      { "name": "Map score 2-0", "odds": 7.25 },
-      { "name": "Map score 2-1", "odds": 5.34 },
-      { "name": "Map score 0-2", "odds": 1.77 },
-      { "name": "Map score 1-2", "odds": 3.38 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 07:00:00+0800",
-    "match_name": "TSM vs Wildcard Map1",
-    "team1": "TSM",
-    "team2": "Wildcard",
-    "bet_list": [
-      { "name": "TSM Winner", "odds": 1.24 },
-      { "name": "Wildcard Winner", "odds": 3.63 },
-      { "name": "TSM Kills -15.5", "odds": 1.84 },
-      { "name": "Wildcard Kills +15.5", "odds": 1.9 },
-      { "name": "Total time Over 37", "odds": 1.95 },
-      { "name": "Total time Under 37", "odds": 1.79 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 07:45:00+0800",
-    "match_name": "TSM vs Wildcard Map2",
-    "team1": "TSM",
-    "team2": "Wildcard",
-    "bet_list": [
-      { "name": "TSM Winner", "odds": 1.24 },
-      { "name": "Wildcard Winner", "odds": 3.63 },
-      { "name": "TSM Kills -15.5", "odds": 1.84 },
-      { "name": "Wildcard Kills +15.5", "odds": 1.9 },
-      { "name": "Total time Over 37", "odds": 1.95 },
-      { "name": "Total time Under 37", "odds": 1.79 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 08:30:00+0800",
-    "match_name": "TSM vs Wildcard Map3",
-    "team1": "TSM",
-    "team2": "Wildcard",
-    "bet_list": [
-      { "name": "TSM Winner", "odds": 1.24 },
-      { "name": "Wildcard Winner", "odds": 3.63 },
-      { "name": "TSM Kills -15.5", "odds": 1.84 },
-      { "name": "Wildcard Kills +15.5", "odds": 1.9 },
-      { "name": "Total time Over 37", "odds": 1.95 },
-      { "name": "Total time Under 37", "odds": 1.79 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-09 16:45:00+0800",
-    "match_name": "Fnatic vs Geek.Fam Map2",
-    "team1": "Fnatic",
-    "team2": "Geek.Fam",
-    "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.77 },
-      { "name": "Geek.Fam Winner", "odds": 1.99 },
-      { "name": "Fnatic Kills -5.5", "odds": 1.87 },
-      { "name": "Geek.Fam Kills +5.5", "odds": 1.87 },
-      { "name": "Total time Over 39", "odds": 1.87 },
-      { "name": "Total time Under 39", "odds": 1.87 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-09 17:30:00+0800",
-    "match_name": "Fnatic vs Geek.Fam Map3",
-    "team1": "Fnatic",
-    "team2": "Geek.Fam",
-    "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.77 },
-      { "name": "Geek.Fam Winner", "odds": 1.99 },
-      { "name": "Fnatic Kills -5.5", "odds": 1.87 },
-      { "name": "Geek.Fam Kills +5.5", "odds": 1.87 },
-      { "name": "Total time Over 39", "odds": 1.87 },
-      { "name": "Total time Under 39", "odds": 1.87 }
-    ]
-  },
-  {
-    "type": "dota_logo",
-    "time": "2023-01-10 22:00:00+0800",
-    "match_name": "Nemiga vs Darkside Match",
-    "team1": "Nemiga",
-    "team2": "Darkside",
-    "bet_list": [
-      { "name": "Nemiga Winner", "odds": 1.74 },
-      { "name": "Darkside Winner", "odds": 2.02 },
-      { "name": "Nemiga -1.5", "odds": 2.72 },
-      { "name": "Darkside +1.5", "odds": 1.40 },
-      { "name": "Nemiga +1.5", "odds": 1.24 },
-      { "name": "Darkside -1.5", "odds": 3.63 },
-      { "name": "Over 2.5", "odds": 2.02 },
-      { "name": "Under 2.5", "odds": 1.74 },
-      { "name": "Map score 2-0", "odds": 2.78 },
+      { "name": "Boom Winner", "odds": 1.62 },
+      { "name": "Talon Winner", "odds": 2.16 },
+      { "name": "Boom -1.5", "odds": 2.66 },
+      { "name": "Talon +1.5", "odds": 1.42 },
+      { "name": "Boom +1.5", "odds": 1.23 },
+      { "name": "Talon -1.5", "odds": 3.7 },
+      { "name": "Over 2.5", "odds": 1.95 },
+      { "name": "Under 2.5", "odds": 1.79 },
+      { "name": "Map score 2-0", "odds": 2.75 },
       { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 3.94 },
-      { "name": "Map score 1-2", "odds": 3.50 }
+      { "name": "Map score 0-2", "odds": 4.03 },
+      { "name": "Map score 1-2", "odds": 3.5 }
+    ]
+  },
+  {
+    "type": "dota_logo",
+    "time": "2023-01-11 22:00:00+0800",
+    "match_name": "Secret vs OG Match",
+    "team1": "Secret",
+    "team2": "OG",
+    "bet_list": [
+      { "name": "Secret Winner", "odds": 2.01 },
+      { "name": "OG Winner", "odds": 1.75 },
+      { "name": "Secret -1.5", "odds": 3.56 },
+      { "name": "OG +1.5", "odds": 1.25 },
+      { "name": "Secret +1.5", "odds": 1.39 },
+      { "name": "OG -1.5", "odds": 2.75 },
+      { "name": "Over 2.5", "odds": 1.95 },
+      { "name": "Under 2.5", "odds": 1.79 },
+      { "name": "Map score 2-0", "odds": 3.7 },
+      { "name": "Map score 2-1", "odds": 3.5 },
+      { "name": "Map score 0-2", "odds": 2.81 },
+      { "name": "Map score 1-2", "odds": 3.32 }
     ]
   },
   {
