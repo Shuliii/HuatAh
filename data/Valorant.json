@@ -71,19 +71,17 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-02-14 04:00:00+0800",
-    "match_name": "Detonation vs Giants Match",
-    "team1": "Detonation",
-    "team2": "Giants",
+    "time": "2023-02-15 04:00:00+0800",
+    "match_name": "BBL vs DRX Match",
+    "team1": "BBL",
+    "team2": "DRX",
     "bet_list": [
-      { "name": "Detonation Winner", "odds": 3.17 },
-      { "name": "Giants Winner", "odds": 1.28 },
-      { "name": "Detonation -1.5", "odds": 5.54 },
-      { "name": "Giants +1.5", "odds": 1.08 },
-      { "name": "Detonation +1.5", "odds": 1.81 },
-      { "name": "Giants -1.5", "odds": 1.91 },
-      { "name": "Over 2.5", "odds": 2.33 },
-      { "name": "Under 2.5", "odds": 1.53 }
+      { "name": "BBL Winner", "odds": 4.33 },
+      { "name": "DRX Winner", "odds": 1.1 },
+      { "name": "BBL +1.5", "odds": 2.15 },
+      { "name": "DRX -1.5", "odds": 1.67 },
+      { "name": "Over 2.5", "odds": 2.37 },
+      { "name": "Under 2.5", "odds": 1.45 }
     ]
   },
   {
@@ -140,23 +138,23 @@
 
   {
     "type": "valorant_logo",
-    "time": "2022-12-10 21:30:00+0800",
-    "match_name": "Vitality vs Heretics Match",
-    "team1": "Vitality",
-    "team2": "Heretics",
+    "time": "2023-02-15 07:00:00+0800",
+    "match_name": "C9 vs PRX Match",
+    "team1": "C9",
+    "team2": "PRX",
     "bet_list": [
-      { "name": "Vitality Winner", "odds": 1.41 },
-      { "name": "Heretics Winner", "odds": 2.69 },
-      { "name": "Vitality -1.5", "odds": 2.29 },
-      { "name": "Heretics +1.5", "odds": 1.57 },
-      { "name": "Vitality +1.5", "odds": 1.13 },
-      { "name": "Heretics -1.5", "odds": 5.0 },
-      { "name": "Over 2.5", "odds": 2.16 },
-      { "name": "Under 2.5", "odds": 1.64 },
-      { "name": "Map score 2-0", "odds": 2.23 },
-      { "name": "Map score 2-1", "odds": 3.32 },
+      { "name": "C9 Winner", "odds": 1.41 },
+      { "name": "PRX Winner", "odds": 2.58 },
+      { "name": "C9 -1.5", "odds": 2.61 },
+      { "name": "PRX +1.5", "odds": 1.42 },
+      { "name": "C9 +1.5", "odds": 1.12 },
+      { "name": "PRX -1.5", "odds": 4.84 },
+      { "name": "Over 2.5", "odds": 1.94 },
+      { "name": "Under 2.5", "odds": 1.78 },
+      { "name": "Map score 2-0", "odds": 2.61 },
+      { "name": "Map score 2-1", "odds": 3.08 },
       { "name": "Map score 0-2", "odds": 5.0 },
-      { "name": "Map score 1-2", "odds": 4.7 }
+      { "name": "Map score 1-2", "odds": 4.12 }
     ]
   },
   {
