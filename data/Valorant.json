@@ -1,23 +1,21 @@
 [
   {
     "type": "valorant_logo",
-    "time": "2023-02-20 01:00:00+0800",
-    "match_name": "NRG vs Loud Match",
-    "team1": "NRG",
-    "team2": "Loud",
+    "time": "2023-02-23 01:00:00+0800",
+    "match_name": "Liquid vs Secret Match",
+    "team1": "Liquid",
+    "team2": "Secret",
     "bet_list": [
-      { "name": "NRG Winner", "odds": 1.86 },
-      { "name": "Loud Winner", "odds": 1.86 },
-      { "name": "NRG -1.5", "odds": 3.38 },
-      { "name": "Loud +1.5", "odds": 1.26 },
-      { "name": "NRG +1.5", "odds": 1.26 },
-      { "name": "Loud -1.5", "odds": 3.38 },
-      { "name": "Over 2.5", "odds": 1.86 },
-      { "name": "Under 2.5", "odds": 1.86 },
-      { "name": "Map score 2-0", "odds": 3.5 },
-      { "name": "Map score 2-1", "odds": 3.63 },
-      { "name": "Map score 0-2", "odds": 3.5 },
-      { "name": "Map score 1-2", "odds": 3.63 }
+      { "name": "Liquid Winner", "odds": 1.07 },
+      { "name": "Secret Winner", "odds": 5.76 },
+      { "name": "Liquid -1.5", "odds": 1.43 },
+      { "name": "Secret +1.5", "odds": 2.58 },
+      { "name": "Over 2.5", "odds": 2.72 },
+      { "name": "Under 2.5", "odds": 1.38 },
+      { "name": "Map score 2-0", "odds": 1.45 },
+      { "name": "Map score 2-1", "odds": 3.7 },
+      { "name": "Map score 0-2", "odds": 9.0 },
+      { "name": "Map score 1-2", "odds": 8.69 }
     ]
   },
   {
@@ -73,21 +71,21 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-02-20 04:00:00+0800",
-    "match_name": "DRX vs Talon Match",
-    "team1": "DRX",
-    "team2": "Talon",
+    "time": "2023-02-23 04:00:00+0800",
+    "match_name": "Navi vs KRU Match",
+    "team1": "Navi",
+    "team2": "KRU",
     "bet_list": [
-      { "name": "DRX Winner", "odds": 1.23 },
-      { "name": "Talon Winner", "odds": 3.56 },
-      { "name": "DRX -1.5", "odds": 1.86 },
-      { "name": "Talon +1.5", "odds": 1.86 },
-      { "name": "Over 2.5", "odds": 2.29 },
-      { "name": "Under 2.5", "odds": 1.55 },
-      { "name": "Map score 2-0", "odds": 1.88 },
-      { "name": "Map score 2-1", "odds": 3.0 },
-      { "name": "Map score 0-2", "odds": 8.14 },
-      { "name": "Map score 1-2", "odds": 6.88 }
+      { "name": "Navi Winner", "odds": 1.14 },
+      { "name": "KRU Winner", "odds": 4.57 },
+      { "name": "Navi -1.5", "odds": 1.58 },
+      { "name": "KRU +1.5", "odds": 2.21 },
+      { "name": "Over 2.5", "odds": 2.66 },
+      { "name": "Under 2.5", "odds": 1.4 },
+      { "name": "Map score 2-0", "odds": 1.6 },
+      { "name": "Map score 2-1", "odds": 3.32 },
+      { "name": "Map score 0-2", "odds": 8.69 },
+      { "name": "Map score 1-2", "odds": 7.25 }
     ]
   },
   {
@@ -143,21 +141,21 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-02-16 07:00:00+0800",
-    "match_name": "Gen.G vs Loud Match",
-    "team1": "Gen.G",
-    "team2": "Loud",
+    "time": "2023-02-23 07:00:00+0800",
+    "match_name": "Zeta vs Leviathan Match",
+    "team1": "Zeta",
+    "team2": "Leviathan",
     "bet_list": [
-      { "name": "Gen.G Winner", "odds": 4.33 },
-      { "name": "Loud Winner", "odds": 1.16 },
-      { "name": "Gen.G +1.5", "odds": 2.19 },
-      { "name": "Loud -1.5", "odds": 1.6 },
-      { "name": "Over 2.5", "odds": 2.66 },
-      { "name": "Under 2.5", "odds": 1.4 },
-      { "name": "Map score 2-0", "odds": 8.14 },
-      { "name": "Map score 2-1", "odds": 6.26 },
-      { "name": "Map score 0-2", "odds": 1.62 },
-      { "name": "Map score 1-2", "odds": 3.38 }
+      { "name": "Zeta Winner", "odds": 2.42 },
+      { "name": "Leviathan Winner", "odds": 1.48 },
+      { "name": "Zeta +1.5", "odds": 1.58 },
+      { "name": "Leviathan -1.5", "odds": 2.21 },
+      { "name": "Over 2.5", "odds": 2.09 },
+      { "name": "Under 2.5", "odds": 1.67 },
+      { "name": "Map score 2-0", "odds": 4.33 },
+      { "name": "Map score 2-1", "odds": 4.12 },
+      { "name": "Map score 0-2", "odds": 2.33 },
+      { "name": "Map score 1-2", "odds": 3.32 }
     ]
   },
   {
