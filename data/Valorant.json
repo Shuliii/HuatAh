@@ -71,13 +71,13 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-04-26 04:00:00+0800",
+    "time": "2023-05-15 19:00:00+0800",
     "match_name": "Secret vs GE Match",
     "team1": "Secret",
     "team2": "GE",
     "bet_list": [
-      { "name": "Secret Winner", "odds": 1.28 },
-      { "name": "GE Winner", "odds": 3.17 },
+      { "name": "Secret Winner", "odds": 1.95 },
+      { "name": "GE Winner", "odds": 1.77 },
       { "name": "Secret -1.5", "odds": 3.94 },
       { "name": "GE +1.5", "odds": 1.18 },
       { "name": "Secret +1.5", "odds": 1.35 },
@@ -92,7 +92,7 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-02-16 04:00:00+0800",
+    "time": "2023-05-15 19:00:00+0800",
     "match_name": "Secret vs GE Map1",
     "team1": "Secret",
     "team2": "GE",
@@ -109,7 +109,7 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-02-16 04:30:00+0800",
+    "time": "2023-05-15 19:30:00+0800",
     "match_name": "Secret vs GE Map2",
     "team1": "Secret",
     "team2": "GE",
@@ -126,7 +126,7 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-02-16 05:00:00+0800",
+    "time": "2023-05-15 20:00:00+0800",
     "match_name": "Secret vs GE Map3",
     "team1": "Secret",
     "team2": "GE",
