@@ -2,12 +2,12 @@
   {
     "type": "csgo_logo",
     "time": "2023-05-15 17:30:00+0800",
-    "match_name": "Faze vs Sampi Match",
+    "match_name": "Faze vs BNE Match",
     "team1": "Faze",
-    "team2": "Sampi",
+    "team2": "BNE",
     "bet_list": [
       { "name": "Faze Winner", "odds": 1.14 },
-      { "name": "Sampi Winner", "odds": 4.57 },
+      { "name": "BNE Winner", "odds": 4.57 },
       { "name": "Over 2.5", "odds": 2.2 },
       { "name": "Under 2.5", "odds": 1.61 }
     ]
