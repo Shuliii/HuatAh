@@ -244,8 +244,8 @@
     "bet_list": [
       { "name": "Fnatic Winner", "odds": 4.22 },
       { "name": "G2 Winner", "odds": 1.19 },
-      { "name": "Fnatic -1.5", "odds": 1.91 },
-      { "name": "G2 +1.5", "odds": 1.83 },
+      { "name": "Fnatic +1.5", "odds": 2.05 },
+      { "name": "G2 -1.5", "odds": 1.73 },
       { "name": "Over 2.5", "odds": 2.26 },
       { "name": "Under 2.5", "odds": 1.59 },
       { "name": "Map score 2-0", "odds": 5.76 },
