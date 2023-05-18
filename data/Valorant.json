@@ -1,146 +1,142 @@
 [
   {
     "type": "valorant_logo",
-    "time": "2023-05-18 02:00:00+0800",
-    "match_name": "Fnatic vs Navi Match",
-    "team1": "Fnatic",
-    "team2": "Navi",
+    "time": "2023-05-19 03:00:00+0800",
+    "match_name": "Sentinel vs Furia Match",
+    "team1": "Sentinel",
+    "team2": "Furia",
     "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.41 },
-      { "name": "Navi Winner", "odds": 2.58 },
-      { "name": "Fnatic -1.5", "odds": 2.42 },
-      { "name": "Navi +1.5", "odds": 1.48 },
-      { "name": "Fnatic +1.5", "odds": 1.18 },
-      { "name": "Navi -1.5", "odds": 3.94 },
-      { "name": "Over 2.5", "odds": 2.11 },
-      { "name": "Under 2.5", "odds": 1.66 },
-      { "name": "Map score 2-0", "odds": 2.42 },
-      { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 4.22 },
-      { "name": "Map score 1-2", "odds": 4.03 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-05-18 02:00:00+0800",
-    "match_name": "Fnatic vs Navi Map1",
-    "team1": "Fnatic",
-    "team2": "Navi",
-    "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.53 },
-      { "name": "Navi Winner", "odds": 2.33 },
-      { "name": "Fnatic -2.5", "odds": 1.81 },
-      { "name": "Navi +2.5", "odds": 1.91 },
-      { "name": "Over 20.5", "odds": 1.78 },
-      { "name": "Under 20.5", "odds": 1.94 },
-      { "name": "Fnatic Pistol Winner", "odds": 1.78 },
-      { "name": "Navi Pistol Winner", "odds": 1.94 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-05-18 02:00:00+0800",
-    "match_name": "Fnatic vs Navi Map2",
-    "team1": "Fnatic",
-    "team2": "Navi",
-    "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.53 },
-      { "name": "Navi Winner", "odds": 2.33 },
-      { "name": "Fnatic -2.5", "odds": 1.81 },
-      { "name": "Navi +2.5", "odds": 1.91 },
-      { "name": "Over 20.5", "odds": 1.78 },
-      { "name": "Under 20.5", "odds": 1.94 },
-      { "name": "Fnatic Pistol Winner", "odds": 1.78 },
-      { "name": "Navi Pistol Winner", "odds": 1.94 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-05-18 02:00:00+0800",
-    "match_name": "Fnatic vs Navi Map3",
-    "team1": "Fnatic",
-    "team2": "Navi",
-    "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.53 },
-      { "name": "Navi Winner", "odds": 2.33 },
-      { "name": "Fnatic -2.5", "odds": 1.81 },
-      { "name": "Navi +2.5", "odds": 1.91 },
-      { "name": "Over 20.5", "odds": 1.78 },
-      { "name": "Under 20.5", "odds": 1.94 },
-      { "name": "Fnatic Pistol Winner", "odds": 1.78 },
-      { "name": "Navi Pistol Winner", "odds": 1.94 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-05-16 19:00:00+0800",
-    "match_name": "RRQ vs PRX Match",
-    "team1": "RRQ",
-    "team2": "PRX",
-    "bet_list": [
-      { "name": "RRQ Winner", "odds": 3.77 },
-      { "name": "PRX Winner", "odds": 1.2 },
-      { "name": "RRQ -1.5", "odds": 6.88 },
-      { "name": "PRX +1.5", "odds": 1.05 },
-      { "name": "RRQ +1.5", "odds": 2.01 },
-      { "name": "PRX -1.5", "odds": 1.71 },
-      { "name": "Over 2.5", "odds": 2.36 },
-      { "name": "Under 2.5", "odds": 1.51 },
-      { "name": "Map score 2-0", "odds": 6.88 },
-      { "name": "Map score 2-1", "odds": 6.0 },
-      { "name": "Map score 0-2", "odds": 1.76 },
+      { "name": "Sentinel Winner", "odds": 2.42 },
+      { "name": "Furia Winner", "odds": 1.48 },
+      { "name": "Sentinel -1.5", "odds": 4.57 },
+      { "name": "Furia +1.5", "odds": 1.14 },
+      { "name": "Sentinel +1.5", "odds": 1.5 },
+      { "name": "Furia -1.5", "odds": 2.38 },
+      { "name": "Over 2.5", "odds": 1.94 },
+      { "name": "Under 2.5", "odds": 1.78 },
+      { "name": "Map score 2-0", "odds": 4.12 },
+      { "name": "Map score 2-1", "odds": 4.22 },
+      { "name": "Map score 0-2", "odds": 2.25 },
       { "name": "Map score 1-2", "odds": 3.38 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-16 19:00:00+0800",
-    "match_name": "RRQ vs PRX Map1",
-    "team1": "RRQ",
-    "team2": "PRX",
+    "time": "2023-05-19 03:00:00+0800",
+    "match_name": "Sentinel vs Furia Map1",
+    "team1": "Sentinel",
+    "team2": "Furia",
     "bet_list": [
-      { "name": "RRQ Winner", "odds": 2.96 },
-      { "name": "PRX Winner", "odds": 1.33 },
-      { "name": "RRQ +3.5", "odds": 1.81 },
-      { "name": "PRX -3.5", "odds": 1.91 },
-      { "name": "Over 21.5", "odds": 1.95 },
-      { "name": "Under 21.5", "odds": 1.77 },
-      { "name": "RRQ Pistol Winner", "odds": 2.21 },
-      { "name": "PRX Pistol Winner", "odds": 1.58 }
+      { "name": "Sentinel Winner", "odds": 2.33 },
+      { "name": "Furia Winner", "odds": 1.53 },
+      { "name": "Sentinel +2.5", "odds": 1.79 },
+      { "name": "Furia -2.5", "odds": 1.93 },
+      { "name": "Over 21.5", "odds": 1.96 },
+      { "name": "Under 21.5", "odds": 1.76 },
+      { "name": "Sentinel Pistol Winner", "odds": 1.94 },
+      { "name": "Furia Pistol Winner", "odds": 1.78 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-16 19:00:00+0800",
-    "match_name": "RRQ vs PRX Map2",
-    "team1": "RRQ",
-    "team2": "PRX",
+    "time": "2023-05-19 03:00:00+0800",
+    "match_name": "Sentinel vs Furia Map2",
+    "team1": "Sentinel",
+    "team2": "Furia",
     "bet_list": [
-      { "name": "RRQ Winner", "odds": 2.96 },
-      { "name": "PRX Winner", "odds": 1.33 },
-      { "name": "RRQ +3.5", "odds": 1.81 },
-      { "name": "PRX -3.5", "odds": 1.91 },
-      { "name": "Over 21.5", "odds": 1.95 },
-      { "name": "Under 21.5", "odds": 1.77 },
-      { "name": "RRQ Pistol Winner", "odds": 2.21 },
-      { "name": "PRX Pistol Winner", "odds": 1.58 }
+      { "name": "Sentinel Winner", "odds": 2.33 },
+      { "name": "Furia Winner", "odds": 1.53 },
+      { "name": "Sentinel +2.5", "odds": 1.79 },
+      { "name": "Furia -2.5", "odds": 1.93 },
+      { "name": "Over 21.5", "odds": 1.96 },
+      { "name": "Under 21.5", "odds": 1.76 },
+      { "name": "Sentinel Pistol Winner", "odds": 1.94 },
+      { "name": "Furia Pistol Winner", "odds": 1.78 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-16 19:00:00+0800",
-    "match_name": "RRQ vs GE Map3",
-    "team1": "RRQ",
+    "time": "2023-05-19 03:00:00+0800",
+    "match_name": "Sentinel vs Furia Map3",
+    "team1": "Sentinel",
+    "team2": "Furia",
+    "bet_list": [
+      { "name": "Sentinel Winner", "odds": 2.33 },
+      { "name": "Furia Winner", "odds": 1.53 },
+      { "name": "Sentinel +2.5", "odds": 1.79 },
+      { "name": "Furia -2.5", "odds": 1.93 },
+      { "name": "Over 21.5", "odds": 1.96 },
+      { "name": "Under 21.5", "odds": 1.76 },
+      { "name": "Sentinel Pistol Winner", "odds": 1.94 },
+      { "name": "Furia Pistol Winner", "odds": 1.78 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-05-19 06:00:00+0800",
+    "match_name": "NRG vs EG Match",
+    "team1": "NRG",
+    "team2": "EG",
+    "bet_list": [
+      { "name": "NRG Winner", "odds": 1.28 },
+      { "name": "EG Winner", "odds": 3.17 },
+      { "name": "NRG -1.5", "odds": 1.9 },
+      { "name": "EG +1.5", "odds": 1.82 },
+      { "name": "NRG +1.5", "odds": 1.08 },
+      { "name": "EG -1.5", "odds": 5.54 },
+      { "name": "Over 2.5", "odds": 2.28 },
+      { "name": "Under 2.5", "odds": 1.56 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-05-19 06:00:00+0800",
+    "match_name": "NRG vs EG Map1",
+    "team1": "NRG",
+    "team2": "EG",
+    "bet_list": [
+      { "name": "NRG Winner", "odds": 1.38 },
+      { "name": "EG Winner", "odds": 2.72 },
+      { "name": "NRG -3.5", "odds": 1.91 },
+      { "name": "EG +3.5", "odds": 1.81 },
+      { "name": "Over 20.5", "odds": 1.78 },
+      { "name": "Under 20.5", "odds": 1.94 },
+      { "name": "NRG Pistol Winner", "odds": 1.68 },
+      { "name": "EG Pistol Winner", "odds": 2.06 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-05-19 06:00:00+0800",
+    "match_name": "NRG vs EG Map2",
+    "team1": "NRG",
+    "team2": "EG",
+    "bet_list": [
+      { "name": "NRG Winner", "odds": 1.38 },
+      { "name": "EG Winner", "odds": 2.72 },
+      { "name": "NRG -3.5", "odds": 1.91 },
+      { "name": "EG +3.5", "odds": 1.81 },
+      { "name": "Over 20.5", "odds": 1.78 },
+      { "name": "Under 20.5", "odds": 1.94 },
+      { "name": "NRG Pistol Winner", "odds": 1.68 },
+      { "name": "EG Pistol Winner", "odds": 2.06 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-05-19 06:00:00+0800",
+    "match_name": "NRG vs GE Map3",
+    "team1": "NRG",
     "team2": "GE",
     "bet_list": [
-      { "name": "RRQ Winner", "odds": 2.96 },
-      { "name": "GE Winner", "odds": 1.733 },
-      { "name": "RRQ +3.5", "odds": 1.81 },
-      { "name": "GE -235", "odds": 1.981 },
-      { "name": "Over 21.5", "odds": 1.95 },
-      { "name": "Under 21.5", "odds": 1.77 },
-      { "name": "RRQ Pistol Winner", "odds": 2.21 },
-      { "name": "GE Pistol Winner", "odds": 1.858 }
+      { "name": "NRG Winner", "odds": 1.38 },
+      { "name": "GE Winner", "odds": 2.723 },
+      { "name": "NRG -3.5", "odds": 1.91 },
+      { "name": "GE +235", "odds": 1.811 },
+      { "name": "Over 20.5", "odds": 1.78 },
+      { "name": "Under 20.5", "odds": 1.94 },
+      { "name": "NRG Pistol Winner", "odds": 1.68 },
+      { "name": "GE Pistol Winner", "odds": 2.068 }
     ]
   },
   {
