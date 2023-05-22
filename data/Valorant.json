@@ -73,58 +73,68 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-19 18:30:00+0800",
-    "match_name": "T1 vs Zeta Match",
+    "time": "2023-05-22 18:30:00+0800",
+    "match_name": "T1 vs GENG Match",
     "team1": "T1",
-    "team2": "Zeta",
+    "team2": "GENG",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.59 },
-      { "name": "Zeta Winner", "odds": 2.17 },
-      { "name": "T1 -1.5", "odds": 3.04 },
-      { "name": "Zeta +1.5", "odds": 1.31 },
+      { "name": "T1 Winner", "odds": 1.36 },
+      { "name": "GENG Winner", "odds": 2.78 },
+      { "name": "T1 -1.5", "odds": 2.31 },
+      { "name": "GENG +1.5", "odds": 1.54 },
       { "name": "T1 +1.5", "odds": 1.15 },
-      { "name": "Zeta -1.5", "odds": 4.22 },
-      { "name": "Over 2.5", "odds": 1.96 },
-      { "name": "Under 2.5", "odds": 1.76 }
+      { "name": "GENG -1.5", "odds": 4.44 },
+      { "name": "Over 2.5", "odds": 2.06 },
+      { "name": "Under 2.5", "odds": 1.68 },
+      { "name": "Map score 2-0", "odds": 2.42 },
+      { "name": "Map score 2-1", "odds": 3.43 },
+      { "name": "Map score 0-2", "odds": 4.84 },
+      { "name": "Map score 1-2", "odds": 4.7 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-19 18:30:00+0800",
-    "match_name": "T1 vs Zeta Map1",
+    "time": "2023-05-22 18:30:00+0800",
+    "match_name": "T1 vs GENG Map1",
     "team1": "T1",
-    "team2": "Zeta",
+    "team2": "GENG",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.74 },
-      { "name": "Zeta Winner", "odds": 1.98 },
-      { "name": "T1 Pistol Winner", "odds": 1.86 },
-      { "name": "Zeta Pistol Winner", "odds": 1.86 }
+      { "name": "T1 Winner", "odds": 1.56 },
+      { "name": "GENG Winner", "odds": 2.28 },
+      { "name": "T1 -2.5", "odds": 1.96 },
+      { "name": "GENG +2.5", "odds": 1.76 },
+      { "name": "T1 Pistol Winner", "odds": 1.78 },
+      { "name": "GENG Pistol Winner", "odds": 1.94 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-19 18:50:00+0800",
-    "match_name": "T1 vs Zeta Map2",
+    "time": "2023-05-22 18:50:00+0800",
+    "match_name": "T1 vs GENG Map2",
     "team1": "T1",
-    "team2": "Zeta",
+    "team2": "GENG",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.74 },
-      { "name": "Zeta Winner", "odds": 1.98 },
-      { "name": "T1 Pistol Winner", "odds": 1.86 },
-      { "name": "Zeta Pistol Winner", "odds": 1.86 }
+      { "name": "T1 Winner", "odds": 1.56 },
+      { "name": "GENG Winner", "odds": 2.28 },
+      { "name": "T1 -2.5", "odds": 1.96 },
+      { "name": "GENG +2.5", "odds": 1.76 },
+      { "name": "T1 Pistol Winner", "odds": 1.78 },
+      { "name": "GENG Pistol Winner", "odds": 1.94 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-19 19:10:00+0800",
-    "match_name": "T1 vs Zeta Map3",
+    "time": "2023-05-22 19:10:00+0800",
+    "match_name": "T1 vs GENG Map3",
     "team1": "T1",
-    "team2": "Zeta",
+    "team2": "GENG",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.74 },
-      { "name": "Zeta Winner", "odds": 1.98 },
-      { "name": "T1 Pistol Winner", "odds": 1.86 },
-      { "name": "Zeta Pistol Winner", "odds": 1.86 }
+      { "name": "T1 Winner", "odds": 1.56 },
+      { "name": "GENG Winner", "odds": 2.28 },
+      { "name": "T1 -2.5", "odds": 1.96 },
+      { "name": "GENG +2.5", "odds": 1.76 },
+      { "name": "T1 Pistol Winner", "odds": 1.78 },
+      { "name": "GENG Pistol Winner", "odds": 1.94 }
     ]
   },
   {
