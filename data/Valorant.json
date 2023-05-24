@@ -157,8 +157,8 @@
     "bet_list": [
       { "name": "Loud Winner", "odds": 1.33 },
       { "name": "Furia Winner", "odds": 2.96 },
-      { "name": "Loud +4.5", "odds": 1.86 },
-      { "name": "Furia -4.5", "odds": 1.86 },
+      { "name": "Loud -3.5", "odds": 1.86 },
+      { "name": "Furia +3.5", "odds": 1.86 },
       { "name": "Over 21.5", "odds": 1.94 },
       { "name": "Under 21.5", "odds": 1.78 },
       { "name": "Loud Pistol Winner", "odds": 1.63 },
@@ -174,8 +174,8 @@
     "bet_list": [
       { "name": "Loud Winner", "odds": 1.33 },
       { "name": "Furia Winner", "odds": 2.96 },
-      { "name": "Loud +4.5", "odds": 1.86 },
-      { "name": "Furia -4.5", "odds": 1.86 },
+      { "name": "Loud -3.5", "odds": 1.86 },
+      { "name": "Furia +3.5", "odds": 1.86 },
       { "name": "Over 21.5", "odds": 1.94 },
       { "name": "Under 21.5", "odds": 1.78 },
       { "name": "Loud Pistol Winner", "odds": 1.63 },
@@ -191,8 +191,8 @@
     "bet_list": [
       { "name": "Loud Winner", "odds": 1.33 },
       { "name": "Furia Winner", "odds": 2.96 },
-      { "name": "Loud +4.5", "odds": 1.86 },
-      { "name": "Furia -4.5", "odds": 1.86 },
+      { "name": "Loud -3.5", "odds": 1.86 },
+      { "name": "Furia +3.5", "odds": 1.86 },
       { "name": "Over 21.5", "odds": 1.94 },
       { "name": "Under 21.5", "odds": 1.78 },
       { "name": "Loud Pistol Winner", "odds": 1.63 },
