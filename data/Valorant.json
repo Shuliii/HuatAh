@@ -2,16 +2,16 @@
   {
     "type": "valorant_logo",
     "time": "2023-06-12 11:00:00+0800",
-    "match_name": "NRG vs Navi Match",
-    "team1": "NRG",
-    "team2": "Navi",
+    "match_name": "T1 vs NRG Match",
+    "team1": "T1",
+    "team2": "NRG",
     "bet_list": [
-      { "name": "NRG Winner", "odds": 1.78 },
-      { "name": "Navi Winner", "odds": 1.94 },
-      { "name": "NRG -1.5", "odds": 3.04 },
-      { "name": "Navi +1.5", "odds": 1.31 },
-      { "name": "NRG +1.5", "odds": 1.28 },
-      { "name": "Navi -1.5", "odds": 3.17 },
+      { "name": "T1 Winner", "odds": 1.78 },
+      { "name": "NRG Winner", "odds": 1.94 },
+      { "name": "T1 -1.5", "odds": 3.04 },
+      { "name": "NRG +1.5", "odds": 1.31 },
+      { "name": "T1 +1.5", "odds": 1.28 },
+      { "name": "NRG -1.5", "odds": 3.17 },
       { "name": "Over 2.5", "odds": 1.86 },
       { "name": "Under 2.5", "odds": 1.86 },
       { "name": "Map score 2-0", "odds": 3.32 },
@@ -23,44 +23,44 @@
   {
     "type": "valorant_logo",
     "time": "2023-06-12 11:00:00+0800",
-    "match_name": "NRG vs Navi Map1",
-    "team1": "NRG",
-    "team2": "Navi",
+    "match_name": "T1 vs NRG Map1",
+    "team1": "T1",
+    "team2": "NRG",
     "bet_list": [
+      { "name": "T1 Winner", "odds": 1.86 },
       { "name": "NRG Winner", "odds": 1.86 },
-      { "name": "Navi Winner", "odds": 1.86 },
-      { "name": "NRG +2.5", "odds": 1.63 },
-      { "name": "Navi -2.5", "odds": 2.09 },
-      { "name": "NRG Pistol Winner", "odds": 1.86 },
-      { "name": "Navi Pistol Winner", "odds": 1.86 }
+      { "name": "T1 +2.5", "odds": 1.63 },
+      { "name": "NRG -2.5", "odds": 2.09 },
+      { "name": "T1 Pistol Winner", "odds": 1.86 },
+      { "name": "NRG Pistol Winner", "odds": 1.86 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-06-12 11:30:00+0800",
-    "match_name": "NRG vs Navi Map2",
-    "team1": "NRG",
-    "team2": "Navi",
+    "match_name": "T1 vs NRG Map2",
+    "team1": "T1",
+    "team2": "NRG",
     "bet_list": [
+      { "name": "T1 Winner", "odds": 1.86 },
       { "name": "NRG Winner", "odds": 1.86 },
-      { "name": "Navi Winner", "odds": 1.86 },
-      { "name": "NRG +2.5", "odds": 1.63 },
-      { "name": "Navi -2.5", "odds": 2.09 },
-      { "name": "NRG Pistol Winner", "odds": 1.86 },
-      { "name": "Navi Pistol Winner", "odds": 1.86 }
+      { "name": "T1 +2.5", "odds": 1.63 },
+      { "name": "NRG -2.5", "odds": 2.09 },
+      { "name": "T1 Pistol Winner", "odds": 1.86 },
+      { "name": "NRG Pistol Winner", "odds": 1.86 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-06-12 12:00:00+0800",
-    "match_name": "NRG vs Navi Map3",
-    "team1": "NRG",
-    "team2": "Navi",
+    "match_name": "T1 vs NRG Map3",
+    "team1": "T1",
+    "team2": "NRG",
     "bet_list": [
+      { "name": "T1 Winner", "odds": 1.86 },
       { "name": "NRG Winner", "odds": 1.86 },
-      { "name": "Navi Winner", "odds": 1.86 },
-      { "name": "NRG +2.5", "odds": 1.63 },
-      { "name": "Navi -2.5", "odds": 2.09 },
+      { "name": "T1 +2.5", "odds": 1.63 },
+      { "name": "NRG -2.5", "odds": 2.09 },
       { "name": "FUT Pistol Winner", "odds": 1.86 },
       { "name": "Giants Pistol Winner", "odd": 1.86 }
     ]
@@ -68,7 +68,7 @@
   {
     "type": "valorant_logo",
     "time": "2023-05-29 04:00:00+0800",
-    "match_name": "Loud vs NRG Match",
+    "match_name": "Loud vs T1 Match",
     "team1": "Loud",
     "team2": "NRG",
     "bet_list": [
@@ -168,14 +168,14 @@
   {
     "type": "valorant_logo",
     "time": "2023-06-12 14:20:00+0800",
-    "match_name": "EG vs DRX Match",
-    "team1": "EG",
-    "team2": "DRX",
+    "match_name": "FUT vs ASE Match",
+    "team1": "FUT",
+    "team2": "ASE",
     "bet_list": [
-      { "name": "EG Winner", "odds": 2.75 },
-      { "name": "DRX Winner", "odds": 1.37 },
-      { "name": "EG -1.5", "odds": 5.16 },
-      { "name": "DRX +1.5", "odds": 1.1 },
+      { "name": "FUT Winner", "odds": 2.75 },
+      { "name": "ASE Winner", "odds": 1.37 },
+      { "name": "FUT -1.5", "odds": 5.16 },
+      { "name": "ASE +1.5", "odds": 1.1 },
       { "name": "Over 2.5", "odds": 1.62 },
       { "name": "Under 2.5", "odds": 2.16 },
       { "name": "Map score 2-0", "odds": 4.44 },
@@ -187,46 +187,46 @@
   {
     "type": "valorant_logo",
     "time": "2023-06-12 14:20:00+0800",
-    "match_name": "EG vs DRX Map1",
-    "team1": "EG",
-    "team2": "DRX",
+    "match_name": "FUT vs ASE Map1",
+    "team1": "FUT",
+    "team2": "ASE",
     "bet_list": [
-      { "name": "EG Winner", "odds": 2.51 },
-      { "name": "DRX Winner", "odds": 1.46 },
-      { "name": "EG +2.5", "odds": 1.83 },
-      { "name": "DRX -2.5", "odds": 1.89 },
-      { "name": "EG Pistol Winner", "odds": 2.0 },
-      { "name": "DRX Pistol Winner", "odds": 1.74 }
+      { "name": "FUT Winner", "odds": 2.51 },
+      { "name": "ASE Winner", "odds": 1.46 },
+      { "name": "FUT +2.5", "odds": 1.83 },
+      { "name": "ASE -2.5", "odds": 1.89 },
+      { "name": "FUT Pistol Winner", "odds": 2.0 },
+      { "name": "ASE Pistol Winner", "odds": 1.74 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-06-12 15:10:00+0800",
-    "match_name": "EG vs DRX Map2",
-    "team1": "EG",
-    "team2": "DRX",
+    "match_name": "FUT vs ASE Map2",
+    "team1": "FUT",
+    "team2": "ASE",
     "bet_list": [
-      { "name": "EG Winner", "odds": 2.51 },
-      { "name": "DRX Winner", "odds": 1.46 },
-      { "name": "EG +2.5", "odds": 1.83 },
-      { "name": "DRX -2.5", "odds": 1.89 },
-      { "name": "EG Pistol Winner", "odds": 2.0 },
-      { "name": "DRX Pistol Winner", "odds": 1.74 }
+      { "name": "FUT Winner", "odds": 2.51 },
+      { "name": "ASE Winner", "odds": 1.46 },
+      { "name": "FUT +2.5", "odds": 1.83 },
+      { "name": "ASE -2.5", "odds": 1.89 },
+      { "name": "FUT Pistol Winner", "odds": 2.0 },
+      { "name": "ASE Pistol Winner", "odds": 1.74 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-06-12 15:50:00+0800",
-    "match_name": "EG vs DRX Map3",
-    "team1": "EG",
-    "team2": "DRX",
+    "match_name": "FUT vs ASE Map3",
+    "team1": "FUT",
+    "team2": "ASE",
     "bet_list": [
-      { "name": "EG Winner", "odds": 2.51 },
-      { "name": "DRX Winner", "odds": 1.46 },
-      { "name": "EG +2.5", "odds": 1.83 },
-      { "name": "DRX -2.5", "odds": 1.89 },
-      { "name": "EG Pistol Winner", "odds": 2.0 },
-      { "name": "DRX Pistol Winner", "odds": 1.74 }
+      { "name": "FUT Winner", "odds": 2.51 },
+      { "name": "ASE Winner", "odds": 1.46 },
+      { "name": "FUT +2.5", "odds": 1.83 },
+      { "name": "ASE -2.5", "odds": 1.89 },
+      { "name": "FUT Pistol Winner", "odds": 2.0 },
+      { "name": "ASE Pistol Winner", "odds": 1.74 }
     ]
   },
   {
