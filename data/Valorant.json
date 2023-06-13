@@ -1,68 +1,66 @@
 [
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 11:00:00+0800",
-    "match_name": "T1 vs NRG Match",
-    "team1": "T1",
-    "team2": "NRG",
+    "time": "2023-06-14 11:00:00+0800",
+    "match_name": "DRX vs FUT Match",
+    "team1": "DRX",
+    "team2": "FUT",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.78 },
-      { "name": "NRG Winner", "odds": 1.94 },
-      { "name": "T1 -1.5", "odds": 3.04 },
-      { "name": "NRG +1.5", "odds": 1.31 },
-      { "name": "T1 +1.5", "odds": 1.28 },
-      { "name": "NRG -1.5", "odds": 3.17 },
-      { "name": "Over 2.5", "odds": 1.86 },
-      { "name": "Under 2.5", "odds": 1.86 },
-      { "name": "Map score 2-0", "odds": 3.32 },
-      { "name": "Map score 2-1", "odds": 3.38 },
-      { "name": "Map score 0-2", "odds": 3.04 },
-      { "name": "Map score 1-2", "odds": 3.38 }
+      { "name": "DRX Winner", "odds": 1.31 },
+      { "name": "FUT Winner", "odds": 3.12 },
+      { "name": "DRX -1.5", "odds": 1.98 },
+      { "name": "FUT +1.5", "odds": 1.76 },
+      { "name": "Over 2.5", "odds": 1.98 },
+      { "name": "Under 2.5", "odds": 1.74 },
+      { "name": "Map score 2-0", "odds": 2.0 },
+      { "name": "Map score 2-1", "odds": 3.27 },
+      { "name": "Map score 0-2", "odds": 8.69 },
+      { "name": "Map score 1-2", "odds": 6.88 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 11:00:00+0800",
-    "match_name": "T1 vs NRG Map1",
-    "team1": "T1",
-    "team2": "NRG",
+    "time": "2023-06-14 11:00:00+0800",
+    "match_name": "DRX vs FUT Map1",
+    "team1": "DRX",
+    "team2": "FUT",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.86 },
-      { "name": "NRG Winner", "odds": 1.86 },
-      { "name": "T1 +2.5", "odds": 1.63 },
-      { "name": "NRG -2.5", "odds": 2.09 },
-      { "name": "T1 Pistol Winner", "odds": 1.86 },
-      { "name": "NRG Pistol Winner", "odds": 1.86 }
+      { "name": "DRX Winner", "odds": 1.31 },
+      { "name": "FUT Winner", "odds": 3.04 },
+      { "name": "DRX -3.5", "odds": 1.82 },
+      { "name": "FUT +3.5", "odds": 1.9 },
+      { "name": "DRX Pistol Winner", "odds": 1.63 },
+      { "name": "FUT Pistol Winner", "odds": 2.14 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 11:30:00+0800",
-    "match_name": "T1 vs NRG Map2",
-    "team1": "T1",
-    "team2": "NRG",
+    "time": "2023-06-14 11:30:00+0800",
+    "match_name": "DRX vs FUT Map2",
+    "team1": "DRX",
+    "team2": "FUT",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.86 },
-      { "name": "NRG Winner", "odds": 1.86 },
-      { "name": "T1 +2.5", "odds": 1.63 },
-      { "name": "NRG -2.5", "odds": 2.09 },
-      { "name": "T1 Pistol Winner", "odds": 1.86 },
-      { "name": "NRG Pistol Winner", "odds": 1.86 }
+      { "name": "DRX Winner", "odds": 1.31 },
+      { "name": "FUT Winner", "odds": 3.04 },
+      { "name": "DRX -3.5", "odds": 1.82 },
+      { "name": "FUT +3.5", "odds": 1.9 },
+      { "name": "DRX Pistol Winner", "odds": 1.63 },
+      { "name": "FUT Pistol Winner", "odds": 2.14 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 12:00:00+0800",
-    "match_name": "T1 vs NRG Map3",
-    "team1": "T1",
-    "team2": "NRG",
+    "time": "2023-06-14 12:00:00+0800",
+    "match_name": "DRX vs FUT Map3",
+    "team1": "DRX",
+    "team2": "FUT",
     "bet_list": [
-      { "name": "T1 Winner", "odds": 1.86 },
-      { "name": "NRG Winner", "odds": 1.86 },
-      { "name": "T1 +2.5", "odds": 1.63 },
-      { "name": "NRG -2.5", "odds": 2.09 },
-      { "name": "FUT Pistol Winner", "odds": 1.86 },
-      { "name": "Giants Pistol Winner", "odd": 1.86 }
+      { "name": "DRX Winner", "odds": 1.31 },
+      { "name": "FUT Winner", "odds": 3.04 },
+      { "name": "DRX -3.5", "odds": 1.82 },
+      { "name": "FUT +3.5", "odds": 1.9 },
+      { "name": "DRX Pistol Winner", "odds": 1.63 },
+      { "name": "FUT Pistol Winner", "odd": 12.14 }
     ]
   },
   {
