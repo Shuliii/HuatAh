@@ -167,66 +167,66 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 14:20:00+0800",
+    "time": "2023-06-13 14:00:00+0800",
     "match_name": "FUT vs ASE Match",
     "team1": "FUT",
     "team2": "ASE",
     "bet_list": [
-      { "name": "FUT Winner", "odds": 2.75 },
-      { "name": "ASE Winner", "odds": 1.37 },
-      { "name": "FUT -1.5", "odds": 5.16 },
-      { "name": "ASE +1.5", "odds": 1.1 },
-      { "name": "Over 2.5", "odds": 1.62 },
-      { "name": "Under 2.5", "odds": 2.16 },
-      { "name": "Map score 2-0", "odds": 4.44 },
-      { "name": "Map score 2-1", "odds": 4.84 },
-      { "name": "Map score 0-2", "odds": 2.2 },
-      { "name": "Map score 1-2", "odds": 3.5 }
+      { "name": "FUT Winner", "odds": 1.21 },
+      { "name": "ASE Winner", "odds": 3.7 },
+      { "name": "FUT -1.5", "odds": 2.02 },
+      { "name": "ASE +1.5", "odds": 1.7 },
+      { "name": "Over 2.5", "odds": 2.33 },
+      { "name": "Under 2.5", "odds": 1.53 },
+      { "name": "Map score 2-0", "odds": 1.92 },
+      { "name": "Map score 2-1", "odds": 3.32 },
+      { "name": "Map score 0-2", "odds": 5.34 },
+      { "name": "Map score 1-2", "odds": 4.7 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 14:20:00+0800",
+    "time": "2023-06-13 14:00:00+0800",
     "match_name": "FUT vs ASE Map1",
     "team1": "FUT",
     "team2": "ASE",
     "bet_list": [
-      { "name": "FUT Winner", "odds": 2.51 },
-      { "name": "ASE Winner", "odds": 1.46 },
-      { "name": "FUT +2.5", "odds": 1.83 },
-      { "name": "ASE -2.5", "odds": 1.89 },
-      { "name": "FUT Pistol Winner", "odds": 2.0 },
-      { "name": "ASE Pistol Winner", "odds": 1.74 }
+      { "name": "FUT Winner", "odds": 1.43 },
+      { "name": "ASE Winner", "odds": 2.58 },
+      { "name": "FUT -3.5", "odds": 1.82 },
+      { "name": "ASE +3.5", "odds": 1.9 },
+      { "name": "FUT Pistol Winner", "odds": 1.63 },
+      { "name": "ASE Pistol Winner", "odds": 2.14 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 15:10:00+0800",
+    "time": "2023-06-13 14:00:00+0800",
     "match_name": "FUT vs ASE Map2",
     "team1": "FUT",
     "team2": "ASE",
     "bet_list": [
-      { "name": "FUT Winner", "odds": 2.51 },
-      { "name": "ASE Winner", "odds": 1.46 },
-      { "name": "FUT +2.5", "odds": 1.83 },
-      { "name": "ASE -2.5", "odds": 1.89 },
-      { "name": "FUT Pistol Winner", "odds": 2.0 },
-      { "name": "ASE Pistol Winner", "odds": 1.74 }
+      { "name": "FUT Winner", "odds": 1.43 },
+      { "name": "ASE Winner", "odds": 2.58 },
+      { "name": "FUT -3.5", "odds": 1.82 },
+      { "name": "ASE +3.5", "odds": 1.9 },
+      { "name": "FUT Pistol Winner", "odds": 1.63 },
+      { "name": "ASE Pistol Winner", "odds": 2.14 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-12 15:50:00+0800",
+    "time": "2023-06-13 14:00:00+0800",
     "match_name": "FUT vs ASE Map3",
     "team1": "FUT",
     "team2": "ASE",
     "bet_list": [
-      { "name": "FUT Winner", "odds": 2.51 },
-      { "name": "ASE Winner", "odds": 1.46 },
-      { "name": "FUT +2.5", "odds": 1.83 },
-      { "name": "ASE -2.5", "odds": 1.89 },
-      { "name": "FUT Pistol Winner", "odds": 2.0 },
-      { "name": "ASE Pistol Winner", "odds": 1.74 }
+      { "name": "FUT Winner", "odds": 1.43 },
+      { "name": "ASE Winner", "odds": 2.58 },
+      { "name": "FUT -3.5", "odds": 1.82 },
+      { "name": "ASE +3.5", "odds": 1.9 },
+      { "name": "FUT Pistol Winner", "odds": 1.63 },
+      { "name": "ASE Pistol Winner", "odds": 2.14 }
     ]
   },
   {
