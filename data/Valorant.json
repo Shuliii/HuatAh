@@ -165,68 +165,68 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-16 13:36:00+0800",
-    "match_name": "Liquid vs EDG Match",
-    "team1": "Liquid",
-    "team2": "EDG",
+    "time": "2023-06-17 13:36:00+0800",
+    "match_name": "PRX vs DRX Match",
+    "team1": "PRX",
+    "team2": "DRX",
     "bet_list": [
-      { "name": "Liquid Winner", "odds": 1.51 },
-      { "name": "EDG Winner", "odds": 2.44 },
-      { "name": "Liquid -1.5", "odds": 2.53 },
-      { "name": "EDG +1.5", "odds": 1.47 },
-      { "name": "Liquid +1.5", "odds": 1.14 },
-      { "name": "EDG -1.5", "odds": 4.84 },
-      { "name": "Over 2.5", "odds": 2.01 },
-      { "name": "Under 2.5", "odds": 1.75 },
-      { "name": "Map score 2-0", "odds": 2.36 },
+      { "name": "PRX Winner", "odds": 2.36 },
+      { "name": "DRX Winner", "odds": 1.51 },
+      { "name": "PRX -1.5", "odds": 3.56 },
+      { "name": "DRX +1.5", "odds": 1.23 },
+      { "name": "PRX +1.5", "odds": 1.32 },
+      { "name": "DRX -1.5", "odds": 3.08 },
+      { "name": "Over 2.5", "odds": 1.92 },
+      { "name": "Under 2.5", "odds": 1.84 },
+      { "name": "Map score 2-0", "odds": 3.22 },
       { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 4.22 },
-      { "name": "Map score 1-2", "odds": 3.94 }
+      { "name": "Map score 0-2", "odds": 3.12 },
+      { "name": "Map score 1-2", "odds": 3.32 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-16 13:36:00+0800",
-    "match_name": "Liquid vs EDG Map1",
-    "team1": "Liquid",
-    "team2": "EDG",
+    "time": "2023-06-17 13:36:00+0800",
+    "match_name": "PRX vs DRX Map1",
+    "team1": "PRX",
+    "team2": "DRX",
     "bet_list": [
-      { "name": "Liquid Winner", "odds": 1.56 },
-      { "name": "EDG Winner", "odds": 2.31 },
-      { "name": "Liquid -2.5", "odds": 1.99 },
-      { "name": "EDG +2.5", "odds": 1.75 },
-      { "name": "Liquid Pistol Winner", "odds": 1.79 },
-      { "name": "EDG Pistol Winner", "odds": 1.95 }
+      { "name": "PRX Winner", "odds": 1.9 },
+      { "name": "DRX Winner", "odds": 1.84 },
+      { "name": "PRX +2.5", "odds": 1.59 },
+      { "name": "DRX -2.5", "odds": 2.17 },
+      { "name": "PRX Pistol Winner", "odds": 1.87 },
+      { "name": "DRX Pistol Winner", "odds": 1.87 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-16 14:30:00+0800",
-    "match_name": "Liquid vs EDG Map2",
-    "team1": "Liquid",
-    "team2": "EDG",
+    "time": "2023-06-17 14:30:00+0800",
+    "match_name": "PRX vs DRX Map2",
+    "team1": "PRX",
+    "team2": "DRX",
     "bet_list": [
-      { "name": "Liquid Winner", "odds": 1.56 },
-      { "name": "EDG Winner", "odds": 2.31 },
-      { "name": "Liquid -2.5", "odds": 1.99 },
-      { "name": "EDG +2.5", "odds": 1.75 },
-      { "name": "Liquid Pistol Winner", "odds": 1.79 },
-      { "name": "EDG Pistol Winner", "odds": 1.95 }
+      { "name": "PRX Winner", "odds": 1.9 },
+      { "name": "DRX Winner", "odds": 1.84 },
+      { "name": "PRX +2.5", "odds": 1.59 },
+      { "name": "DRX -2.5", "odds": 2.17 },
+      { "name": "PRX Pistol Winner", "odds": 1.87 },
+      { "name": "DRX Pistol Winner", "odds": 1.87 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-16 15:38:00+0800",
-    "match_name": "Liquid vs EDG Map3",
-    "team1": "Liquid",
-    "team2": "EDG",
+    "time": "2023-06-17 15:38:00+0800",
+    "match_name": "PRX vs DRX Map3",
+    "team1": "PRX",
+    "team2": "DRX",
     "bet_list": [
-      { "name": "Liquid Winner", "odds": 1.56 },
-      { "name": "EDG Winner", "odds": 2.31 },
-      { "name": "Liquid -2.5", "odds": 1.99 },
-      { "name": "EDG +2.5", "odds": 1.75 },
-      { "name": "Liquid Pistol Winner", "odds": 1.79 },
-      { "name": "EDG Pistol Winner", "odds": 1.95 }
+      { "name": "PRX Winner", "odds": 1.9 },
+      { "name": "DRX Winner", "odds": 1.84 },
+      { "name": "PRX +2.5", "odds": 1.59 },
+      { "name": "DRX -2.5", "odds": 2.17 },
+      { "name": "PRX Pistol Winner", "odds": 1.87 },
+      { "name": "DRX Pistol Winner", "odds": 1.87 }
     ]
   },
   {
