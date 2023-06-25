@@ -1,168 +1,102 @@
 [
   {
     "type": "valorant_logo",
-    "time": "2023-06-21 11:10:00+0800",
+    "time": "2023-06-25 11:10:00+0800",
     "match_name": "Fnatic vs EG Match",
     "team1": "Fnatic",
     "team2": "EG",
     "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.38 },
-      { "name": "EG Winner", "odds": 2.78 },
-      { "name": "Fnatic -1.5", "odds": 2.14 },
-      { "name": "EG +1.5", "odds": 1.65 },
-      { "name": "Fnatic +1.5", "odds": 1.12 },
-      { "name": "EG -1.5", "odds": 5.16 },
-      { "name": "Over 2.5", "odds": 1.95 },
-      { "name": "Under 2.5", "odds": 1.79 },
-      { "name": "Map score 2-0", "odds": 2.14 },
-      { "name": "Map score 2-1", "odds": 3.22 },
-      { "name": "Map score 0-2", "odds": 4.84 },
-      { "name": "Map score 1-2", "odds": 4.12 }
+      { "name": "Fnatic Winner", "odds": 1.29 },
+      { "name": "EG Winner", "odds": 3.22 },
+      { "name": "Fnatic -1.5", "odds": 1.66 },
+      { "name": "EG +1.5", "odds": 2.13 },
+      { "name": "Fnatic -2.5", "odds": 3.08 },
+      { "name": "EG +2.5", "odds": 1.32 },
+      { "name": "Over 3.5", "odds": 1.36 },
+      { "name": "Under 3.5", "odds": 2.85 },
+      { "name": "Over 4.5", "odds": 3.0 },
+      { "name": "Under 4.5", "odds": 1.34 },
+      { "name": "Map score 3-0", "odds": 2.88 },
+      { "name": "Map score 3-1", "odds": 2.78 },
+      { "name": "Map score 3-2", "odds": 4.12 },
+      { "name": "Map score 0-3", "odds": 10.09 },
+      { "name": "Map score 1-3", "odds": 10.09 },
+      { "name": "Map score 2-3", "odds": 7.66 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-21 11:10:00+0800",
+    "time": "2023-06-25 11:10:00+0800",
     "match_name": "Fnatic vs EG Map1",
     "team1": "Fnatic",
     "team2": "EG",
     "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.54 },
-      { "name": "EG Winner", "odds": 2.35 },
-      { "name": "Fnatic -2.5", "odds": 1.95 },
-      { "name": "EG +2.5", "odds": 1.79 },
-      { "name": "Fnatic Pistol Winner", "odds": 1.79 },
-      { "name": "EG Pistol Winner", "odds": 1.95 }
+      { "name": "Fnatic Winner", "odds": 1.44 },
+      { "name": "EG Winner", "odds": 2.61 },
+      { "name": "Fnatic -3.5", "odds": 1.91 },
+      { "name": "EG +3.5", "odds": 1.83 },
+      { "name": "Fnatic Pistol Winner", "odds": 1.75 },
+      { "name": "EG Pistol Winner", "odds": 2.01 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-21 12:00:00+0800",
+    "time": "2023-06-25 12:05:00+0800",
     "match_name": "Fnatic vs EG Map2",
     "team1": "Fnatic",
     "team2": "EG",
     "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.54 },
-      { "name": "EG Winner", "odds": 2.35 },
-      { "name": "Fnatic -2.5", "odds": 1.95 },
-      { "name": "EG +2.5", "odds": 1.79 },
-      { "name": "Fnatic Pistol Winner", "odds": 1.79 },
-      { "name": "EG Pistol Winner", "odds": 1.95 }
+      { "name": "Fnatic Winner", "odds": 1.44 },
+      { "name": "EG Winner", "odds": 2.61 },
+      { "name": "Fnatic -3.5", "odds": 1.91 },
+      { "name": "EG +3.5", "odds": 1.83 },
+      { "name": "Fnatic Pistol Winner", "odds": 1.75 },
+      { "name": "EG Pistol Winner", "odds": 2.01 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-20 13:00:00+0800",
+    "time": "2023-06-25 12:45:00+0800",
     "match_name": "Fnatic vs EG Map3",
     "team1": "Fnatic",
     "team2": "EG",
     "bet_list": [
-      { "name": "Fnatic Winner", "odds": 1.54 },
-      { "name": "EG Winner", "odds": 2.35 },
-      { "name": "Fnatic -2.5", "odds": 1.95 },
-      { "name": "EG +2.5", "odds": 1.79 },
-      { "name": "Fnatic Pistol Winner", "odds": 1.79 },
-      { "name": "EG Pistol Winner", "odd": 1.95 }
+      { "name": "Fnatic Winner", "odds": 1.44 },
+      { "name": "EG Winner", "odds": 2.61 },
+      { "name": "Fnatic -3.5", "odds": 1.91 },
+      { "name": "EG +3.5", "odds": 1.83 },
+      { "name": "Fnatic Pistol Winner", "odds": 1.75 },
+      { "name": "Giants Pistol Winner", "odds": 2.01 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-24 11:10:00+0800",
-    "match_name": "EG vs PRX Match",
-    "team1": "EG",
-    "team2": "PRX",
+    "time": "2023-06-25 13:25:00+0800",
+    "match_name": "Fnatic vs EG Map4",
+    "team1": "Fnatic",
+    "team2": "EG",
     "bet_list": [
-      { "name": "EG Winner", "odds": 1.41 },
-      { "name": "PRX Winner", "odds": 2.75 },
-      { "name": "EG -1.5", "odds": 1.66 },
-      { "name": "PRX +1.5", "odds": 2.11 },
-      { "name": "EG -2.5", "odds": 3.38 },
-      { "name": "PRX +2.5", "odds": 1.28 },
-      { "name": "Over 3.5", "odds": 1.37 },
-      { "name": "Under 3.5", "odds": 2.88 },
-      { "name": "Over 4.5", "odds": 2.75 },
-      { "name": "Under 4.5", "odds": 1.39 },
-      { "name": "Map score 3-0", "odds": 3.56 },
-      { "name": "Map score 3-1", "odds": 3.0 },
-      { "name": "Map score 3-2", "odds": 4.44 },
-      { "name": "Map score 0-3", "odds": 8.14 },
-      { "name": "Map score 1-3", "odds": 6.88 },
-      { "name": "Map score 2-3", "odds": 6.0 }
+      { "name": "Fnatic Winner", "odds": 1.44 },
+      { "name": "EG Winner", "odds": 2.61 },
+      { "name": "Fnatic -3.5", "odds": 1.91 },
+      { "name": "EG +3.5", "odds": 1.83 },
+      { "name": "Fnatic Pistol Winner", "odds": 1.75 },
+      { "name": "Giants Pistol Winner", "odds": 2.01 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-06-24 11:10:00+0800",
-    "match_name": "EG vs PRX Map1",
-    "team1": "EG",
-    "team2": "PRX",
+    "time": "2023-06-25 14:10:00+0800",
+    "match_name": "Fnatic vs EG Map5",
+    "team1": "Fnatic",
+    "team2": "EG",
     "bet_list": [
-      { "name": "EG Winner", "odds": 1.49 },
-      { "name": "PRX Winner", "odds": 2.44 },
-      { "name": "EG -2.5", "odds": 1.79 },
-      { "name": "PRX +2.5", "odds": 1.95 },
-      { "name": "EG Pistol Winner", "odds": 1.74 },
-      { "name": "PRX Pistol Winner", "odds": 2.02 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-06-24 12:05:00+0800",
-    "match_name": "EG vs PRX Map2",
-    "team1": "EG",
-    "team2": "PRX",
-    "bet_list": [
-      { "name": "EG Winner", "odds": 1.49 },
-      { "name": "PRX Winner", "odds": 2.44 },
-      { "name": "EG -2.5", "odds": 1.79 },
-      { "name": "PRX +2.5", "odds": 1.95 },
-      { "name": "EG Pistol Winner", "odds": 1.74 },
-      { "name": "PRX Pistol Winner", "odds": 2.022 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-06-24 12:45:00+0800",
-    "match_name": "EG vs PRX Map3",
-    "team1": "EG",
-    "team2": "PRX",
-    "bet_list": [
-      { "name": "EG Winner", "odds": 1.49 },
-      { "name": "PRX Winner", "odds": 2.44 },
-      { "name": "EG -2.5", "odds": 1.79 },
-      { "name": "PRX +2.5", "odds": 1.95 },
-      { "name": "EG Pistol Winner", "odds": 1.74 },
-      { "name": "Giants Pistol Winner", "odds": 2.02 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-06-24 13:25:00+0800",
-    "match_name": "EG vs PRX Map4",
-    "team1": "EG",
-    "team2": "PRX",
-    "bet_list": [
-      { "name": "EG Winner", "odds": 1.49 },
-      { "name": "PRX Winner", "odds": 2.44 },
-      { "name": "EG -2.5", "odds": 1.79 },
-      { "name": "PRX +2.5", "odds": 1.95 },
-      { "name": "EG Pistol Winner", "odds": 1.74 },
-      { "name": "Giants Pistol Winner", "odds": 2.02 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-06-24 14:10:00+0800",
-    "match_name": "EG vs PRX Map5",
-    "team1": "EG",
-    "team2": "PRX",
-    "bet_list": [
-      { "name": "EG Winner", "odds": 1.49 },
-      { "name": "PRX Winner", "odds": 2.44 },
-      { "name": "EG -2.5", "odds": 1.79 },
-      { "name": "PRX +2.5", "odds": 1.95 },
-      { "name": "EG Pistol Winner", "odds": 1.74 },
-      { "name": "Giants Pistol Winner", "odds": 2.02 }
+      { "name": "Fnatic Winner", "odds": 1.44 },
+      { "name": "EG Winner", "odds": 2.61 },
+      { "name": "Fnatic -3.5", "odds": 1.91 },
+      { "name": "EG +3.5", "odds": 1.83 },
+      { "name": "Fnatic Pistol Winner", "odds": 1.75 },
+      { "name": "Giants Pistol Winner", "odds": 2.01 }
     ]
   },
   {
