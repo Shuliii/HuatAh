@@ -101,204 +101,206 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-07-19 04:00:00+0800",
-    "match_name": "C9 vs KRU Match",
-    "team1": "C9",
-    "team2": "KRU",
+    "time": "2023-07-19 16:00:00+0800",
+    "match_name": "RRQ vs GE Match",
+    "team1": "RRQ",
+    "team2": "GE",
     "bet_list": [
-      { "name": "C9 Winner", "odds": 1.45 },
-      { "name": "KRU Winner", "odds": 2.58 },
-      { "name": "C9 -1.5", "odds": 2.16 },
-      { "name": "KRU +1.5", "odds": 1.64 },
-      { "name": "Over 2.5", "odds": 2.23 },
-      { "name": "Under 2.5", "odds": 1.59 },
-      { "name": "Map score 2-0", "odds": 2.17 },
-      { "name": "Map score 2-1", "odds": 3.17 },
-      { "name": "Map score 0-2", "odds": 4.84 },
-      { "name": "Map score 1-2", "odds": 4.7 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-19 04:00:00+0800",
-    "match_name": "C9 vs KRU Map1",
-    "team1": "C9",
-    "team2": "KRU",
-    "bet_list": [
-      { "name": "C9 Winner", "odds": 1.55 },
-      { "name": "KRU Winner", "odds": 2.33 },
-      { "name": "C9 -5.5", "odds": 1.94 },
-      { "name": "KRU +5.5", "odds": 1.8 },
-      { "name": "C9 Pistol Winner", "odds": 1.79 },
-      { "name": "KRU Pistol Winner", "odds": 1.95 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-19 04:35:00+0800",
-    "match_name": "C9 vs KRU Map2",
-    "team1": "C9",
-    "team2": "KRU",
-    "bet_list": [
-      { "name": "C9 Winner", "odds": 1.55 },
-      { "name": "KRU Winner", "odds": 2.33 },
-      { "name": "C9 -5.5", "odds": 1.94 },
-      { "name": "KRU +5.5", "odds": 1.8 },
-      { "name": "C9 Pistol Winner", "odds": 1.79 },
-      { "name": "KRU Pistol Winner", "odds": 1.95 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-19 05:10:00+0800",
-    "match_name": "C9 vs KRU Map3",
-    "team1": "C9",
-    "team2": "KRU",
-    "bet_list": [
-      { "name": "C9 Winner", "odds": 1.55 },
-      { "name": "KRU Winner", "odds": 2.33 },
-      { "name": "C9 -5.5", "odds": 1.94 },
-      { "name": "KRU +5.5", "odds": 1.8 },
-      { "name": "C9 Pistol Winner", "odds": 1.79 },
-      { "name": "KRU Pistol Winner", "odds": 1.95 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-19 07:00:00+0800",
-    "match_name": "SEN vs Leviathan Match",
-    "team1": "SEN",
-    "team2": "Leviathan",
-    "bet_list": [
-      { "name": "SEN Winner", "odds": 1.56 },
-      { "name": "Leviathan Winner", "odds": 2.31 },
-      { "name": "SEN -1.5", "odds": 2.66 },
-      { "name": "Leviathan +1.5", "odds": 1.42 },
-      { "name": "SEN +1.5", "odds": 1.18 },
-      { "name": "Leviathan -1.5", "odds": 4.33 },
-      { "name": "Over 2.5", "odds": 1.99 },
-      { "name": "Under 2.5", "odds": 1.75 },
-      { "name": "Map score 2-0", "odds": 2.63 },
-      { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 4.03 },
-      { "name": "Map score 1-2", "odds": 3.5 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-19 07:00:00+0800",
-    "match_name": "SEN vs Leviathan Map1",
-    "team1": "SEN",
-    "team2": "Leviathan",
-    "bet_list": [
-      { "name": "SEN Winner", "odds": 1.69 },
-      { "name": "Leviathan Winner", "odds": 2.07 },
-      { "name": "SEN -2.5", "odds": 1.94 },
-      { "name": "Leviathan +2.5", "odds": 1.8 },
-      { "name": "Over 21.5", "odds": 1.99 },
-      { "name": "Under 21.5", "odds": 1.75 },
-      { "name": "SEN Pistol Winner", "odds": 1.87 },
-      { "name": "Leviathan Pistol Winner", "odds": 1.87 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-19 07:00:00+0800",
-    "match_name": "SEN vs Leviathan Map2",
-    "team1": "SEN",
-    "team2": "Leviathan",
-    "bet_list": [
-      { "name": "SEN Winner", "odds": 1.69 },
-      { "name": "Leviathan Winner", "odds": 2.07 },
-      { "name": "SEN -2.5", "odds": 1.94 },
-      { "name": "Leviathan +2.5", "odds": 1.8 },
-      { "name": "Over 21.5", "odds": 1.99 },
-      { "name": "Under 21.5", "odds": 1.75 },
-      { "name": "SEN Pistol Winner", "odds": 1.87 },
-      { "name": "Leviathan Pistol Winner", "odds": 1.87 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-19 07:00:00+0800",
-    "match_name": "SEN vs Leviathan Map3",
-    "team1": "SEN",
-    "team2": "Leviathan",
-    "bet_list": [
-      { "name": "SEN Winner", "odds": 1.69 },
-      { "name": "Leviathan Winner", "odds": 2.07 },
-      { "name": "SEN -2.5", "odds": 1.94 },
-      { "name": "Leviathan +2.5", "odds": 1.8 },
-      { "name": "Over 21.5", "odds": 1.99 },
-      { "name": "Under 21.5", "odds": 1.75 },
-      { "name": "SEN Pistol Winner", "odds": 1.87 },
-      { "name": "Leviathan Pistol Winner", "odds": 1.87 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-05-27 06:00:00+0800",
-    "match_name": "C9 vs NRG Match",
-    "team1": "C9",
-    "team2": "NRG",
-    "bet_list": [
-      { "name": "C9 Winner", "odds": 2.19 },
-      { "name": "NRG Winner", "odds": 1.6 },
-      { "name": "C9 -1.5", "odds": 3.85 },
-      { "name": "NRG +1.5", "odds": 1.19 },
-      { "name": "C9 +1.5", "odds": 1.41 },
-      { "name": "NRG -1.5", "odds": 2.63 },
+      { "name": "RRQ Winner", "odds": 2.16 },
+      { "name": "GE Winner", "odds": 1.64 },
+      { "name": "RRQ -1.5", "odds": 3.85 },
+      { "name": "GE +1.5", "odds": 1.21 },
+      { "name": "RRQ +1.5", "odds": 1.47 },
+      { "name": "GE -1.5", "odds": 2.53 },
       { "name": "Over 2.5", "odds": 1.94 },
-      { "name": "Under 2.5", "odds": 1.78 },
-      { "name": "Map score 2-0", "odds": 4.03 },
-      { "name": "Map score 2-1", "odds": 3.5 },
-      { "name": "Map score 0-2", "odds": 2.63 },
+      { "name": "Under 2.5", "odds": 1.8 },
+      { "name": "Map score 2-0", "odds": 4.12 },
+      { "name": "Map score 2-1", "odds": 3.63 },
+      { "name": "Map score 0-2", "odds": 2.61 },
       { "name": "Map score 1-2", "odds": 3.32 }
     ]
   },
   {
     "type": "valorant_logo",
-    "time": "2023-05-27 06:00:00+0800",
-    "match_name": "C9 vs NRG Map1",
-    "team1": "C9",
-    "team2": "NRG",
+    "time": "2023-07-19 16:00:00+0800",
+    "match_name": "RRQ vs GE Map1",
+    "team1": "RRQ",
+    "team2": "GE",
     "bet_list": [
-      { "name": "C9 Winner", "odds": 2.11 },
-      { "name": "NRG Winner", "odds": 1.66 },
+      { "name": "RRQ Winner", "odds": 2.07 },
+      { "name": "GE Winner", "odds": 1.69 },
+      { "name": "RRQ +2.5", "odds": 1.75 },
+      { "name": "GE -2.5", "odds": 1.99 },
+      { "name": "RRQ Pistol Winner", "odds": 1.87 },
+      { "name": "GE Pistol Winner", "odds": 1.87 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-07-19 16:00:00+0800",
+    "match_name": "RRQ vs GE Map2",
+    "team1": "RRQ",
+    "team2": "GE",
+    "bet_list": [
+      { "name": "RRQ Winner", "odds": 2.07 },
+      { "name": "GE Winner", "odds": 1.69 },
+      { "name": "RRQ +2.5", "odds": 1.75 },
+      { "name": "GE -2.5", "odds": 1.99 },
+      { "name": "RRQ Pistol Winner", "odds": 1.87 },
+      { "name": "GE Pistol Winner", "odds": 1.87 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-07-19 16:00:00+0800",
+    "match_name": "RRQ vs GE Map3",
+    "team1": "RRQ",
+    "team2": "GE",
+    "bet_list": [
+      { "name": "RRQ Winner", "odds": 2.07 },
+      { "name": "GE Winner", "odds": 1.69 },
+      { "name": "RRQ +2.5", "odds": 1.75 },
+      { "name": "GE -2.5", "odds": 1.99 },
+      { "name": "RRQ Pistol Winner", "odds": 1.87 },
+      { "name": "GE Pistol Winner", "odds": 1.87 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-07-19 19:00:00+0800",
+    "match_name": "GEN.G vs Talon Match",
+    "team1": "GEN.G",
+    "team2": "Talon",
+    "bet_list": [
+      { "name": "GEN.G Winner", "odds": 2.11 },
+      { "name": "Talon Winner", "odds": 1.66 },
+      { "name": "GEN.G -1.5", "odds": 3.56 },
+      { "name": "Talon +1.5", "odds": 1.25 },
+      { "name": "GEN.G +1.5", "odds": 1.32 },
+      { "name": "Talon -1.5", "odds": 3.08 },
+      { "name": "Over 2.5", "odds": 1.94 },
+      { "name": "Under 2.5", "odds": 1.8 },
+      { "name": "Map score 2-0", "odds": 3.5 },
+      { "name": "Map score 2-1", "odds": 3.38 },
+      { "name": "Map score 0-2", "odds": 3.08 },
+      { "name": "Map score 1-2", "odds": 3.32 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-07-19 19:00:00+0800",
+    "match_name": "GEN.G vs Talon Map1",
+    "team1": "GEN.G",
+    "team2": "Talon",
+    "bet_list": [
+      { "name": "GEN.G Winner", "odds": 1.94 },
+      { "name": "Talon Winner", "odds": 1.8 },
+      { "name": "GEN.G +2.5", "odds": 1.64 },
+      { "name": "Talon -2.5", "odds": 2.11 },
+      { "name": "Over 20.5", "odds": 1.75 },
+      { "name": "Under 20.5", "odds": 1.99 },
+      { "name": "GEN.G Pistol Winner", "odds": 1.87 },
+      { "name": "Talon Pistol Winner", "odds": 1.87 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-07-19 19:00:00+0800",
+    "match_name": "GEN.G vs Talon Map2",
+    "team1": "GEN.G",
+    "team2": "Talon",
+    "bet_list": [
+      { "name": "GEN.G Winner", "odds": 1.94 },
+      { "name": "Talon Winner", "odds": 1.8 },
+      { "name": "GEN.G +2.5", "odds": 1.64 },
+      { "name": "Talon -2.5", "odds": 2.11 },
+      { "name": "Over 20.5", "odds": 1.75 },
+      { "name": "Under 20.5", "odds": 1.99 },
+      { "name": "GEN.G Pistol Winner", "odds": 1.87 },
+      { "name": "Talon Pistol Winner", "odds": 1.87 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-07-19 19:00:00+0800",
+    "match_name": "GEN.G vs Talon Map3",
+    "team1": "GEN.G",
+    "team2": "Talon",
+    "bet_list": [
+      { "name": "GEN.G Winner", "odds": 1.94 },
+      { "name": "Talon Winner", "odds": 1.8 },
+      { "name": "GEN.G +2.5", "odds": 1.64 },
+      { "name": "Talon -2.5", "odds": 2.11 },
+      { "name": "Over 20.5", "odds": 1.75 },
+      { "name": "Under 20.5", "odds": 1.99 },
+      { "name": "GEN.G Pistol Winner", "odds": 1.87 },
+      { "name": "Talon Pistol Winner", "odds": 1.87 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-07-19 23:00:00+0800",
+    "match_name": "Heretics vs Koi Match",
+    "team1": "Heretics",
+    "team2": "Koi",
+    "bet_list": [
+      { "name": "Heretics Winner", "odds": 1.94 },
+      { "name": "Koi Winner", "odds": 1.8 },
+      { "name": "Heretics -1.5", "odds": 3.22 },
+      { "name": "Koi +1.5", "odds": 1.29 },
+      { "name": "Heretics +1.5", "odds": 1.29 },
+      { "name": "Koi -1.5", "odds": 3.22 },
+      { "name": "Over 2.5", "odds": 1.97 },
+      { "name": "Under 2.5", "odds": 1.77 },
+      { "name": "Map score 2-0", "odds": 3.32 },
+      { "name": "Map score 2-1", "odds": 3.5 },
+      { "name": "Map score 0-2", "odds": 3.32 },
+      { "name": "Map score 1-2", "odds": 3.5 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-05-27 06:00:00+0800",
+    "match_name": "Heretics vs Koi Map1",
+    "team1": "Heretics",
+    "team2": "Koi",
+    "bet_list": [
+      { "name": "Heretics Winner", "odds": 2.11 },
+      { "name": "Koi Winner", "odds": 1.66 },
       { "name": "Over 21.5", "odds": 1.94 },
       { "name": "Under 21.5", "odds": 1.78 },
-      { "name": "C9 Pistol Winner", "odds": 1.89 },
-      { "name": "NRG Pistol Winner", "odds": 1.83 }
+      { "name": "Heretics Pistol Winner", "odds": 1.89 },
+      { "name": "Koi Pistol Winner", "odds": 1.83 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-05-27 06:20:00+0800",
-    "match_name": "C9 vs NRG Map2",
-    "team1": "C9",
-    "team2": "NRG",
+    "match_name": "Heretics vs Koi Map2",
+    "team1": "Heretics",
+    "team2": "Koi",
     "bet_list": [
-      { "name": "C9 Winner", "odds": 2.11 },
-      { "name": "NRG Winner", "odds": 1.66 },
+      { "name": "Heretics Winner", "odds": 2.11 },
+      { "name": "Koi Winner", "odds": 1.66 },
       { "name": "Over 21.5", "odds": 1.94 },
       { "name": "Under 21.5", "odds": 1.78 },
-      { "name": "C9 Pistol Winner", "odds": 1.89 },
-      { "name": "NRG Pistol Winner", "odds": 1.83 }
+      { "name": "Heretics Pistol Winner", "odds": 1.89 },
+      { "name": "Koi Pistol Winner", "odds": 1.83 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-05-27 06:40:00+0800",
-    "match_name": "C9 vs NRG Map3",
-    "team1": "C9",
-    "team2": "NRG",
+    "match_name": "Heretics vs Koi Map3",
+    "team1": "Heretics",
+    "team2": "Koi",
     "bet_list": [
-      { "name": "C9 Winner", "odds": 2.11 },
-      { "name": "NRG Winner", "odds": 1.66 },
+      { "name": "Heretics Winner", "odds": 2.11 },
+      { "name": "Koi Winner", "odds": 1.66 },
       { "name": "Over 21.5", "odds": 1.94 },
       { "name": "Under 21.5", "odds": 1.78 },
-      { "name": "C9 Pistol Winner", "odds": 1.89 },
-      { "name": "NRG Pistol Winner", "odds": 1.83 }
+      { "name": "Heretics Pistol Winner", "odds": 1.89 },
+      { "name": "Koi Pistol Winner", "odds": 1.83 }
     ]
   }
 ]
