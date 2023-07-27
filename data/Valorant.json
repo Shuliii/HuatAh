@@ -342,9 +342,8 @@
     "bet_list": [
       { "name": "GE Winner", "odds": 1.52 },
       { "name": "Deviant Winner", "odds": 2.38 },
-
-      { "name": "GE -1.5", "odds": 1.94 },
-      { "name": "Deviant +1.5", "odds": 1.8 },
+      { "name": "GE -3.5", "odds": 1.94 },
+      { "name": "Deviant +3.5", "odds": 1.8 },
       { "name": "Over 20.5", "odds": 1.94 },
       { "name": "Under 20.5", "odds": 1.8 },
       { "name": "GE Pistol Winner", "odds": 1.75 },
@@ -360,9 +359,8 @@
     "bet_list": [
       { "name": "GE Winner", "odds": 1.52 },
       { "name": "Deviant Winner", "odds": 2.38 },
-
-      { "name": "GE -1.5", "odds": 1.94 },
-      { "name": "Deviant +1.5", "odds": 1.8 },
+      { "name": "GE -3.5", "odds": 1.94 },
+      { "name": "Deviant +3.5", "odds": 1.8 },
       { "name": "Over 20.5", "odds": 1.94 },
       { "name": "Under 20.5", "odds": 1.8 },
       { "name": "GE Pistol Winner", "odds": 1.75 },
@@ -378,7 +376,6 @@
     "bet_list": [
       { "name": "GE Winner", "odds": 1.52 },
       { "name": "Deviant Winner", "odds": 2.38 },
-
       { "name": "GE -3.5", "odds": 1.94 },
       { "name": "Deviant +3.5", "odds": 1.8 },
       { "name": "Over 20.5", "odds": 1.94 },
