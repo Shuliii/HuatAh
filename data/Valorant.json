@@ -167,87 +167,87 @@
   },
   {
     "type": "valorant_logo",
-    "time": "2023-07-28 17:10:00+0800",
-    "match_name": "RRQ vs Deviant Match",
-    "team1": "RRQ",
-    "team2": "Deviant",
+    "time": "2023-08-08 03:00:00+0800",
+    "match_name": "FUT vs T1 Match",
+    "team1": "FUT",
+    "team2": "T1",
     "bet_list": [
-      { "name": "RRQ Winner", "odds": 1.33 },
-      { "name": "Deviant Winner", "odds": 3.04 },
-      { "name": "RRQ -1.5", "odds": 1.79 },
-      { "name": "Deviant +1.5", "odds": 1.95 },
-      { "name": "RRQ +1.5", "odds": 1.1 },
-      { "name": "Deviant -1.5", "odds": 5.54 },
-      { "name": "Over 2.5", "odds": 2.16 },
-      { "name": "Under 2.5", "odds": 1.64 },
-      { "name": "Map score 2-0", "odds": 1.8 },
+      { "name": "FUT Winner", "odds": 1.7 },
+      { "name": "T1 Winner", "odds": 2.08 },
+      { "name": "FUT -1.5", "odds": 2.72 },
+      { "name": "T1 +1.5", "odds": 1.42 },
+      { "name": "FUT +1.5", "odds": 1.24 },
+      { "name": "T1 -1.5", "odds": 3.77 },
+      { "name": "Over 2.5", "odds": 1.91 },
+      { "name": "Under 2.5", "odds": 1.85 },
+      { "name": "Map score 2-0", "odds": 2.75 },
       { "name": "Map score 2-1", "odds": 3.32 },
-      { "name": "Map score 0-2", "odds": 5.0 },
-      { "name": "Map score 1-2", "odds": 4.22 }
+      { "name": "Map score 0-2", "odds": 4.03 },
+      { "name": "Map score 1-2", "odds": 3.5 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-08-08 03:00:00+0800",
+    "match_name": "FUT vs T1 Map1",
+    "team1": "FUT",
+    "team2": "T1",
+    "bet_list": [
+      { "name": "FUT Winner", "odds": 1.8 },
+      { "name": "T1 Winner", "odds": 1.96 },
+      { "name": "FUT -2.5", "odds": 1.95 },
+      { "name": "T1 +2.5", "odds": 1.81 },
+      { "name": "Over 20.5", "odds": 1.74 },
+      { "name": "Under 20.5", "odds": 2.02 },
+      { "name": "FUT Pistol Winner", "odds": 1.88 },
+      { "name": "T1 Pistol Winner", "odds": 1.88 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-08-08 03:00:00+0800",
+    "match_name": "FUT vs T1 Map2",
+    "team1": "FUT",
+    "team2": "T1",
+    "bet_list": [
+      { "name": "FUT Winner", "odds": 1.8 },
+      { "name": "T1 Winner", "odds": 1.96 },
+      { "name": "FUT -2.5", "odds": 1.95 },
+      { "name": "T1 +2.5", "odds": 1.81 },
+      { "name": "Over 20.5", "odds": 1.74 },
+      { "name": "Under 20.5", "odds": 2.02 },
+      { "name": "FUT Pistol Winner", "odds": 1.88 },
+      { "name": "T1 Pistol Winner", "odds": 1.88 }
+    ]
+  },
+  {
+    "type": "valorant_logo",
+    "time": "2023-08-08 03:00:00+0800",
+    "match_name": "FUT vs T1 Map3",
+    "team1": "FUT",
+    "team2": "T1",
+    "bet_list": [
+      { "name": "FUT Winner", "odds": 1.8 },
+      { "name": "T1 Winner", "odds": 1.96 },
+      { "name": "FUT -2.5", "odds": 1.95 },
+      { "name": "T1 +2.5", "odds": 1.81 },
+      { "name": "Over 20.5", "odds": 1.74 },
+      { "name": "Under 20.5", "odds": 2.02 },
+      { "name": "FUT Pistol Winner", "odds": 1.88 },
+      { "name": "T1 Pistol Winner", "odds": 1.88 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-07-28 17:10:00+0800",
-    "match_name": "RRQ vs Deviant Map1",
-    "team1": "RRQ",
-    "team2": "Deviant",
+    "match_name": "EG vs FPX Match",
+    "team1": "EG",
+    "team2": "FPX",
     "bet_list": [
-      { "name": "RRQ Winner", "odds": 1.49 },
-      { "name": "Deviant Winner", "odds": 2.44 },
-      { "name": "RRQ -3.5", "odds": 1.85 },
-      { "name": "Deviant +3.5", "odds": 1.89 },
-      { "name": "Over 20.5", "odds": 1.84 },
-      { "name": "Under 20.5", "odds": 1.9 },
-      { "name": "RRQ Pistol Winner", "odds": 1.74 },
-      { "name": "Deviant Pistol Winner", "odds": 2.02 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-28 17:30:00+0800",
-    "match_name": "RRQ vs Deviant Map2",
-    "team1": "RRQ",
-    "team2": "Deviant",
-    "bet_list": [
-      { "name": "RRQ Winner", "odds": 1.49 },
-      { "name": "Deviant Winner", "odds": 2.44 },
-      { "name": "RRQ -3.5", "odds": 1.85 },
-      { "name": "Deviant +3.5", "odds": 1.89 },
-      { "name": "Over 20.5", "odds": 1.84 },
-      { "name": "Under 20.5", "odds": 1.9 },
-      { "name": "RRQ Pistol Winner", "odds": 1.74 },
-      { "name": "Deviant Pistol Winner", "odds": 2.02 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-28 18:00:00+0800",
-    "match_name": "RRQ vs Deviant Map3",
-    "team1": "RRQ",
-    "team2": "Deviant",
-    "bet_list": [
-      { "name": "RRQ Winner", "odds": 1.49 },
-      { "name": "Deviant Winner", "odds": 2.44 },
-      { "name": "RRQ -3.5", "odds": 1.85 },
-      { "name": "Deviant +3.5", "odds": 1.89 },
-      { "name": "Over 20.5", "odds": 1.84 },
-      { "name": "Under 20.5", "odds": 1.9 },
-      { "name": "RRQ Pistol Winner", "odds": 1.74 },
-      { "name": "Deviant Pistol Winner", "odds": 2.02 }
-    ]
-  },
-  {
-    "type": "valorant_logo",
-    "time": "2023-07-28 17:10:00+0800",
-    "match_name": "Scythe vs Orangutan Match",
-    "team1": "Scythe",
-    "team2": "Orangutan",
-    "bet_list": [
-      { "name": "Scythe Winner", "odds": 5.34 },
-      { "name": "Orangutan Winner", "odds": 1.11 },
-      { "name": "Scythe +1.5", "odds": 2.21 },
-      { "name": "Orangutan -1.5", "odds": 1.6 },
+      { "name": "EG Winner", "odds": 5.34 },
+      { "name": "FPX Winner", "odds": 1.11 },
+      { "name": "EG +1.5", "odds": 2.21 },
+      { "name": "FPX -1.5", "odds": 1.6 },
       { "name": "Over 2.5", "odds": 2.44 },
       { "name": "Under 2.5", "odds": 1.49 },
       { "name": "Map score 2-0", "odds": 9.33 },
@@ -259,40 +259,40 @@
   {
     "type": "valorant_logo",
     "time": "2023-07-28 17:10:00+0800",
-    "match_name": "Scythe vs Orangutan Map1",
-    "team1": "Scythe",
-    "team2": "Orangutan",
+    "match_name": "EG vs FPX Map1",
+    "team1": "EG",
+    "team2": "FPX",
     "bet_list": [
-      { "name": "Scythe Winner", "odds": 3.63 },
-      { "name": "Orangutan Winner", "odds": 1.24 },
-      { "name": "Scythe Pistol Winner", "odds": 2.16 },
-      { "name": "Orangutan Pistol Winner", "odds": 1.64 }
+      { "name": "EG Winner", "odds": 3.63 },
+      { "name": "FPX Winner", "odds": 1.24 },
+      { "name": "EG Pistol Winner", "odds": 2.16 },
+      { "name": "FPX Pistol Winner", "odds": 1.64 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-07-28 17:30:00+0800",
-    "match_name": "Scythe vs Orangutan Map2",
-    "team1": "Scythe",
-    "team2": "Orangutan",
+    "match_name": "EG vs FPX Map2",
+    "team1": "EG",
+    "team2": "FPX",
     "bet_list": [
-      { "name": "Scythe Winner", "odds": 3.63 },
-      { "name": "Orangutan Winner", "odds": 1.24 },
-      { "name": "Scythe Pistol Winner", "odds": 2.16 },
-      { "name": "Orangutan Pistol Winner", "odds": 1.64 }
+      { "name": "EG Winner", "odds": 3.63 },
+      { "name": "FPX Winner", "odds": 1.24 },
+      { "name": "EG Pistol Winner", "odds": 2.16 },
+      { "name": "FPX Pistol Winner", "odds": 1.64 }
     ]
   },
   {
     "type": "valorant_logo",
     "time": "2023-07-28 18:00:00+0800",
-    "match_name": "Scythe vs Orangutan Map3",
-    "team1": "Scythe",
-    "team2": "Orangutan",
+    "match_name": "EG vs FPX Map3",
+    "team1": "EG",
+    "team2": "FPX",
     "bet_list": [
-      { "name": "Scythe Winner", "odds": 3.63 },
-      { "name": "Orangutan Winner", "odds": 1.24 },
-      { "name": "Scythe Pistol Winner", "odds": 2.16 },
-      { "name": "Orangutan Pistol Winner", "odds": 1.64 }
+      { "name": "EG Winner", "odds": 3.63 },
+      { "name": "FPX Winner", "odds": 1.24 },
+      { "name": "EG Pistol Winner", "odds": 2.16 },
+      { "name": "FPX Pistol Winner", "odds": 1.64 }
     ]
   },
   {
