@@ -1,34 +1,34 @@
 [
   {
     "type": "NBA",
-    "time": "2023-09-08 16:45:00+0800",
-    "match_name": "Serbia vs Canada",
-    "team1": "Serbia",
+    "time": "2023-09-10 16:30:00+0800",
+    "match_name": "USA vs Canada",
+    "team1": "USA",
     "team2": "Canada",
     "bet_list": [
-      { "name": "Serbia Winner", "odds": 2.78 },
-      { "name": "Canada Winner", "odds": 1.4 },
-      { "name": "Serbia +4", "odds": 1.94 },
-      { "name": "Canada -4", "odds": 1.86 },
-      { "name": "Over 176.5", "odds": 1.84 },
-      { "name": "Under 176.5", "odds": 1.92 },
+      { "name": "USA Winner", "odds": 1.36 },
+      { "name": "Canada Winner", "odds": 3.0 },
+      { "name": "USA -7", "odds": 1.86 },
+      { "name": "Canada +7", "odds": 1.94 },
+      { "name": "Over 189.5", "odds": 1.83 },
+      { "name": "Under 189.5", "odds": 1.93 },
       { "name": "Odd", "odds": 1.94 },
       { "name": "Even", "odds": 1.94 }
     ]
   },
   {
     "type": "NBA",
-    "time": "2023-09-08 20:30:00+0800",
-    "match_name": "USA vs Germany",
-    "team1": "USA",
-    "team2": "Germany",
+    "time": "2023-09-10 20:30:00+0800",
+    "match_name": "Germany vs Serbia",
+    "team1": "Germany",
+    "team2": "Serbia",
     "bet_list": [
-      { "name": "USA Winner", "odds": 1.15 },
-      { "name": "Germany Winner", "odds": 5.0 },
-      { "name": "USA -10.5", "odds": 1.86 },
-      { "name": "Germany +10.5", "odds": 1.94 },
-      { "name": "Over 177.5", "odds": 1.82 },
-      { "name": "Under 177.5", "odds": 1.94 },
+      { "name": "Germany Winner", "odds": 1.85 },
+      { "name": "Serbia Winner", "odds": 1.91 },
+      { "name": "Germany -1.5", "odds": 1.98 },
+      { "name": "Serbia +1.5", "odds": 1.82 },
+      { "name": "Over 174.5", "odds": 1.89 },
+      { "name": "Under 174.5", "odds": 1.87 },
       { "name": "Odd", "odds": 1.94 },
       { "name": "Even", "odds": 1.94 }
     ]
